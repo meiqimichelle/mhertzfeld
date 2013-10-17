@@ -1,0 +1,61 @@
+title:            Michelle Hertzfeld &#8211; Web and UX Designer
+description:      Michelle Hertzfeld is a web designer and user experience specialist. Making content and communications kinder and clearer since 2001.
+disqus_shortname: 
+#Comment out url when working locally to resolve base urls correctly
+url:              http://localhost:4000
+logo:             /assets/img/apple-touch-icon-144x144-precomposed.png
+
+# Owner/author information
+owner:
+  name:           Michelle Hertzfeld
+  avatar:         /assets/img/michelle.jpg
+  bio:            "Michelle Hertzfeld is a web designer and user experience specialist. Making content and communications kinder and clearer since 2001."
+  email:          design@mhertzfeld.com
+  # Social networking links used in footer. Update and remove as you like.
+  twitter:        https://twitter.com/meiqimichelle
+  facebook:       https://www.facebook.com/meiqimichelle
+  github:         https://github.com/meiqimichelle
+  stackexchange:  
+  linkedin:       http://www.linkedin.com/in/michellehertzfeld
+  instagram:      
+  flickr:         
+  tumblr:         
+  # For Google Authorship https://plus.google.com/authorship
+  google_plus:   https://plus.google.com/u/0/102306465635177918694/posts
+
+# Analytics and webmaster tools stuff goes here
+google_analytics:   UA-44962228-1
+google_verify:      hEDrLVxZ9mR4DFyS3sOp-8lDbzFGvBJR-kQrbwDH3IU
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:        6E4C7F711615E1F2F0B1A7AAFDA28B1A
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    America/New_York
+future:      true
+#pygments:    true
+markdown:    maruku
+markdown_ext:  markdown,mkd,mkdn,md
+excerpt_separator: <!--more-->
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title
+
+# Amount of post to show on home page
+paginate: 5
+
+maruku:
+  use_tex:    false
+  use_divs:   false
+  png_engine: blahtex
+  png_dir:    images/latex
+  png_url:    /images/latex
+
+  coderay:
+    coderay_line_numbers: nil
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]

@@ -1,0 +1,58 @@
+// GLOBAL VARIABLES - include your variables here or alter the predefined vars
+// See skeleton file for copyright info
+
+// MY VARIABLES
+
+// background vars
+$backgroundColor: #abdbd5; 														// default background information
+
+// font vars
+$fontSize: 1.1em;															// default font size. Change here will adjust sizes across the board.
+$fontFamily: "freight-sans-pro", "Helvetica Neue", Helvetica, Arial, sans-serif;	                                            // default fonts
+$fontColor: #052B27;												            // default font color
+$bgOrange: #FF7839;
+
+// form vars
+$formFont: $fontFamily; 														// default font font
+
+// link vars
+$linkColor: #17948E;																// default link INERT color
+$linkHoverColor: $bgOrange;															// default link HOVER color
+$linkDecoration: none;														// default link decoration
+
+// heading vars
+$headingFamily: "bree", "Helvetica Neue", Helvetica, Arial, sans-serif;	        // default heading font
+$headingColor: #052B27;															// default heading color
+
+// grid variables
+$baseWidth: 		1000px; 										            // change this to alter the overall width of the grid
+$baseWidthMQ:		1000px;    													// base width for media query calculations in layout file
+$baseColWidth: 		40px;														// change this the alter the grid calculation, see _mixins file for more details
+$baseGutterWidth:	20px;														// calculation has changed, this is mainly here for consistency with 960.gs
+$isFluid: 			false;														// want a fluid grid by default?
+
+// ------ CHANGE MAY CAUSE UNDESIRED RESULTS
+$baseColCount: 		16;															// number of cols to generate
+
+// media query dimensions
+$tabletWidth: 			768px;
+$mobilePortraitWidth: 	300px;
+$mobileLandscapeWidth: 	420px;
+
+/* GOLDEN RATIO TYPOGRAPHY SCALE, 16PX BASE
+Pixels  Ems Ems @ 16  % of 13
+751.538 46.971  46.971  5,781.062
+464.486 29.03 29.03 3,572.969
+287.074 17.942  17.942  2,208.262
+177.425 11.089  11.089  1,364.808
+109.657 6.854 6.854 843.515
+67.773  4.236 4.236 521.331
+41.887  2.618 2.618 322.208
+25.888  1.618 1.618 199.138
+16  1 1 123.077
+9.889 0.618 0.618 76.069
+6.112 0.382 0.382 47.015
+3.778 0.236 0.236 29.062
+2.335 0.146 0.146 17.962
+1.443 0.09  0.09  11.100
+*/

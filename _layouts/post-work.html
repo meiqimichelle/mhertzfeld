@@ -1,0 +1,77 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+{% include head.html %}
+</head>
+
+<body id="post" itemscope itemtype="http://schema.org/WebPage">
+
+{% include browser-upgrade.html %}
+{% include nav.html %}
+
+<div class="post_feature_image_wrap">
+    <img src="{{ site.url }}/assets/img/{{ page.image.feature }}" alt="{{ page.title }}" class="feature_image" itemprop="image" >
+</div>
+
+<div id="main" class="container" role="main" itemscope itemprop="mainContentOfPage">
+
+{% include contact.html %}
+
+<div class="sixteen columns alpha site_head post" role="banner" itemscope itemtype="http://schema.org/WPHeader">
+    <div class="five columns alpha">
+        <h1>Work</h1>
+    </div>
+    <div class="eight columns">
+        <p></p>
+    </div>
+    <div class="three columns omega contact">
+        <div class="toggle bot"><a href="#">Close</a></div>
+        <div class="toggle top"><a href="#home">Contact</a></div>
+    </div>
+</div>
+    
+<article class="twelve columns alpha" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+    {% if page.image.feature %}
+        <div class="latest_post">
+            <div class="post_inner">
+                <h1 itemprop="headline">{{ page.title }}</h1>
+                    <div class="feature_meta">
+                        <p><!--<time datetime="{{ post.date }}" itemprop="datePublished">Posted on <span class="highlight">{{ page.date | date_to_long_string }}</span></time>--> What: <span class="highlight post_work_tag" itemprop="keywords">{{ page.tags | join: ', ' }}</span></p>
+                    </div>
+               
+                <div itemprop="articleBody" class="content post_work">
+                    <div class="excerpt">{{ page.content | split: '<!--more-->' | first | markdownify }}</div>
+                    {{ page.content | split: '<!--more-->' | last | markdownify }}
+                    {% if page.image.credit %}<div class="image-credit">
+                        <span class="intro">Feature image</span> {{ page.image.title}}<br/>
+                        <span class="intro">Source</span> <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a>
+                    </div>{% endif %}
+                </div>
+                
+            </div>
+        </div>
+    {% endif %}
+</article>   
+</div>
+
+{% if page.share %}<div class="social-share">
+  <ul class="socialcount socialcount-small inline-list" data-url="{{ site.url }}{{ page.url }}" data-share-text="{{ page.title }}">
+    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" title="Share on Facebook"><span class="count"><i class="icon-facebook-sign"></i> Like</span></a></li>
+    <li class="twitter"><a href="https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url }}" title="Share on Twitter"><span class="count"><i class="icon-twitter-sign"></i> Tweet</span></a></li>
+    <li class="googleplus"><a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" title="Share on Google Plus"><span class="count"><i class="icon-google-plus-sign"></i> +1</span></a></li>
+  </ul>
+</div><!-- /.social-share -->{% endif %}
+
+<div class="footer-wrapper">
+  <footer class="container" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
+    {% include footer.html %}
+  </footer>
+</div>
+
+{% include scripts.html %}          
+
+</body>
+</html>

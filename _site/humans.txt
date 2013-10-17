@@ -1,0 +1,19 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Michelle Hertzfeld -- Designer and Developer -- @meiqimichelle
+
+# THANKS
+
+    Kin Lane, API Evangelist, @kinlane
+    Michael Rose, Made Mistakes, @mmistakes
+    Many helpful instructions and blog posts on teh interwebz!
+
+# TECHNOLOGY COLOPHON
+
+    Standards: HTML5, CSS3
+    Components: jQuery, Modernizr, Skeleton, Retina.js
+    Software: Sass, Jekyll, Maruku
+    Typography: 'Bree' from Type Together, 'Freight Sans' from Darden Studio
