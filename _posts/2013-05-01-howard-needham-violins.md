@@ -8,7 +8,7 @@ image:
  creditlink: http://www.howardneedham.com/
  work: hnv.jpg
 tags: [website, design, code]
-category: [work]
+categories: [work]
 ---
 Howard Needham, a luthier based in Silver Spring, Maryland, needed an update to his old Flash-based site that would be structured to modern web standards. My site design puts the focus where it should be: on his beautiful instruments.<!--more-->
 
