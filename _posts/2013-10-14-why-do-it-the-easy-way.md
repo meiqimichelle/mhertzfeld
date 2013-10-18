@@ -11,15 +11,15 @@ categories: [thoughts]
 ---
 "But why," I ask myself, "why should I use systems built by very smart people to suit a wide variety of website needs when I can spend time and energy making my own from scratch?" Why indeed.<!--more-->
 
-Actually, in all seriousness, there are very good reasons for me, someone who traveled the path of web development from print design to html/css and now towards object-oriented programming, to practice building a blog from scratch rather than relying on something like WordPress to do it for me. The process of building programming logic is still relatively slow for me (and so more practice is good!), and it is tremendously important in modern web development (I think) to know how the gears in the background fit together. And, it's still kinda magical for me when if/then statement, etc, just **work**. Go magic!
+Actually, in all seriousness, there are very good reasons for me, someone who traveled the path of web development from print design to html/css and now towards object-oriented programming, to practice building a blog from scratch rather than relying on something like WordPress to do it for me. The process of building programming logic is still relatively slow for me (and so more practice is good!), and it is tremendously important in modern web development (I think) to know how the gears in the background fit together. And, it's still kinda magical for me when if/then statements, etc, just **work**. Go magic!
 
 (This is not to say, of course, that almost every time I have to fix a broken piece of Javascript functionality I don't want to put my first the screen and strangle the hamsters that I'm sure run the internet, but I digress.)
 
-On the recommendation of [several](http://www.kinlane.com) [people](http://ben.balter.com/) and a good chunk of the internet, I went with the Jekyll/Liquid/GitHub killer combo. I want to learn more about versioning and the potential of something like GitHub to do more outside the programming paradigm (like make [government policy more open and accessible](http://project-open-data.github.io), for example).
+On the recommendation of [several](http://www.kinlane.com) [people](http://ben.balter.com/) and a good chunk of the internet, I went with the Jekyll/Liquid/GitHub killer combo. In addition to building my site, this would help me learn about versioning and the potential of something like GitHub to do more outside the programming paradigm (like make [government policy more open and accessible](http://project-open-data.github.io), for example).
 
 There are many "get started with Jekyll" tutorials online and so I won't repeat them here. However, there **aren't** very many places to go to learn all those steps that the programmers skip since they're obvious (to them). And so, here it is: tips on how to do the "host your blog or site on GitHub with Jekyll" thing for designers. 
 
-##Tips for Designers
+##Using Jekyll and GitHub: Tips for Designers
 ###GitHub
 + Despite what every developer will try to tell you, GitHub is **not** actually very intuitive to use for non-programmers. The documentation, while pretty, is not thorough if you don't have prior experience. BUT! Stick with it, and if all possible get someone who's used to the git process to show you their workflow.
 + Speaking of, did you know that "git" is a thing? Yeah, I didn't either. GitHub is a specific online implementation of the [git version control process](http://git-scm.com/book/en/Getting-Started-About-Version-Control). Helps to know this fact to understand, then, GitHub and its purpose.
