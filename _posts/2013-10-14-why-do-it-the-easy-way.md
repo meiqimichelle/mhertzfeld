@@ -17,7 +17,7 @@ Actually, in all seriousness, there are very good reasons for me, someone who tr
 
 On the recommendation of [several](http://www.kinlane.com) [people](http://ben.balter.com/) and a good chunk of the internet, I went with the Jekyll/Liquid/GitHub killer combo. I want to learn more about versioning and the potential of something like GitHub to do more outside the programming paradigm (like make [government policy more open and accessible](http://project-open-data.github.io), for example).
 
-There are many "get started with Jekyll" tutorials online and so I won't repeat them here. However, there **aren't** very many places to go to learn all those steps that the programmers skip since they're obvious (to them). And so, here it is: tips on the "host your blog or site on GitHub with Jekyll" for designers. 
+There are many "get started with Jekyll" tutorials online and so I won't repeat them here. However, there **aren't** very many places to go to learn all those steps that the programmers skip since they're obvious (to them). And so, here it is: tips on how to do the "host your blog or site on GitHub with Jekyll" thing for designers. 
 
 ##Tips for Designers
 ###GitHub
@@ -25,7 +25,6 @@ There are many "get started with Jekyll" tutorials online and so I won't repeat 
 + Speaking of, did you know that "git" is a thing? Yeah, I didn't either. GitHub is a specific online implementation of the [git version control process](http://git-scm.com/book/en/Getting-Started-About-Version-Control). Helps to know this fact to understand, then, GitHub and its purpose.
 + Note that GitHub's "just start here!!" process is a bit misleading because (to me) it makes it seem like you [download a thing](http://mac.github.com/) and you're good to go, and then there's also this online GitHub thing (they don't explain any interaction between the two). Actually, your computer and its local files work in tandem with your GitHub projects online--they're a team. You use GitHub through a combination of (1) a process on your computer (this can be command line or GUI)(the GUI is what GitHub prompts you to download when you sign up) and (2) a process on your GitHub account online. You work on local versions of your project through your normal file structure, and when you're ready use the GitHub GUI to "push" your file to your online "repository," or "repo," where then it is available for the world to see.
 + And so why do people get all pumped about this? Well, in addition to working on your own projects, GitHub gives you the ability to contribute to other projects. You can "clone" a project to your computer, create a "fork" of the original project that you edit and make better, and then, if you like, you can submit a "pull request" to the original owner of the project so she can accept (or not) the changes you made and merge them with the original "branch" of the project. Again, GitHub = not so intuitive. The terminology alone is a big hurdle, but, oh designer, you can do it!
-
 
 ###Jekyll
 + Jekyll builds your site. That's it's purpose in life. You will have to use the terminal to get it running, but once you change directories to the folder where your working files are and then set Jekyll to "watch" you can pretty much ignore it. [See more in the Jekyll documentation.](http://jekyllrb.com/docs/usage/)
@@ -45,4 +44,3 @@ There are many "get started with Jekyll" tutorials online and so I won't repeat 
 + Finally, something easy! (No, really!)
 + Markdown "allows you to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML)" ([from the man himself](http://daringfireball.net/projects/markdown/)). Basically, you just learn some [very, very simple syntax](http://daringfireball.net/projects/markdown/basics), run your completed article/blog post/whatever through a converter, and out pops your HTML page.
 + When Jekyll builds your site, it converts your Markdown into HTML as part of its process. I'm not sure if this is 100% built in or not. I had trouble with this and had to install a different Markdown converter as a Ruby gem and tell Jekyll to use it in my config.yml to get it to work locally. Once you push your site to GitHub, you should not have problems -- GitHub reads Markdown automatically.
-
