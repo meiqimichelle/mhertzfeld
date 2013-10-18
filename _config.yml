@@ -10,7 +10,7 @@ auto: true
 source: mhertzfeld
 destination: mhertzfeld
 
-url:              http://meiqimichelle.github.io/mhertzfeld
+url:              www.michellehertzfeld.com
 # baseurl:          /mhertzfeld
 # When working locally: http://localhost:4000
 logo:             /assets/img/apple-touch-icon-144x144-precomposed.png
