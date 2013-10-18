@@ -12,7 +12,7 @@ categories: [work]
 ---
 Howard Needham, a luthier based in Silver Spring, Maryland, needed an update to his old Flash-based site that would be structured to modern web standards. My site design puts the focus where it should be: on his beautiful instruments.<!--more-->
 
-Howard needed a site that could be indexed and crawled by search engines, and accesible to all sorts of devices and access methods. It also needed to convey the weight of old-world violin artistry and high-end quality without feeling stodgy. I created an image-based responsive experience for Howard and his customers that allowed people to browse his technique and instrument styles easily.
+Howard needed a site that would play nice with search engines, and be accessible to all sorts of devices. It also needed to convey the weight of old-world violin artistry and high-end quality without feeling stodgy. I created an image-based responsive experience for Howard and his customers that allows people to browse his technique and instrument styles easily.
 
 [Visit the site](http://www.howardneedham.com/)
  
