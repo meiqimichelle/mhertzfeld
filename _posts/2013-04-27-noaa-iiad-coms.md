@@ -8,7 +8,7 @@ image:
  creditlink: http://www.nnvl.noaa.gov/MediaDetail2.php?MediaID=1435&MediaTypeID=1
  work: iiad_coms.jpg
 tags: [design, print, outreach, communications, email]
-category: [work]
+categories: [work]
 ---
 The NOAA Satellite and Information Service (NESDIS) had a problem: no one knew that it flew satellites! ("Satellites? Isn't that NASA?") I worked with an internal NOAA-NESDIS team to strategize better outreach methods that told the NOAA-NESDIS story proactively, rather than reactively.<!--more-->
 

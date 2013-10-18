@@ -8,7 +8,7 @@ image:
  creditlink: http://landsat.usgs.gov/
  work: geo.jpg
 tags: [UX, IA, consult, gov]
-category: [work]
+categories: [work]
 ---
 The Group on Earth Observations (GEO) is a voluntary partnership of governments and international organizations that is coordinating efforts to build a Global Earth Observation System of Systems, or GEOSS. Access to GEOSS resources is through the GEO Portal and I provided user experience and information architecture analysis of its future design.<!--more-->
 

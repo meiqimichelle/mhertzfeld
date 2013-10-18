@@ -8,7 +8,7 @@ image:
  creditlink: http://www.mhertzfeld.com/
  work: equity.jpg
 tags: [website, design, code, university]
-category: [work]
+categories: [work]
 ---
 The Equity Project at Indiana University is a group of projects that work on providing high-quality data for decision makers regarding equity in education. The Project needed a website to share its resources.<!--more-->
 

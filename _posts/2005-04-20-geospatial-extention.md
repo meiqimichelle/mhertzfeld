@@ -8,7 +8,7 @@ image:
  creditlink: http://www.mhertzfeld.com/
  work: ngten.jpg
 tags: [website, design, code, logo]
-category: [work]
+categories: [work]
 ---
 I worked at the Arizona Remote Sensing Center making online mapping tools to aid land management and helping run outreach programs for ranchers and public agency personnel to learn how to use them.<!--more-->
 
