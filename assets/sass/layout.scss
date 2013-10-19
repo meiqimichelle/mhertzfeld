@@ -170,10 +170,15 @@ body {
 /* styling for blog posts on homepage*/
 .excerpt {
     padding-left: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     font-size: 1.3em;
     line-height: 1.4em;
     border-left: 5px solid $bgOrange;
+}
+.continue {
+    margin-bottom: 20px;
+    margin-top: -20px;
+    text-align: right;
 }
 .feature_image { 
     position: relative;
@@ -183,13 +188,23 @@ body {
 }
 .feature_post, .another_post, .post_inner {
     background-color: white; /*fallback for older browsers*/
-    background-color: rgba(255,255,255,0.8);
+    background-color: rgba(255,255,255,0.95);
     padding: 0 70px 50px 70px;
     position: relative;
     h1 {
         background-color: $bgOrange;
         margin-top: -100px;
         line-height: 1.1em;
+    }
+    p {
+        line-height: 1.4em;
+    }
+    ul {
+        list-style: disc outside;
+        padding-left: 20px;
+    }
+    li {
+        line-height: 1.4em;
     }
 }
 .feature_meta {

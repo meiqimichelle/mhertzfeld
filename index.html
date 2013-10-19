@@ -53,7 +53,10 @@ description: "Michelle Hertzfeld is a web designer with specialties in science c
                 <p><time datetime="{{ post.date }}" itemprop="datePublished">Posted on <span class="highlight">{{ post.date | date_to_long_string }}</span></time>.</p>
             </div>
             <div class="excerpt" itemprop="articleBody">
-                {{ post.content | split: '<!--more-->' | first }}<br/><a href="{{ post.url }}">&rarr; continue reading &rarr;</a>
+                {{ post.content | split: '<!--more-->' | first }}
+            </div>
+            <div class="continue">
+                <a href="{{ post.url }}">&rarr; continue reading &rarr;</a>
             </div>
         </div>
         {% endfor %}

@@ -6,10 +6,11 @@ safe: true
 lsi: false
 pygments: true
 auto: true
-source: mhertzfeld
-destination: mhertzfeld
+# source: mhertzfeld
+# destination: mhertzfeld
 
-url:              http://meiqimichelle.github.io/mhertzfeld
+# url:            http://meiqimichelle.github.io/mhertzfeld
+url:              http://localhost:4000
 # Comment out url when working locally to resolve base urls correctly or change to http://localhost:4000
 # baseurl:          /mhertzfeld
 logo:             /assets/img/apple-touch-icon-144x144-precomposed.png
@@ -34,7 +35,7 @@ owner:
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:   UA-44962228-1
-google_verify:      hEDrLVxZ9mR4DFyS3sOp-8lDbzFGvBJR-kQrbwDH3IU
+google_verify:      hBW-jTfpErtq8HQGzA-lbJDXw940n2fEMwr-Gc_MLXc
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:        6E4C7F711615E1F2F0B1A7AAFDA28B1A
 

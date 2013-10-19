@@ -97,9 +97,9 @@ h1 {
   margin-bottom: 1em; }
 
 h2 {
-  font-size: 2em;
+  font-size: 1.8em;
   line-height: 1em;
-  margin-bottom: .8em;
+  margin-bottom: 0.8em;
   margin-top: 1.3em; }
 
 h3 {
@@ -107,19 +107,6 @@ h3 {
   font-family: "freight-sans-pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-top: 1.3em;
   margin-bottom: 1em; }
-
-h4 {
-  font-size: 2em;
-  xline-height: 3em;
-  xmargin-bottom: 0em; }
-
-h5 {
-  font-size: 2em;
-  xline-height: 2.2em; }
-
-h6 {
-  font-size: 1em;
-  xline-height: 2em; }
 
 .subheader {
   color: #777; }
