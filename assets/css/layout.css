@@ -320,6 +320,8 @@ body {
 
 .post_feature_image_wrap {
   position: absolute;
+  left: 0;
+  right: 0;
   height: 75%;
   overflow: hidden;
   margin-top: 40px; }
