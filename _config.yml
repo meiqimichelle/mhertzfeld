@@ -61,12 +61,12 @@ maruku:
   png_dir:    images/latex
   png_url:    /images/latex
 
-  coderay:
-    coderay_line_numbers: nil
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
+#  coderay:
+#    coderay_line_numbers: nil
+#    coderay_line_numbers_start: 1
+#    coderay_tab_width: 4
+#    coderay_bold_every: 10
+#    coderay_css: class
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "_site"]
