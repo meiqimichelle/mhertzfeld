@@ -2,10 +2,10 @@
 title: "Happy holidays at approximately 8km/sec"
 layout: post
 image:
- feature: bear_canyon.jpg
- title: Bear Canyon near Tucson, Arizona
- credit: Michelle Hertzfeld
- creditlink: http://www.mhertzfeld.com
+ feature: stars_unsplash.jpg
+ title: Stars
+ credit: Guillaume
+ creditlink: http://unsplash.com/
 tags: [illustration, science]
 categories: [thoughts]
 ---
