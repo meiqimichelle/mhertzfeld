@@ -81,15 +81,14 @@ u { text-decoration: underline; }
 small { font-size: 80%; }
 /*	Blockquotes  */
 blockquote, blockquote p {
-	font-size: round($fontSize * 1.4166);
+	font-size: 1.1em;
 	line-height: $fontSize * 2;
-	color: #777;
+	color: $linkColor;
 	font-style: italic;
 }
 blockquote {
 	margin: 0 0 20px;
-	padding: 9px 20px 0 19px;
-	border-left: 1px solid #ddd;
+	padding: 9px 20px 0 30px;
 }
 blockquote cite {
 	display: block;
