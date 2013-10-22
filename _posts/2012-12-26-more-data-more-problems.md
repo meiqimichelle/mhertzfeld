@@ -1,5 +1,5 @@
 ---
-title: Using Jekyll and GitHub, Tips for Designers
+title: "More Data, More Problems"
 layout: post
 image:
  feature: bear_canyon.jpg

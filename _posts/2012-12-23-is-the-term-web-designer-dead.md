@@ -1,5 +1,5 @@
 ---
-title: Using Jekyll and GitHub, Tips for Designers
+title: "Is the term 'web designer' dead?"
 layout: post
 image:
  feature: wood_nm.jpg
