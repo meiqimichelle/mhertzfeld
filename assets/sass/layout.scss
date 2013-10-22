@@ -495,6 +495,8 @@ body {
 }
 .about_me_clip {
     background: url(#clipping) no-repeat;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
     border-radius: 50%;
     overflow: hidden;
     border: 3px solid $linkColor;
