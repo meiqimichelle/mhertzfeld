@@ -65,7 +65,10 @@ h3 {
 .subheader { color: #777; }
 p {
   margin: 0 0 20px 0;
-  img { margin: 0; max-width: 100%;}
+  img {
+    margin: 0; 
+    max-width: 100%;
+  }
   &.lead {
 	font-size: round($fontSize * 1.75);
 	line-height: round($fontSize * 2.25);
