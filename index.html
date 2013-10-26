@@ -44,7 +44,7 @@ description: "Michelle Hertzfeld is a web designer with specialties in science c
     <article class="twelve columns alpha" itemscope itemtype="http://schema.org/BlogPosting">
         <h1 class="moar">more posts, yee haw!</h1>
         {% for post in site.posts limit:4 offset:1 %}
-            {% if post.categories contains 'thoughts' %}
+            {% if site.categories contains 'thoughts' %}
             <div class="another_post">
                 <div class="another_image">
                     <img src="{{ site.url }}/assets/img/{{ post.image.feature }}" alt="{{ post.title }}" itemprop="image">
