@@ -43,7 +43,7 @@ description: "Michelle Hertzfeld is a web designer with specialties in science c
 <!-- display four more posts smaller -->
     <article class="twelve columns alpha" itemscope itemtype="http://schema.org/BlogPosting">
         <h1 class="moar">more posts, yee haw!</h1>
-        {% for post in site.categories.thoughts limit:4 %}
+        {% for post in site.categories.thoughts limit:4 offset:1 %}
             
             <div class="another_post">
                 <div class="another_image">
