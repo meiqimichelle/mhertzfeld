@@ -43,8 +43,8 @@ description: "Michelle Hertzfeld is a web designer with specialties in science c
 <!-- display four more posts smaller -->
     <article class="twelve columns alpha" itemscope itemtype="http://schema.org/BlogPosting">
         <h1 class="moar">more posts, yee haw!</h1>
-        {% for post in site.posts limit:4 offset:1 %}
-            {% if site.categories contains 'thoughts' %}
+        {% for post in site.categories.THOUGHTS limit:4 offset:1 %}
+            
             <div class="another_post">
                 <div class="another_image">
                     <img src="{{ site.url }}/assets/img/{{ post.image.feature }}" alt="{{ post.title }}" itemprop="image">
@@ -60,7 +60,7 @@ description: "Michelle Hertzfeld is a web designer with specialties in science c
                     <a href="{{ post.url }}">&rarr; continue reading &rarr;</a>
                 </div>
             </div>
-            {% endif %}
+            
         {% endfor %}
     </article>
     
