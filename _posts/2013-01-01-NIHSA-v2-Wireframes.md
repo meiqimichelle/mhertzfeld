@@ -9,7 +9,7 @@ image:
 tags: [UX, wireframes]
 categories: [thoughts]
 ---
-As explained in my [previous post](http://michellehertzfeld.com/thoughts/NIHSA-Website-v2/), I'm working on the Next Generation of the NIH Sailing Association (NIHSA) website. Here are my initial 2.0 wireframes for the majority of the layouts.
+As explained in my [previous post](http://michellehertzfeld.com/thoughts/NIHSA-Website-v2/), I'm working on the Next Generation of the NIH Sailing Association (NIHSA) website. Here are my initial 2.0 wireframes for the majority of the layouts.<!--more-->
 
 First, we have the homepage. I think a layout something like this will flow nicely into a good, useable design. Members have quick access to the login in the upper right, while three main categories of information and further links will be prominent in the middle of the page. Other often-used info such as weather and events will live right on the homepage.
 
