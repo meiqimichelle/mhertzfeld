@@ -7,6 +7,7 @@ image:
  credit: Michelle Hertzfeld
  creditlink: http://www.mhertzfeld.com/
  work: ams.jpg
+author: Michelle Hertzfeld
 tags: [logo]
 categories: [work]
 ---

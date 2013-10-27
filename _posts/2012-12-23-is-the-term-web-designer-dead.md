@@ -6,6 +6,7 @@ image:
  title: Wood detail in Pinos Altos, New Mexico
  credit: Michelle Hertzfeld
  creditlink: http://www.mhertzfeld.com
+author: Michelle Hertzfeld
 tags: [UX, design]
 categories: [thoughts]
 ---

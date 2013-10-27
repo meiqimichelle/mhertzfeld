@@ -7,6 +7,7 @@ image:
  credit: USGS
  creditlink: http://landsat.usgs.gov/
  work: geo.jpg
+author: Michelle Hertzfeld
 tags: [UX, IA, consult, gov]
 categories: [work]
 ---

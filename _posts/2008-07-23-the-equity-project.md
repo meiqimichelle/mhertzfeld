@@ -7,6 +7,7 @@ image:
  credit: Michelle Hertzfeld
  creditlink: http://www.mhertzfeld.com/
  work: equity.jpg
+author: Michelle Hertzfeld
 tags: [website, design, code, university]
 categories: [work]
 ---

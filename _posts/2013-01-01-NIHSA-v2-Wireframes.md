@@ -6,6 +6,7 @@ image:
  title: Water in Selby Bay, Maryland
  credit: NIH Sailing Association
  creditlink: http://www.nihsail.org/
+author: Michelle Hertzfeld
 tags: [UX, wireframes]
 categories: [thoughts]
 ---

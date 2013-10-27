@@ -7,6 +7,7 @@ image:
  credit: Howard Needham
  creditlink: http://www.howardneedham.com/
  work: hnv.jpg
+author: Michelle Hertzfeld
 tags: [website, design, code]
 categories: [work]
 ---

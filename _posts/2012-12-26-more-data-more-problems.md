@@ -6,6 +6,7 @@ image:
  title: Bear Canyon near Tucson, Arizona
  credit: Michelle Hertzfeld
  creditlink: http://www.mhertzfeld.com
+author: Michelle Hertzfeld
 tags: [usability, data, gov]
 categories: [thoughts]
 ---

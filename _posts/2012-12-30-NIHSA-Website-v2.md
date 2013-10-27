@@ -6,6 +6,7 @@ image:
  title: Sunset in Selby Bay, Maryland
  credit: NIH Sailing Association
  creditlink: http://www.nihsail.org/
+author: Michelle Hertzfeld
 tags: [design, UX, process]
 categories: [thoughts]
 ---

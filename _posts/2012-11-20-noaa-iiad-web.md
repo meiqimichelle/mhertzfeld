@@ -7,6 +7,7 @@ image:
  credit: NOAA Environmental Visualization Laboratory
  creditlink: http://www.nnvl.noaa.gov/MediaDetail2.php?MediaID=1434&MediaTypeID=1
  work: iiad.jpg
+author: Michelle Hertzfeld
 tags: [website, IA, design, code, gov]
 categories: [work]
 ---

@@ -7,6 +7,7 @@ image:
  credit: Michelle Hertzfeld
  creditlink: http://www.mhertzfeld.com/
  work: ngten.jpg
+author: Michelle Hertzfeld
 tags: [website, design, code, logo]
 categories: [work]
 ---

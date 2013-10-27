@@ -6,6 +6,7 @@ image:
  title: Stars
  credit: Guillaume
  creditlink: http://unsplash.com/
+author: Michelle Hertzfeld
 tags: [illustration, science]
 categories: [thoughts]
 ---

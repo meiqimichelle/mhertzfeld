@@ -7,6 +7,7 @@ image:
  credit: NOAA Environmental Visualization Laboratory
  creditlink: http://www.nnvl.noaa.gov/MediaDetail2.php?MediaID=1435&MediaTypeID=1
  work: iiad_coms.jpg
+author: Michelle Hertzfeld
 tags: [design, print, outreach, communications, email]
 categories: [work]
 ---

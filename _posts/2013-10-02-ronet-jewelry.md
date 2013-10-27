@@ -7,6 +7,7 @@ image:
  credit: Renee Tatusko
  creditlink: http://ronetjewelry.bigcartel.com
  work: ronet.jpg
+author: Michelle Hertzfeld
 tags: [e-commerce, design, code]
 categories: [work]
 ---
