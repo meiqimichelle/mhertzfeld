@@ -21,7 +21,7 @@ description: "Michelle Hertzfeld is a web designer with specialties in science c
  
 <!-- display three latest posts with exerpts -->
     <article class="twelve columns alpha" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
-        {% for post in site.categories.thoughts limit:10 %}
+        {% for post in site.categories.thoughts limit:5 %}
         <div class="another_post">
             <div class="another_image">
                 <img src="{{ site.url }}/assets/img/{{ post.image.feature }}" alt="{{ post.title }}" itemprop="image">
@@ -40,7 +40,7 @@ description: "Michelle Hertzfeld is a web designer with specialties in science c
         {% endfor %}
     </article>
 
-<!--
+
 <div class="pagination">
   {% if paginator.previous_page %}
     <a href="/page{{ paginator.previous_page }}" class="previous">Previous</a>
@@ -54,5 +54,4 @@ description: "Michelle Hertzfeld is a web designer with specialties in science c
     <span class="next ">Next</span>
   {% endif %}
 </div>
--->
     
