@@ -7,7 +7,7 @@ image:
  credit: NIH Sailing Association
  creditlink: http://www.nihsail.org/
 author: Michelle Hertzfeld
-tags: [UX, wireframes]
+tags: [Wordpress, design]
 categories: [thoughts]
 ---
 Take a [look a the latest](http://www.nihsail.org/) -- we're getting there! It was quite an adventure, working on making more robust Wordpress functionality than I've needed to in the past.<!--more-->
