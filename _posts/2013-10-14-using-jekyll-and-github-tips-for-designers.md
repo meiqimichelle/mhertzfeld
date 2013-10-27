@@ -6,6 +6,7 @@ image:
  title: Dock in Annapolis, Maryland
  credit: Michelle Hertzfeld
  creditlink: http://www.mhertzfeld.com
+author: Michelle Hertzfeld
 tags: [Jekyll, GitHub, Markdown, Liquid]
 categories: [thoughts]
 ---
