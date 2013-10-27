@@ -45,12 +45,12 @@
                     </div>
                 
                 <div class="next_prev">
-                    {% for post in site.posts limit:1 %}
+                    {% for post in site.categories.thoughts limit:1 %}
                         {% if post.previous %}
                             <span><a rel="prev" href="{{ post.previous.url }}/" title="View {{ post.previous.title }}">&larr;previous post</a></span>
                         {% endif %}
                     {% endfor %}
-                    {% for post in site.posts limit:2 %}
+                    {% for post in site.categories.thoughts limit:2 %}
                         {% if post.next %}
                             <span><a rel="next" href="{{ post.next.url }}/" title="View {{ post.next.title }}">next post &rarr;</a></span>
                         {% endif %}
