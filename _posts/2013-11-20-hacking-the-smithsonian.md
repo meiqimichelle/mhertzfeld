@@ -12,7 +12,7 @@ categories: [thoughts]
 ---
 I've gone to my first hackathon! _Super nerdy_! I thought they only wanted coders at these sorts of things, but friends said that designers and UX folks are welcome, too. So off I went…and our team won!<!--more-->
 
-This particular hackathon was the First Ever at the Smithsonian (!), and we were tasked with using the Luce Foundation Center's newly-opened-on-a-trial-basis API to come up with new interactive kiosks over the weekend. Event info [here](http://americanart.si.edu/luce/hack/).
+This particular hackathon was the First Ever at the Smithsonian (!), and we were tasked with using the Luce Foundation Center's newly-opened-on-a-trial-basis API to come up with new interactive kiosks over the weekend. Event info and submissions [here](http://americanart.si.edu/luce/hack/).
 
 When I first arrived, I was definitely nervous that I wouldn't be able to help very much since I can't do complex backend coding. It turned out that much of the task in this case was coming up with a cohesive strategy, which I could definitely contribute to! How were we planning on interacting with users? How were we bringing American art to the public, and enriching the experience of those physically at the museum?
 
