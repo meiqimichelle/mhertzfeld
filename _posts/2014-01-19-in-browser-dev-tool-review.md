@@ -1,5 +1,5 @@
 ---
-title: Drag-and-drop In-Browser Dev Tools: A Review
+title: Drag-and-drop In-Browser Dev Tools Review
 layout: post
 image:
  feature: keys_oasis.jpg
