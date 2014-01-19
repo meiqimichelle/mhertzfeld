@@ -3,7 +3,7 @@ title: Drag-and-drop In-Browser Dev Tools: A Review
 layout: post
 image:
  feature: keys_oasis.jpg
- title: A lonely spot of land in the Florida Keys.
+ title: A lonely spot of land in the Florida Keys
  credit: Michelle Hertzfeld
  creditlink: http://www.mhertzfeld.com/
 author: Michelle Hertzfeld
@@ -30,7 +30,7 @@ Webflow sez: "Create beautiful, responsive websites without code. Webflow is the
 + **Exported clean code.**
 
 ###The Bad
-+ **No in-browser code editing!** None! Want to add a \<span\> inside a heading to make a cool dropcap? Too bad!
++ **No in-browser code editing.** None! Want to add a span tag inside a heading to make a cool dropcap? Too bad!
 + **You are limited to what Webflow has already developed.** Webflow includes a solid base of parts that you can drag-and-drop onto its canvas, but there's nothing yet like the the Javascript pieces that comes standard now in frameworks like Bootstrap or Foundation. And since you can't add code...you see where I'm going here. There is a place to include external JS...I imagine you could spend a lot of time figuring out how to use this to do stuff, but that would be a time commitment, aka, the opposite of the reason I'm looking for a visual dev tool.
 + **Classes are a bit verbose.** As far as I can tell, there's no way to specify something like "all anchor tags under this div shall be blue." All you can do is add classes to specific elements. One must therefore be more verbose than one would like. Note: at least I could easily figure out how to style ALL h1, or ALL p, which is not something I could figure out in the other tools.
 
@@ -62,6 +62,8 @@ I came into this thinking Divshot would be the winner since it provided code ins
 
 ##Froont
 
+Froont sez: "Responsive web design, the visual way. Design websites directly in the browser with a simple drag and drop interface."
+
 ###The Good
 + **Looks like it should be awesome.**
 
@@ -75,6 +77,8 @@ I came into this thinking Divshot would be the winner since it provided code ins
 Webflow's UI is a billion times better. I'm not sure if Froont would have provided more functionality (since, as explained above, Webflow is fairly limited in what it does) but I never got there. I couldn't get off the ground at all.
 
 ##Jetstrap
+
+Jetstrap sez: "THE BOOTSTRAP 3 BUILDER. Not just a mock-up tool, Jetstrap is the premier interface-building tool for Bootstrap 3."
 
 ##The Good
 + **Pass.** (See 'no free trial' below.)
