@@ -12,7 +12,7 @@ categories: [thoughts]
 ---
 Wouldn't it be great if we designers/developers could just move bits of website around visually and get beautiful, well-structured code to work with out the other end? The stuff of dreams! If this is your dream, then this might be your year! In service of The Future, I tested (or attempted to test) four of the current front-runners: [Webflow](https://webflow.com/), [Divshot](http://www.divshot.com/), [Froont](http://froont.com/), and [Jetstrap](https://jetstrap.com/). Read on for a summary and full reviews.<!--more-->
 
-**Summary:** 2014 is going to be a great year. Visual drag-and-drop web tools that produce valid, beautiful code are going to keep developing. At the moment, though, they're too difficult to use and are missing critical functionality (different in each) this means that there's a ways to go before designers abandon Adobe and devs move off their favorite text editor. But the day is coming! And (a surprise to me) out of those products I tested with their current abilities, I liked [Webflow](https://webflow.com/), hands down. It's the only one that solved a problem for me, and I bet it did this by focusing its product on core uasbility -- easy visual drag-and-drop and built-in dev hosting. Webflow doesn't try to cover all the bases, but those it does it covers completely.
+**Summary:** 2014 is going to be a great year. Visual drag-and-drop web tools that produce valid, beautiful code are going to keep developing. At the moment, though, they're too difficult to use and are missing critical functionality (different in each) this means that there's a ways to go before designers abandon Adobe and devs move off their favorite text editor. But the day is coming! **And (a surprise to me) out of those products I tested with their current abilities, I liked [Webflow](https://webflow.com/), hands down.** It's the only one that solved a problem for me, and I bet it did this by focusing its product on core uasbility -- easy visual drag-and-drop and built-in dev hosting. Webflow doesn't try to cover all the bases, but those it does it covers completely.
 
 **Methodology:** I have a small, new project that needs to get going. AKA, the perfect time (the beginning of the process) to try to fit a new tool into my workflow. On to the reviews!
 
@@ -73,7 +73,7 @@ Froont sez: "Responsive web design, the visual way. Design websites directly in 
 + **What's with the name?** Let me tell you, it's a pain to search for tips and documentation -- Froont autocorrects to front, and just try looking for "froont center."
 + **Price.** $49 a month? Really? That's what I pay for Adobe CC.
 
-###Conclusion
+###Conclusions
 Webflow's UI is a billion times better. I'm not sure if Froont would have provided more functionality (since, as explained above, Webflow is fairly limited in what it does) but I never got there. I couldn't get off the ground at all.
 
 ##Jetstrap
@@ -88,7 +88,7 @@ Jetstrap sez: "THE BOOTSTRAP 3 BUILDER. Not just a mock-up tool, Jetstrap is the
 + **Bootstrap only.** Apparently only integrates with Bootstrap, and I don't love Bootstrap (prefer Foundation or Gumby, at the moment).
 
 
-##Final Conclusion
+##Final Conclusions
 **In the end, after a day full of testing and trying, the winner is (and I can't believe I'm saying this): [Webflow](https://webflow.com/).** I did not except to go with the option that doesn't allow for any code editing, but it was by far the easiest to use, and the only one that actually let me get my task done. Webflow doesn't do All The Things by any means, but it's the only one that actually abstracts the web development process enough and is intuitive enough that it becomes faster to do mockups with it rather than just rocking on Bootstrap or Foundation on your local machine with your own server from the start. Unfortunately, it doesn't have much flexibility. If what you want to do isn't implemented already, too bad, and I'm not sure I like it enough to pay $16 a month for a prototype tool.
 
 Still, I'm really excited about the future of these tools! They will continue to improve. I think by the end of 2014 we're going to have some serious changes to the web design/dev process -- it will be a beautiful, beautiful day. Also, I'm really excited to see what [Macaw](http://macaw.co/) has in store. If that Alchemy engine does what it says it can, it could be a game changer.
