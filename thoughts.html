@@ -30,7 +30,7 @@ sitemap:
             <div class="another_image">
                 <img src="{{ site.url }}/assets/img/{{ post.image.feature }}" alt="{{ post.title }}" itemprop="image">
             </div>
-            <h1 itemprop="headline">{{ post.title }}</h1>
+            <a href="{{ post.url }}"><h1 itemprop="headline">{{ post.title }}</h1></a>
             <div class="another_meta">
                 <p><span class="highlight" itemprop="author">{{ post.author }}</span><time datetime="{{ post.date }}" itemprop="datePublished"> posted on <span class="highlight">{{ post.date | date_to_long_string }}</span></time> about <span class="highlight" itemprop="keywords">{{ post.tags | join: ', ' }}</span>.</p>
             </div>

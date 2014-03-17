@@ -8,7 +8,7 @@ pygments: true
 auto: true
 
 url:             http://meiqimichelle.github.io/mhertzfeld
-# url:              http://localhost:4000
+#url:              http://localhost:4000
 # Comment out url when working locally to resolve base urls correctly or change to http://localhost:4000
 logo:             /assets/img/apple-touch-icon-144x144-precomposed.png
 
