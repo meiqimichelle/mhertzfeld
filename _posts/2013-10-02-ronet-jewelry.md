@@ -17,10 +17,10 @@ Renee Tatusko designs and creates handmade jewelry pieces and sells them all ove
 
 This site was built on [BigCartel's](http://bigcartel.com/) solid e-commerce solution. Their administrative system is simple and easy for Renee to use, and their default storefronts are built with modern web standards. I was also able to customize the design to my heart's content with little time needed to get up and running, and I was able to adjust almost everything the BigCartel system to meet my customer's needs.
 
-[Visit the site](http://ronetjewelry.bigcartel.com)
+[Visit the site](http://www.ronetjewelry.com)
 
 ![Ronet Jewelry responsive website](http://meiqimichelle.github.io/mhertzfeld/assets/img/ronet_responsive.jpg)
 
 ![Ronet Jewelry product page](http://meiqimichelle.github.io/mhertzfeld/assets/img/ronet_product.jpg)
 
-[Visit the site](http://ronetjewelry.bigcartel.com)
+[Visit the site](http://www.ronetjewelry.com)
