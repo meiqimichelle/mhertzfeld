@@ -13,7 +13,7 @@ categories: [thoughts]
 
 Round Three of the [Presidential Innovation Fellows](http://www.whitehouse.gov/innovationfellows) program is now accepting [applications](https://gsafas.secure.force.com/apply) from creative, energetic policy hackers, entrepreneurs, user experience experts, designers, frontend developers, backend developers, system architecture wizards, data wranglers, and more to serve their tours of duty to radically improve the delivery of government digital services.
 
-Why should you (yes, YOU) take time out of your busy schedule to apply? Three important reasons: <!--more-->
+Why should you (yes, YOU) take time out of your busy schedule to apply (deadline: April 7)? Three important reasons: <!--more-->
 
 ##1. Uncle Sam Wants YOU...to Help Millions
 
