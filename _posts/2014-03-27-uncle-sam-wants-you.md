@@ -44,8 +44,6 @@ Innovation Fellows come from many backgrounds and have a wide range of skills, b
 
 And not only are the people you’ll work with extremely technically and creatively intelligent, but they’re also a group of people who have chosen to use their precious time and energy in exchange for a reasonable government salary to move their country forward. Instead of disrupting the dog clothing market, you’ll be disrupting government bureaucracy and improving services for millions of people. You want a more participatory democracy? Here’s your chance.
 
-And not only are the people you’ll work with extremely technically and creatively intelligent, but they’re also a group of people who have chosen to dedicate their precious time and energy in exchange to move their country forward. This is an opportunity to disrupt government and truly transform how it works for the people it serves. You want a more participatory democracy?  Here’s your chance.
-
 As an Innovation Fellow, you will have extraordinary leverage to solve big problems and implement game-changing solutions. Some of the projects in the diagram above were not planned, but discovered as opportunities in the course of other projects.
 
 ##3. Uncle Sam Wants YOU...to Serve and Return
