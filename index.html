@@ -24,7 +24,7 @@ sitemap:
 </div>
 
 <!-- display latest post big n' pretty -->
-{% for post in site.posts limit:1 %}
+{% for post in site.categories.thoughts limit:1 %}
     <article class="twelve columns alpha" itemscope itemtype="http://schema.org/BlogPosting">
         {% if post.image.feature %}
             <div class="latest_post">

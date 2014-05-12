@@ -9,7 +9,7 @@ image:
  work: ams.jpg
 author: Michelle Hertzfeld
 tags: [logo]
-categories: [work]
+categories:
 ---
 The American Mandarin Society is a new organization composed of a younger generation of Mandarin scholars who have studied, researched and lived in Greater China. It needed a mark that would reflect its scholarly background, but also point to the group's modern, youthful focus.<!--more-->
 
