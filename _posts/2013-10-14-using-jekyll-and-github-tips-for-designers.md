@@ -18,7 +18,7 @@ Actually, in all seriousness, there are very good reasons for me, someone who tr
 
 On the recommendation of [several](http://www.kinlane.com) [people](http://ben.balter.com/) and a good chunk of the internet, I went with the Jekyll/Liquid/GitHub killer combo. In addition to building my site, this would help me learn about versioning and the potential of something like GitHub to do more outside the programming paradigm (like make [government policy more open and accessible](http://project-open-data.github.io), for example).
 
-There are many "get started with Jekyll" tutorials online and so I won't repeat them here. However, there *aren't* very many places to go to learn all those steps that the programmers skip since they're obvious (to them). **And so, here it is: tips on how to do the "host your blog or site on GitHub with Jekyll" thing for designers.** 
+There are many "get started with Jekyll" tutorials online and so I won't repeat them here. However, there *aren't* very many places to go to learn all those steps that the programmers skip since they're obvious (to them). **And so, here it is: tips on how to do the "host your blog or site on GitHub with Jekyll" thing for designers.**
 
 ##Tips for Designers
 ###GitHub

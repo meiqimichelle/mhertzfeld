@@ -32,7 +32,7 @@
         <div class="toggle top"><a href="#home">Contact</a></div>
     </div>
 </div>
-    
+
 <article class="twelve columns alpha" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
     {% if page.image.feature %}
         <div class="latest_post">
@@ -41,7 +41,7 @@
                     <div class="feature_meta">
                         <p><!--<time datetime="{{ post.date }}" itemprop="datePublished">Posted on <span class="highlight">{{ page.date | date_to_long_string }}</span></time>--> What: <span class="highlight post_work_tag" itemprop="keywords">{{ page.tags | join: ', ' }}</span></p>
                     </div>
-               
+
                 <div itemprop="articleBody" class="content post_work">
                     <div class="excerpt">{{ page.content | split: '<!--more-->' | first | markdownify }}</div>
                     {{ page.content | split: '<!--more-->' | last | markdownify }}
@@ -50,11 +50,11 @@
                         <span class="intro">Source</span> <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a>
                     </div>{% endif %}
                 </div>
-                
+
             </div>
         </div>
     {% endif %}
-</article>   
+</article>
 </div>
 
 {% if page.share %}<div class="social-share">
@@ -71,7 +71,7 @@
   </footer>
 </div>
 
-{% include scripts.html %}          
+{% include scripts.html %}
 
 </body>
 </html>
