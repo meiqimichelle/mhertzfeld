@@ -21,5 +21,5 @@ And...our team won! We did have the largest group with a good range of skills, w
 Sadly, we never got the main site up and running off local machines. I'll try to post some screenshots at least soon! In the meantime, here's
 + [video of our result](http://www.youtube.com/watch?v=1g78t-niq-c)
 + games from our awesome CherryPi lady, Shannon: [LUCEmash](http://shannonvturner.com/luce/luce_match) and [Luce ArtID](http://shannonvturner.com/luce/luce_zoom)
-+ [slides of our concept](http://meiqimichelle.github.io/luce-interact/#/)
++ [slides of our concept](https://meiqimichelle.github.io/luce-interact/#/)
 + Photos from the event [here](http://www.flickr.com/groups/lucehack/)
