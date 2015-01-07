@@ -5,10 +5,10 @@ lsi: false
 highlighter: pygments
 
 # Comment out url when working locally to resolve base urls correctly
-#url:             http://meiqimichelle.github.io/mhertzfeld
-url:              http://localhost:4000
+url:             http://meiqimichelle.github.io/mhertzfeld
+#url:            http://localhost:4000
 
-logo:             /assets/img/apple-touch-icon-144x144-precomposed.png
+logo:            /assets/img/apple-touch-icon-144x144-precomposed.png
 
 # Owner/author information
 owner:
