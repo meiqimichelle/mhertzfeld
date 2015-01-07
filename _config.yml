@@ -1,15 +1,14 @@
-title:            'Michelle Hertzfeld &#8211; Web and UX Designer'
+title:            "Michelle Hertzfeld &#8211; Web and UX Designer"
 description:      Michelle Hertzfeld is a web designer and user experience specialist. Making content and communications kinder and clearer since 2001.
-disqus_shortname:
 
-safe: true
 lsi: false
 highlighter: pygments
 
-url:             https://michellehertzfeld.com/
-#url:              http://localhost:4000
-# Comment out url when working locally to resolve base urls correctly or change to http://localhost:4000
-logo:             /assets/img/apple-touch-icon-144x144-precomposed.png
+# Comment out url when working locally to resolve base urls correctly
+url:             http://meiqimichelle.github.io/mhertzfeld
+#url:            http://localhost:4000
+
+logo:            /assets/img/apple-touch-icon-144x144-precomposed.png
 
 # Owner/author information
 owner:
