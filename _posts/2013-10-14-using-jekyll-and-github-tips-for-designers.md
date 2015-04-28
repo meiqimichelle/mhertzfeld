@@ -21,6 +21,7 @@ On the recommendation of [several](http://www.kinlane.com) [people](http://ben.b
 There are many "get started with Jekyll" tutorials online and so I won't repeat them here. However, there *aren't* very many places to go to learn all those steps that the programmers skip since they're obvious (to them). **And so, here it is: tips on how to do the "host your blog or site on GitHub with Jekyll" thing for designers.**
 
 ##Tips for Designers
+
 ###GitHub
 + Despite what every developer will try to tell you, GitHub is *not* actually very intuitive to use for non-programmers. The documentation, while pretty, is not thorough if you don't have prior experience. BUT! Stick with it, and if all possible get someone who's used to the git process to show you their workflow.
 + Speaking of, did you know that "git" is a thing? Yeah, I didn't either. GitHub is a specific online implementation of the [git version control process](http://git-scm.com/book/en/Getting-Started-About-Version-Control). Helps to know this fact to understand, then, GitHub and its purpose.
