@@ -40,55 +40,55 @@ body {
 }
 
 /* site nav */
-.sticker { 
-    position: fixed; 
-    width: 100%;
-    z-index: 5;
+.sticker {
+  position: fixed;
+  width: 100%;
+  z-index: 5;
 }
+
 .nav {
-    background-color: $linkColor;
-    ul {
-        
-        margin: 0;
-        padding-top: 10px;
-    }
-    li {
-        position: relative;
-        float:right;
-        margin-right: 3%;
-        font-family: $fontFamily;
-        font-weight:600;
-        font-size: 1.2em;
-       
-    }
-    a, a:visited {
-        color: lighten($fontColor, 8%);
-        @include link-ease(color);
-    }
-    a:hover, a:focus {
+  background-color: $linkColor;
+
+  ul {
+    margin: 0;
+    padding-top: 10px;
+  }
+
+  li {
+    position: relative;
+    float:right;
+    margin-right: 3%;
+    font-family: $fontFamily;
+    font-weight:600;
+    font-size: 1.2em;
+    a {
+			&:hover,
+			&:focus {
+				@include link-ease(color);
         color: $fontColor;
-        text-decoration: none;
-        @include link-ease(color);
-    }
-    a:focus {
-        text-decoration: underline;
-    }
+		    text-decoration: underline;
+	    }
+		}
+	}
 }
 
 /*site heading*/
 .site_head {
-    margin-top: 95px;
-    h1 {
-        font-weight: 900;
-        font-size: 4em;
-    }
-    h2 {
-        font-weight: 300;
-        font-size: 2em;
-    }
-    a {
-        font-weight: 800;
-    }
+  margin-top: 95px;
+	
+  h1 {
+    font-weight: 900;
+    font-size: 4em;
+  }
+
+  h2 {
+    font-weight: 300;
+    font-size: 2em;
+  }
+
+  a {
+    font-weight: 800;
+  }
 }
 
 /*contact toggle*/
@@ -109,7 +109,7 @@ body {
     -o-transform: rotate(90deg);
     transform: rotate(90deg);
     /* Should be unset in IE9+ I think. */
-    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);  
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 .bot {
     opacity: 0;
@@ -157,11 +157,11 @@ body {
     position: relative;
     z-index: 15;
     }
-    .top { 
+    .top {
     opacity:0;
     pointer-events: none;
     }
-    .bot { 
+    .bot {
     opacity:1;
     pointer-events: auto;
     }
@@ -180,7 +180,7 @@ body {
     margin-top: -20px;
     text-align: right;
 }
-.feature_image { 
+.feature_image {
     position: relative;
     width: 112%;
     height: 100%;
@@ -227,7 +227,7 @@ body {
     margin-top: 35px;
     opacity: 0.5;
 }
-.another_image { 
+.another_image {
     position: relative;
     width: 100%;
     height: 160px;
@@ -288,12 +288,12 @@ body {
         line-height: 1em;
         margin: 5px 0 20px 8px;
         width: 80%;
-    
+
     }
     a {
     border-bottom: none;
         &:hover, &:focus {
-        text-decoration: none;    
+        text-decoration: none;
         }
     }
 }
@@ -363,7 +363,7 @@ body {
 .site_head.post {
     h1 {
         color: white;
-        
+
         text-shadow: 5px 5px 0px rgba(23,148,142,0.7);
     }
 }
@@ -481,9 +481,9 @@ body {
     position: relative;
     z-index: 3;
     text-align: center;
-    a { 
+    a {
         border-bottom: none;
-        
+
     }
     h1 {
         position: absolute;
@@ -617,7 +617,7 @@ body {
             font-family: $fontFamily;
             font-weight:600;
             font-size: 1.2em;
-           
+
         }
     }
 	/*contact toggle*/
@@ -634,7 +634,7 @@ body {
         -o-transform: none;
         transform: none;
         /* Should be unset in IE9+ I think. */
-        filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);  
+        filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
         }
     .contact a {
         width: 100%;
@@ -649,8 +649,8 @@ body {
     #home:target {
         #contact {
         max-height: 235px;
-        }    
-        .bot { 
+        }
+        .bot {
         margin-top: -427px;
         }
     }
@@ -666,7 +666,7 @@ body {
         color: $bgOrange;
     }
     }
-    
+
     /* styling for about */
     .about_wrapper {
         .about_box:nth-child(odd) {
@@ -705,8 +705,8 @@ body {
     .about_me {
         padding-top: 10px;
     }
-    
-    /* posts */ 
+
+    /* posts */
     .post_inner {
         margin-top: 100px;
         margin-bottom: 50px;
@@ -732,8 +732,8 @@ body {
             line-height: 1.9em;
         }
     }
-    #home:target { 
-        .bot { 
+    #home:target {
+        .bot {
         margin-top: -455px;
         }
     }
