@@ -25,6 +25,13 @@ jQuery(document).ready(function($){
 });
 </script>
 
+<!-- GitHub Pages redirect -->
+<script>
+  if (window.location.href.indexOf('http://meiqimichelle.github.com') === 0) {
+  window.location.href = 'https://michellehertzfeld.com{{ page.url }}';
+  }
+</script>
+
 {% if site.google_analytics %}
 <!-- Asynchronous Google Analytics snippet -->
 <script>
