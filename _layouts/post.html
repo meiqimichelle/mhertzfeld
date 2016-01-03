@@ -39,7 +39,7 @@
     {% if page.image.feature %}
         <div class="latest_post">
             <div class="post_inner">
-                <a href="{{ site.baseurl }}/{{ post.url }}"><h1 itemprop="headline">{{ page.title }}</h1></a>
+                <a href="{{ post.url }}"><h1 itemprop="headline">{{ page.title }}</h1></a>
                 <div class="feature_meta">
                     <p><span class="highlight" itemprop="author">{{ page.author }}</span><time datetime="{{ post.date }}" itemprop="datePublished"> posted on <span class="highlight">{{ page.date | date_to_long_string }}</span></time> about <span class="highlight" itemprop="keywords">{{ page.tags | join: ', ' }}</span>.</p>
                 </div>
