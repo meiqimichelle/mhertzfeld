@@ -1,5 +1,5 @@
 ---
-title: Geospatial Extention
+title: Geospatial Extension
 layout: post-work
 image:
  feature: geo_ext.jpg
