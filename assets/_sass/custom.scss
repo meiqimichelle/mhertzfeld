@@ -1,16 +1,3 @@
-/**
- * SASS/SCSS/Compass Transcription of Skeleton Responsive Grid
- * originally authored by Dave Gamache.
- * @author Dennis Thompson <http://www.atomicpages.net>
- * @copyright Copyright (c) 2013 AtomicPages LLC
- * @license MIT
- * @version 1.5.1
- */
-
-// IMPORTS
-@import "vars"; // import _global_variables.scss
-@import "mixins"; // import _mixins.scss
-
 /* SITE STYLES
  * ------------------------------------------------ */
 body {
@@ -61,13 +48,16 @@ body {
     font-family: $fontFamily;
     font-weight:600;
     font-size: 1.2em;
-    a {
-			&:hover,
-			&:focus {
-				@include link-ease(color);
-        color: $fontColor;
-		    text-decoration: underline;
-	    }
+		}
+
+	a {
+		color: lighten($fontColor, 8%);
+
+		&:hover,
+		&:focus {
+			@include link-ease(color);
+			color: $fontColor;
+			text-decoration: underline;
 		}
 	}
 }
@@ -75,7 +65,7 @@ body {
 /*site heading*/
 .site_head {
   margin-top: 95px;
-	
+
   h1 {
     font-weight: 900;
     font-size: 4em;
@@ -253,19 +243,21 @@ body {
 
 /* footer */
 .footer-wrapper {
-    background-color: white;
-    padding-bottom: 30px;
-    h1 {
-        font-size: 1.1em;
-        margin-bottom: 18px;
-        margin-top: 25px;
-        font-weight:800;
-    }
-    p, ul {
-        font-size: .9em;
-        line-height: 1.3em;
-        margin-bottom: 10px;
-    }
+  background-color: white;
+  padding-bottom: 30px;
+
+  h1 {
+    font-size: 1.1em;
+    margin-bottom: 18px;
+    margin-top: 25px;
+    font-weight:800;
+  }
+
+  p, ul {
+    font-size: .9em;
+    line-height: 1.3em;
+    margin-bottom: 10px;
+  }
 }
 
 /* PAGE STYLES
@@ -273,75 +265,86 @@ body {
 
 /* styling for work */
 .work_wrapper {
-    margin-left: -10px;
+  margin-left: -10px;
+	margin-bottom: 20px;
 }
-.work_post {
-    background-color: white; /*fallback for older browsers*/
-    background-color: rgba(255,255,255,0.8);
-    position: relative;
-    padding: 40px 40px 40px 40px;
-    margin-bottom: 20px;
-    h1 {
-        font-family: $headingFamily;
-        color: white;
-        font-size: 3em;
-        line-height: 1em;
-        margin: 5px 0 20px 8px;
-        width: 80%;
 
+.work_post {
+  background-color: white; /*fallback for older browsers*/
+  background-color: rgba(255,255,255,0.8);
+  position: relative;
+  padding: 40px 40px 40px 40px;
+  margin-bottom: 20px;
+
+  h1 {
+    font-family: $headingFamily;
+    color: white;
+    font-size: 3em;
+    line-height: 1em;
+    margin: 5px 0 20px 8px;
+    width: 80%;
+  }
+
+  a {
+  	border-bottom: none;
+
+    &:hover, &:focus {
+    text-decoration: none;
     }
-    a {
-    border-bottom: none;
-        &:hover, &:focus {
-        text-decoration: none;
-        }
-    }
+  }
 }
+
 .work_image {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
+
 .work_hover {
-    background-color: $bgOrange;
+  background-color: $bgOrange;
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+
+  p {
+    font-family: $fontFamily;
+    font-size: 1.5em;
+    color: white;
+    text-align: right;
+    width: 97%;
     position: absolute;
-    top: 0; left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    p {
-        font-family: $fontFamily;
-        font-size: 1.5em;
-        color: white;
-        text-align: right;
-        width: 97%;
-        position: absolute;
-        bottom: 0;
-        margin-bottom: 0;
-    }
+    bottom: 0;
+    margin-bottom: 0;
+  }
 }
+
 .work_more {
-    position: absolute;
-    top: 0; right: 0;
-    margin: 5px 5px 0 0;
-    height: 45px;
-    width: 45px;
-    p {
-        position: relative;
-        font-size: 5em;
-        margin-top: -3px;
-    }
+  position: absolute;
+  top: 0; right: 0;
+  margin: 5px 5px 0 0;
+  height: 45px;
+  width: 45px;
+
+  p {
+    position: relative;
+    font-size: 5em;
+    margin-top: -3px;
+  }
 }
+
 .work_topics {
-    font-style:italic;
-    line-height: 1.6em;
-    padding: 0 5px;
-    border-top: 1px solid white;
-    border-right: 1px solid white;
+  font-style:italic;
+  line-height: 1.6em;
+  padding: 0 5px;
+  border-top: 1px solid white;
+  border-right: 1px solid white;
 }
+
 .mobile {
-    display: none;
+  display: none;
 }
 
 /* styling for posts */
