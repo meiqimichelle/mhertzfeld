@@ -16,9 +16,9 @@ The Boorse Collection of Contemporary Violins needed an online home that would d
 The online home for The Boorse Collection of Contemporary Violins needed to be modern and impressive, a fitting online representation of the quality work done by modern violin-makers. It of course also needed to be accessible to all sorts of devices and built to modern web standards. Each instrument in the collection has its own space where viewers can digitally turn it and take a closer look by zooming in. The site is also structured in a way such that more information on each instrument and the collection as a whole can be added as it comes. A future enhancement, for example, may be sound clips or videos of the instruments in action!
 
 [Visit the site](http://www.boorsecollection.com/)
- 
-![The Boorse Collection of Contemporary Violins responsive website](/assets/img/boorse_responsive.jpg)
 
-![The Boorse Collection of Contemporary Violins website](/assets/img/boorse_site.jpg)
- 
+![The Boorse Collection of Contemporary Violins responsive website](https://meiqimichelle.github.io/mhertzfeld/assets/img/boorse_responsive.jpg)
+
+![The Boorse Collection of Contemporary Violins website](https://meiqimichelle.github.io/mhertzfeld/assets/img/boorse_site.jpg)
+
  [Visit the site](http://www.boorsecollection.com/)

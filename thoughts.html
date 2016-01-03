@@ -13,7 +13,7 @@ sitemap:
 
 <div class="sixteen columns alpha site_head" role="banner" itemscope itemtype="http://schema.org/WPHeader">
     <div class="five columns alpha">
-        <h1>Thoughts</h1>  
+        <h1>Thoughts</h1>
     </div>
     <div class="eight columns">
         <p>Here's a list of my latest posts. I think on lots of things, but here I write mostly on technology and design.</p>
@@ -23,15 +23,15 @@ sitemap:
         <div class="toggle top"><a href="#home">Contact</a></div>
     </div>
 </div>
- 
+
 <!-- display three latest posts with exerpts -->
     <article class="twelve columns alpha" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
         {% for post in site.categories.thoughts limit:10 %}
         <div class="another_post">
             <div class="another_image">
-                <img src="{{ site.url }}/assets/img/{{ post.image.feature }}" alt="{{ post.title }}" itemprop="image">
+                <img src="{{ site.baseurl }}/assets/img/{{ post.image.feature }}" alt="{{ post.title }}" itemprop="image">
             </div>
-            <a href="{{ post.url }}"><h1 itemprop="headline">{{ post.title }}</h1></a>
+            <a href="{{ site.baseurl }}/{{ post.url }}"><h1 itemprop="headline">{{ post.title }}</h1></a>
             <div class="another_meta">
                 <p><span class="highlight" itemprop="author">{{ post.author }}</span><time datetime="{{ post.date }}" itemprop="datePublished"> posted on <span class="highlight">{{ post.date | date_to_long_string }}</span></time> about <span class="highlight" itemprop="keywords">{{ post.tags | join: ', ' }}</span>.</p>
             </div>
@@ -39,7 +39,7 @@ sitemap:
                 {{ post.content | split: '<!--more-->' | first }}
             </div>
             <div class="continue">
-                <a href="{{ post.url }}">&rarr; continue reading &rarr;</a>
+                <a href="{{ site.baseurl }}/{{ post.url }}">&rarr; continue reading &rarr;</a>
             </div>
         </div>
         {% endfor %}

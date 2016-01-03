@@ -17,8 +17,8 @@ The website redesign process involved research into who was already coming to th
 
 [Visit the site](http://www.nesdisia.noaa.gov/)
 
-This website work was later complemented with an [outreach campaign](/work/noaa-iiad-coms/).
+This website work was later complemented with an [outreach campaign]({{ site.baseurl }}/work/noaa-iiad-coms/).
 
-![NOAA Satellite and Information Service International and Interagency Affairs Division website redesign](/assets/img/iiad_site.jpg)
+![NOAA Satellite and Information Service International and Interagency Affairs Division website redesign](https://meiqimichelle.github.io/mhertzfeld/assets/img/iiad_site.jpg)
 
 [Visit the site](http://www.nesdisia.noaa.gov/)

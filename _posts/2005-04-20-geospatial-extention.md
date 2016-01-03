@@ -15,4 +15,4 @@ I worked at the Arizona Remote Sensing Center making online mapping tools to aid
 
 One of the major projects of while working at the [Arizona Remote Sensing Center](http://www.portal.environment.arizona.edu/centers-and-institutes/arizona-remote-sensing-center-arsc) was the development of a resource sharing site for members of the National Geospatial Technology Extension Network and their customers. I worked on the design, branding and front-end development of a Drupal framework that served Geospatial Extension Specialists at land-grant universities across the country.
 
-![National Geospatial Extension Technology Network website](/assets/img/ngten_index.jpg)
+![National Geospatial Extension Technology Network website](https://meiqimichelle.github.io/mhertzfeld/assets/img/ngten_index.jpg)
