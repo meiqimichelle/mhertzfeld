@@ -18,7 +18,7 @@ sitemap:
         <h1>Work</h1>
     </div>
     <div class="eight columns">
-        <p>I've done full design-and-code projects (CSS3, HTML5, jQuery) as well as structural user flow work. I really love working on science and data communication and maps. <a href="{{ site.baseurl }}/about">It all makes sense.</a></p>
+        <p>I've done full design-and-code projects (CSS3, HTML5, jQuery) as well as structural user flow work and product management. I really love working on science and data communication and maps. <a href="{{ site.baseurl }}/about">It all makes sense.</a></p>
     </div>
     <div class="three columns omega contact">
         <div class="toggle bot"><a href="#">Close</a></div>
@@ -28,7 +28,7 @@ sitemap:
 
 <!-- display work in three columns -->
 <section class="work_wrapper" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
-    {% for post in site.categories.work %}
+    {% for post in site.categories.work limit:8 %}
     <article class="five columns module">
         {% if post.image.work %}
         <div class="work_post">
@@ -45,9 +45,9 @@ sitemap:
         {% endif %}
     </article>
     {% endfor %}
-    <!-- <article class="five columns module">
+    <article class="five columns module">
         <div class="work_post">
-            <p>Want your project to be the next box? <a href="mailto:design@mhertzfeld.com">Contact me</a> to talk shop.</p>
+            <p>I'm pretty busy right now, but I always love to hear about interesting projects. <a href="mailto:design@mhertzfeld.com">Contact me</a> to talk shop.</p>
         </div>
-    </article> -->
+    </article>
 </section>

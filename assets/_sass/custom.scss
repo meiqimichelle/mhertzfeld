@@ -266,8 +266,8 @@ body {
 /* styling for work */
 .work_wrapper {
   margin-left: -10px;
-	
-	article:last-of-type {
+
+	article:nth-of-type(8) {
 		margin-bottom: 50px;
 	}
 }
