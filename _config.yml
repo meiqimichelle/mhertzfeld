@@ -4,12 +4,13 @@ description:      Michelle Hertzfeld is a web designer and user experience speci
 lsi: false
 highlighter: pygments
 
-# Comment out url when working locally to resolve base urls correctly
-url:             https://meiqimichelle.github.io/mhertzfeld
-#url:             http://localhost:4000
 
-baseurl:         /mhertzfeld
-#Full path, for reference: https://meiqimichelle.github.io/mhertzfeld
+url:             https://meiqimichelle.github.io/mhertzfeld
+
+# Comment out baseurl before pushing live to resolve urls correctly
+# Full path, for reference: https://meiqimichelle.github.io/mhertzfeld
+#baseurl:         /mhertzfeld
+
 
 logo:            /assets/img/apple-touch-icon-144x144-precomposed.png
 
