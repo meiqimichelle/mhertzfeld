@@ -9,6 +9,7 @@
 
     Kin Lane, API Evangelist, @kinlane
     Michael Rose, Made Mistakes, @mmistakes
+    Eric Mill, The Konklone, @konklone
     Many helpful instructions and blog posts on teh interwebz!
 
 # TECHNOLOGY COLOPHON
