@@ -4,6 +4,9 @@ description:      Michelle Hertzfeld is a web designer and user experience speci
 lsi: false
 highlighter: pygments
 
+sass:
+  sass_dir: assets/_sass
+
 
 url:             https://michellehertzfeld.com
 
@@ -48,4 +51,4 @@ paginate: 5
 paginate_path: "/thoughts/page:num"
 
 include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "_site", "assets/.sass-cache/"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "_site", "assets/.sass-cache/", ".sass-cache/"]
