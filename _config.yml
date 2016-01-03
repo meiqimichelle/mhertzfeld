@@ -11,7 +11,7 @@ url:             https://meiqimichelle.github.io/mhertzfeld
 # Full path, for reference: https://meiqimichelle.github.io/mhertzfeld
 #baseurl:         /mhertzfeld
 
-logo:            /assets/img/apple-touch-icon-144x144-precomposed.png
+logo:            apple-touch-icon-144x144-precomposed.png
 
 # Owner/author information
 owner:
