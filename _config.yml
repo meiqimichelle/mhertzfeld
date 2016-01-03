@@ -46,3 +46,7 @@ paginate_path: "/thoughts/page:num"
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "_site", "assets/.sass-cache/"]
+
+# Gems
+gems:
+  - jekyll-sitemap
