@@ -13,7 +13,7 @@
 {% include nav.html %}
 
 <div class="post_feature_image_wrap">
-    <img src="{{ site.url }}/assets/img/{{ page.image.feature }}" alt="{{ page.title }}" class="feature_image xpost_feature" itemprop="image">
+    <img src="{{ site.baseurl }}/assets/img/{{ page.image.feature }}" alt="{{ page.title }}" class="feature_image xpost_feature" itemprop="image">
 </div>
 
 <div id="main" class="container" role="main" itemscope itemprop="mainContentOfPage">
@@ -32,20 +32,20 @@
         <div class="toggle top"><a href="#home">Contact</a></div>
     </div>
 </div>
-    
-    
+
+
 
 <article class="twelve columns alpha" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
     {% if page.image.feature %}
         <div class="latest_post">
             <div class="post_inner">
-                <a href="{{ post.url }}"><h1 itemprop="headline">{{ page.title }}</h1></a>
+                <a href="{{ site.baseurl }}/{{ post.url }}"><h1 itemprop="headline">{{ page.title }}</h1></a>
                 <div class="feature_meta">
                     <p><span class="highlight" itemprop="author">{{ page.author }}</span><time datetime="{{ post.date }}" itemprop="datePublished"> posted on <span class="highlight">{{ page.date | date_to_long_string }}</span></time> about <span class="highlight" itemprop="keywords">{{ page.tags | join: ', ' }}</span>.</p>
                 </div>
-                
+
                 {% include prev_next.html %}
-                
+
                 <div class="content" itemprop="articleBody">
                     <div class="excerpt">{{ page.content | split: '<!--more-->' | first | markdownify }}</div>
                     {{ page.content | split: '<!--more-->' | last | markdownify }}
@@ -54,15 +54,15 @@
                         <span class="intro">Source</span> <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a>
                     </div>{% endif %}
                 </div>
-                
+
                 {% include prev_next.html %}
-                
+
             </div>
         </div>
     {% endif %}
-</article>   
+</article>
 </div>
-    
+
 
 {% if page.share %}<div class="social-share">
   <ul class="socialcount socialcount-small inline-list" data-url="{{ site.url }}{{ page.url }}" data-share-text="{{ page.title }}">
@@ -71,14 +71,14 @@
     <li class="googleplus"><a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" title="Share on Google Plus"><span class="count"><i class="icon-google-plus-sign"></i> +1</span></a></li>
   </ul>
 </div><!-- /.social-share -->{% endif %}
-    
+
 <div class="footer-wrapper">
   <footer class="container" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
     {% include footer.html %}
   </footer>
 </div>
 
-{% include scripts.html %}          
+{% include scripts.html %}
 
 </body>
 </html>

@@ -14,9 +14,9 @@
         {% endif %}
     {% endfor %}
     {% if prev_post %}
-        <span><a rel="prev" href="{{ prev_post }}/">&larr;previous post</a></span>
+        <span><a rel="prev" href="{{ site.baseurl }}{{ prev_post }}/">&larr; previous post</a></span>
     {% endif %}
     {% if next_post %}
-        <span><a rel="next" href="{{ next_post }}/">next post &rarr;</a></span>
+        <span><a rel="next" href="{{ site.baseurl }}{{ next_post }}/">next post &rarr;</a></span>
     {% endif %}
 </div>

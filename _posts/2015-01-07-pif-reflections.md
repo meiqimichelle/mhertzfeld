@@ -43,7 +43,7 @@ Let's face it&#8212;our U.S. government (and state and city governments) are hav
 Only one project, that is. Or at least, a very few. You could spend your year bouncing from challenge to challenge, but this prevents you from actually delivering a useful result at the end of your short time. Pick the one or few that you think will deliver the most benefit in exchange for your time and energy.
 
 ###Start training your replacement(s) from day one
-You've heard this before in other arenas, and it is true here, too: if you want your ideas and projects to have a life past your one year, you need to focus from day one on being the change agent that gets more people excited about your excitements, and help give them the tools (from political support to software) to succeed after you leave. 
+You've heard this before in other arenas, and it is true here, too: if you want your ideas and projects to have a life past your one year, you need to focus from day one on being the change agent that gets more people excited about your excitements, and help give them the tools (from political support to software) to succeed after you leave.
 
 ###Take advantage of your access and opportunity
 As a shiney Presidential Innovation Fellow, you have broad access to many parts of government. Want to know why a policy is the way it is? Set up a meeting with the person who worked on it. See your agency parters doing really great work with little recognition? Send a note to their boss, and their boss's boss.
@@ -54,6 +54,6 @@ You get spit out of the Fellowship at the other end. It was a busy year, you're 
 
 I, personally, decided to stay in government, and joined [18F](https://18f.gsa.gov/), a government in-house digital shop, to continue working to make U.S. services cutting-edge, and something to be proud of. It's also great to be working almost exclusively on open source projects that can be used and extended by other governments and groups. I've been busy:
 
-![Github commits over the last year showing huge jump in June](/assets/img/git-commits.png)
+![Github commits over the last year showing huge jump in June](https://meiqimichelle.github.io/mhertzfeld/assets/img/git-commits.png)
 
 Presidential Innovation Fellow and 18F projects are in the public domain by default and can be found at Github under [Presidential Innovation Fellows](https://github.com/presidential-innovation-fellows) and [18F](https://github.com/18f) organizations. **Remember: pull requests are public service! ^.^**

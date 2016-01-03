@@ -23,6 +23,6 @@ Also important is the **new area for purpose text** on the upper right. So many 
 
 Finally, the other two user personas (Jane, the data provider, and Ellen, the developer) have large links on the page calling them to the areas that will target them specifically. There is also a large feedback link in this area to encourage the user feedback process to improve the site over time and address pain points. This of course should not be the only method of user research, but it is a good start for a site that was not used to designing for the non-specialist user.
 
-![The development of the new GEO Portal design](/assets/img/geo_develop.jpg)
+![The development of the new GEO Portal design](https://meiqimichelle.github.io/mhertzfeld/assets/img/geo_develop.jpg)
 
 [Visit the site (as of this posting, the new site design is not live)](http://www.geoportal.org/)
