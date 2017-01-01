@@ -397,10 +397,6 @@ body {
 }
 
 /* styling for about */
-.aboutbg {
-    background-color: #060729;
-    background-image: url(../img/aboutbg.svg);
-}
 .about_wrapper {
     max-width: 900px;
     position: relative;
@@ -412,10 +408,9 @@ body {
         position: absolute;
         top: 0;
         height: 100%;
-        left: 49.5%;
+        left: 49.7%;
         width: 20px;
-        background-image: url(../img/aboutbg.svg);
-        border-left: 2px solid $linkColor;
+        border-left: 1px solid $darkTeal;
     }
     .about_box:nth-child(odd) {
         float: left;
@@ -425,7 +420,7 @@ body {
             border-color:  transparent transparent transparent lighten(#D1F3EE, 10%);
         }
         &:after {
-            right: -52px;
+            right: -43px;
             top: 42px;
         }
     }
@@ -438,7 +433,7 @@ body {
             border-color:  transparent lighten(#D1F3EE, 10%) transparent transparent;
         }
         &:after {
-            left: -58px;
+            left: -49px;
             top: 42px;
         }
     }
@@ -447,7 +442,7 @@ body {
     position: relative;
     margin-bottom: 20px;
     background-color: lighten(#D1F3EE, 10%);
-    width: 45%;
+    width: 46%;
     &:before { /* triangle */
         content: '';
         position: absolute;
