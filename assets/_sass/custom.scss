@@ -103,7 +103,7 @@ body {
 	ul li {
 		list-style-type: disc;
 		list-style-position: outside;
-		margin-left: 1em;
+		margin-left: 1.8em;
 		padding-bottom: $base-padding-lite;
 	}
 }
@@ -318,7 +318,6 @@ body {
 .footer-wrapper {
   background-color: white;
   padding-bottom: 30px;
-	margin-top: 500px; //temp fix to help design
 
   h1 {
     font-size: 1.1em;
@@ -472,6 +471,10 @@ body {
 }
 
 /* styling for about */
+.about_rule {
+	border-bottom: 2px solid $midTeal;
+}
+
 .about_wrapper {
     max-width: 900px;
     position: relative;
@@ -485,7 +488,7 @@ body {
         height: 100%;
         left: 49.7%;
         width: 20px;
-        border-left: 1px solid $darkTeal;
+        border-left: 2px solid $midTeal;
     }
     .about_box:nth-child(odd) {
         float: left;
