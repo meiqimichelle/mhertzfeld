@@ -7,21 +7,28 @@
 $backgroundColor: #abdbd5; 														// default background information
 
 // font vars
-$fontSize: 1.1em;															// default font size. Change here will adjust sizes across the board.
+$fontSize: 1.2em;															// default font size. Change here will adjust sizes across the board.
 $fontFamily: "freight-sans-pro", "Helvetica Neue", Helvetica, Arial, sans-serif;	                                            // default fonts
-$fontColor: #052B27;												            // default font color
-$bgOrange: #FF7839;
-$overOrange: #FF9867;
+$fontColor: #052b27;												            // default font color
 
 // form vars
 $formFont: $fontFamily; 														// default font font
 
+//colors
+$darkTeal: #095048;
+$midTeal: #17948e;
+$warmGold: #f7c167;
+$bgOrange: #ff7839;
+$overOrange: #ff9867;
+
+//padding
+$base-padding-lite: .2em;
+$base-padding: 1.2em;
+
 // link vars
-$linkColor: #17948E;																// default link INERT color
+$linkColor: $midTeal;																// default link INERT color
 $linkHoverColor: $bgOrange;															// default link HOVER color
 $linkDecoration: none;														// default link decoration
-
-$darkTeal: #095048;
 
 // heading vars
 $headingFamily: "bree", "Helvetica Neue", Helvetica, Arial, sans-serif;	        // default heading font

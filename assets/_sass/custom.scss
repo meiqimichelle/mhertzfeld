@@ -15,7 +15,7 @@ body {
 .highlight {
     background-color: $bgOrange;
     background-color: rgba(255,120,57,0.2);
-    font-style:italic;
+    font-style: italic;
     padding: 0 5px;
 }
 .padRight20 {
@@ -34,25 +34,25 @@ body {
 }
 
 .nav {
-  background-color: $linkColor;
+  border-top: 4px solid $midTeal;
 
   ul {
     margin: 0;
-    padding-top: 10px;
+    padding-top: $base-padding-lite;
+		text-align: right;
   }
 
   li {
-    position: relative;
-    float:right;
-    margin-right: 3%;
+    display: inline-block;
     font-family: $fontFamily;
-    font-weight:600;
-    font-size: 1.2em;
-		}
+    font-size: 1em;
+    margin-right: 3%;
+	  position: relative;
+	}
 
 	a {
-		color: lighten($fontColor, 8%);
-
+		color: $darkTeal;
+		
 		&:hover,
 		&:focus {
 			@include link-ease(color);
@@ -64,7 +64,7 @@ body {
 
 /*site heading*/
 .site_head {
-  margin-top: 95px;
+  margin-top: 3em;
 
   h1 {
     font-weight: 900;
@@ -79,6 +79,24 @@ body {
   a {
     font-weight: 800;
   }
+}
+
+/* home */
+
+.home_intro {
+	font-size: 1.2em;
+	margin-top: $base-padding-lite;
+}
+
+.home_main {
+	margin-top: $base-padding;
+	
+	ul li {
+		list-style-type: disc;
+		list-style-position: outside;
+		margin-left: 1em;
+		padding-bottom: $base-padding-lite;
+	}
 }
 
 /*contact toggle*/
@@ -245,6 +263,7 @@ body {
 .footer-wrapper {
   background-color: white;
   padding-bottom: 30px;
+	margin-top: 500px; //temp fix to help design
 
   h1 {
     font-size: 1.1em;
@@ -616,9 +635,7 @@ body {
             float:right;
             margin-right: 5%;
             font-family: $fontFamily;
-            font-weight:600;
             font-size: 1.2em;
-
         }
     }
 	/*contact toggle*/
