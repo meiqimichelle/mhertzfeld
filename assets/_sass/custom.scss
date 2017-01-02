@@ -481,6 +481,7 @@ body {
   margin-bottom: 20px;
   background-color: lighten(#D1F3EE, 10%);
   width: 46%;
+	
   &:before { /* triangle */
     content: '';
     position: absolute;
@@ -490,6 +491,7 @@ body {
     width: 0;
     height: 0;
   }
+	
   &:after { /* dot */
     content: '';
     display: block;
@@ -501,12 +503,14 @@ body {
     position: absolute;
     z-index: 1;
   }
+	
   h1 {
     font-family: $fontFamily;
     font-weight: 600;
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin-bottom: .7em;
   }
+	
   p {
     margin-bottom: 0;
   }
