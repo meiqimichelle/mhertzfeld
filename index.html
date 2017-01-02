@@ -15,16 +15,48 @@ permalink: /
   <p class="home_intro">I'm Michelle. I design websites and user experiences.</p>
 </div>
 
-<div class="twelve columns alpha home_main">
-  <p>Here's some of what I do:</p>
-  <ul>
-    <li>Lead cross-discipline teams to build products that meet user needs</li>
-    <li>Facilitate workshops for team alignment and design solutions</li>
-    <li>Manage design teams</li>
-    <li>Create alignment around product vision</li>
-    <li>Code HTML, CSS and some JavaScript</li>
-    <li>Specialize in clarity, structure and kindness</li>
-  </ul>
+<div class="sixteen columns alpha home_main">
+  <div class="four columns alpha">
+    <div class="home_me"><a><img src="{{ site.url }}/assets/img/michelle@2x.jpg" alt="{{ page.title }}" itemprop="image" id="clipping" class="home_me-clip"><h1>That's me!</h1></a></div>
+  </div>
+  <div class="ten columns">
+    <p>Here's some of what I do:</p>
+    <ul>
+      <li>Lead cross-discipline teams to build products that meet user needs</li>
+      <li>Facilitate workshops for team alignment and design solutions</li>
+      <li>Manage and build design teams</li>
+      <li>Create alignment around product vision</li>
+      <li>Code HTML, CSS and some JavaScript</li>
+      <li>Specialize in clarity, structure and kindness</li>
+    </ul>
+  </div>
 </div>
+
+<!-- display work in three columns -->
+<section class="work_wrapper" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+  <h2 class="sixteen columns alpha">But don't take my word for it</h2>
+    {% for post in site.categories.work limit:8 %}
+    <article class="five columns module">
+        {% if post.image.work %}
+        <div class="work_post">
+            <a href="{{ post.url }}">
+                <img src="{{ site.baseurl }}/assets/img/{{ post.image.work }}" alt="{{ post.title }}" itemprop="image" class="work_image">
+                <div class="work_hover">
+                    <h1 class="work_title">{{ post.title }}</h1>
+                    <div class="work_more"><p>+</p></div>
+                    <p><span class="work_topics">{{ post.tags | join: '</span> <span class="work_topics">' }}</span></p>
+                </div>
+                <div class="work_more mobile"><p>+</p></div>
+            </a>
+        </div>
+        {% endif %}
+    </article>
+    {% endfor %}
+    <article class="five columns module">
+        <div class="work_post">
+            <p>I'm pretty busy right now, but I always love to hear about interesting projects. <a href="mailto:design@mhertzfeld.com">Contact me</a> to talk shop.</p>
+        </div>
+    </article>
+</section>
 
 

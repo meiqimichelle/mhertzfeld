@@ -34,6 +34,7 @@ body {
 }
 
 .nav {
+	//background-color: hsla(200, 25%, 90%, 0.5);
   border-top: 4px solid $midTeal;
 
   ul {
@@ -64,7 +65,7 @@ body {
 
 /*site heading*/
 .site_head {
-  margin-top: 3em;
+  margin-top: 5.5em;
 
   h1 {
     font-weight: 900;
@@ -84,12 +85,20 @@ body {
 /* home */
 
 .home_intro {
+	//border-bottom: 2px solid $blackTeal;
 	font-size: 1.2em;
 	margin-top: $base-padding-lite;
 }
 
 .home_main {
-	margin-top: $base-padding;
+	border-top: 2px solid $midTeal;
+	margin-top: $base-padding-lite;
+	padding-top: $base-padding;
+	
+	p {
+		line-height: .6;
+		margin-bottom: $base-padding-mid;
+	}
 	
 	ul li {
 		list-style-type: disc;
@@ -97,6 +106,52 @@ body {
 		margin-left: 1em;
 		padding-bottom: $base-padding-lite;
 	}
+}
+
+.home_me {
+  position: relative;
+  z-index: 3;
+	
+  a {
+    border-bottom: none;
+  }
+	
+  h1 {
+    position: absolute;
+    font-weight: 800;
+    font-size: 4.8em;
+    line-height: .8em;
+    top: 27%; left: 0;
+    color: $bgOrange;
+    display: none;
+    text-shadow: 5px 5px 0px rgba(23,148,142,0.7);
+  }
+	
+	img {
+		width: 100%;
+	}
+	
+  &:hover h1, 
+	&:focus h1, 
+	&:hover img, 
+	&:focus img  {
+    display: inline;
+    margin-bottom: inherit;
+    -webkit-filter: saturate(3.5);
+    -moz-filter: saturate(3.5);
+    filter: saturate(3.5);
+  }
+}
+
+.home_me-clip {
+    background: url(#clipping) no-repeat;
+    // -webkit-border-radius: 50%;
+    // -moz-border-radius: 50%;
+    // border-radius: 50%;
+		-webkit-clip-path: polygon(50% 0, 100% 0, 100% 75%, 50% 100%, 0 100%, 0% 25%);
+		clip-path: polygon(50% 0, 100% 0, 100% 75%, 50% 100%, 0 100%, 0% 25%);
+    overflow: hidden;
+    //border: 3px solid $darkTeal;
 }
 
 /*contact toggle*/
@@ -317,10 +372,11 @@ body {
 }
 
 .work_image {
-  position: relative;
-  width: 100%;
+	border: 1px solid $midTeal;
   height: 100%;
   overflow: hidden;
+	position: relative;
+  width: 100%;
 }
 
 .work_hover {
@@ -492,9 +548,11 @@ body {
         margin-bottom: 0;
     }
 }
+
 .about_text {
     padding: 25px;
 }
+
 .about_me {
     margin: 0 auto;
     padding-top: 100px;
@@ -503,7 +561,6 @@ body {
     text-align: center;
     a {
         border-bottom: none;
-
     }
     h1 {
         position: absolute;

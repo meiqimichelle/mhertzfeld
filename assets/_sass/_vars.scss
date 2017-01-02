@@ -15,14 +15,17 @@ $fontColor: #052b27;												            // default font color
 $formFont: $fontFamily; 														// default font font
 
 //colors
+$blackTeal: #052b27;
 $darkTeal: #095048;
 $midTeal: #17948e;
 $warmGold: #f7c167;
-$bgOrange: #ff7839;
+$red: #ff3b00;
+$bgOrange: $red; //#ff7839;
 $overOrange: #ff9867;
 
 //padding
 $base-padding-lite: .2em;
+$base-padding-mid: .8em;
 $base-padding: 1.2em;
 
 // link vars
@@ -32,7 +35,7 @@ $linkDecoration: none;														// default link decoration
 
 // heading vars
 $headingFamily: "bree", "Helvetica Neue", Helvetica, Arial, sans-serif;	        // default heading font
-$headingColor: #052B27;															// default heading color
+$headingColor: $blackTeal;															// default heading color
 
 // grid variables
 $baseWidth: 		1000px; 										            // change this to alter the overall width of the grid
