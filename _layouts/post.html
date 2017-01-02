@@ -47,7 +47,7 @@
                 {% include prev_next.html %}
 
                 <div class="content" itemprop="articleBody">
-                    <div class="excerpt">{{ page.content | split: '<!--more-->' | first | markdownify }}</div>
+                    <div>{{ page.content | split: '<!--more-->' | first | markdownify }}</div>
                     {{ page.content | split: '<!--more-->' | last | markdownify }}
                     {% if page.image.credit %}<div class="image-credit">
                         <span class="intro">Feature image</span> {{ page.image.title}}<br/>
