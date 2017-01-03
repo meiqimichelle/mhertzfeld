@@ -44,7 +44,7 @@ markdown_ext:  markdown,mkd,mkdn,md
 excerpt_separator: <!--more-->
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title
+permalink:   /:categories/:title/
 
 # Amount of post to show on home page
 paginate: 5
