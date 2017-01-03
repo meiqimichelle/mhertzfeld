@@ -8,7 +8,7 @@ image:
  creditlink: http://www.howardneedham.com/
  work: boorse.jpg
 author: Michelle Hertzfeld
-tags: [website, design, code]
+tags: [design, code, small business]
 categories: [work]
 ---
 The Boorse Collection of Contemporary Violins needed an online home that would display the beauty and quality of its pieces, and also share the backgrounds and artisanship of the modern violin-makers represented in its collection. My site design guides visitors through a virtual tour of this amazing collection.<!--more-->

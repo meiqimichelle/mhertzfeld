@@ -3,66 +3,53 @@ layout: home
 title: Home
 description: "Michelle Hertzfeld is a web designer with specialties in science communications, open data and user experience. Making content and communications kinder and clearer since 2001."
 permalink: /
-sitemap:
- priority: 1.0
- changefreq: weekly
- lastmod: 2013-10-20
 ---
 
-{% include contact.html %}
-
 <div class="sixteen columns alpha site_head" role="banner" itemscope itemtype="http://schema.org/WPHeader">
-    <div class="five columns alpha">
-        <h1>Hi there!</h1>
-    </div>
-    <div class="eight columns">
-        <p>I'm Michelle. I design websites and user experiences. That means I specialize in clarity, structure and kindness. Read my thoughts here, or <a href="{{ site.baseurl }}/work">see my latest work</a>. You can <a href="#home">say hello</a>, too!</p>
-    </div>
-    <div class="three columns omega contact">
-        <div class="toggle bot"><a href="#">Close</a></div>
-        <div class="toggle top"><a href="#home">Contact</a></div>
-    </div>
+  <div class="sixteen columns alpha">
+    <h1>Hi there!</h1>
+  </div>
+
+  <div class="eight columns alpha">
+    <p class="home_intro">I'm Michelle. I design websites and user experiences.</p>
+  </div>
 </div>
 
-<!-- display latest post big n' pretty -->
-{% for post in site.categories.thoughts limit:1 %}
-    <article class="twelve columns alpha" itemscope itemtype="http://schema.org/BlogPosting">
-        {% if post.image.feature %}
-            <div class="latest_post">
-                <img src="{{ site.url }}/assets/img/{{ post.image.feature }}" alt="{{ post.title }}" class="feature_image" itemprop="image">
-                <div class="feature_post">
-                    <a href="{{ post.url }}"><h1 itemprop="headline">{{ post.title }}</h1></a>
-                        <div class="feature_meta">
-                            <p><span class="highlight" itemprop="author">{{ post.author }}</span><time datetime="{{ post.date }}" itemprop="datePublished"> posted on <span class="highlight">{{ post.date | date_to_long_string }}</span></time> about <span class="highlight" itemprop="keywords">{{ post.tags | join: ', ' }}</span>.</p>
-                        </div>
-                    <div itemprop="articleBody">
-                        <div class="excerpt">{{ post.content | split: '<!--more-->' | first }}</div>
-                        {{ post.content | split: '<!--more-->' | last }}
-                    </div>
-                </div>
-            </div>
-        {% endif %}
-    </article>
-{% endfor %}
+<div class="sixteen columns alpha home_main">
+  <div class="four columns alpha">
+    <div class="home_me"><a><img src="{{ site.url }}/assets/img/michelle@2x.jpg" alt="{{ page.title }}" itemprop="image" id="clipping" class="home_me-clip"><h1>That's me!</h1></a></div>
+  </div>
+  <div class="ten columns">
+    <p>Here's some of what I do:</p>
+    <ul>
+      <li>Lead cross-discipline teams to build products that meet user needs</li>
+      <li>Facilitate workshops for team alignment and design solutions</li>
+      <li>Manage and build design teams</li>
+      <li>Create alignment around product vision</li>
+      <li>Code HTML, CSS and some JavaScript</li>
+      <li>Solve tough data and science communications problems</li>
+    </ul>
+  </div>
+</div>
 
-<!-- display four more posts smaller -->
-    <article class="twelve columns alpha" itemscope itemtype="http://schema.org/BlogPosting">
-        <h1 class="moar">more posts, yee haw!</h1>
-        {% for post in site.categories.thoughts limit:3 offset:1 %}
-            <div class="another_post">
-                <div class="another_image">
-                    <img src="{{ site.url }}/assets/img/{{ post.image.feature }}" alt="{{ post.title }}" itemprop="image">
-                </div>
-                <a href="{{ post.url }}"><h1 itemprop="headline">{{ post.title }}</h1></a>
-                <div class="another_meta">
-                    <p><span class="highlight" itemprop="author">{{ post.author }}</span><time datetime="{{ post.date }}" itemprop="datePublished"> posted on <span class="highlight">{{ post.date | date_to_long_string }}</span></time>.</p>
-                </div>
-                <div class="excerpt" itemprop="articleBody">
-                    {{ post.content | split: '<!--more-->' | first }}
-                </div>
-                <div class="continue">
-                    <a href="{{ post.url }}">&rarr; continue reading &rarr;</a>
-                </div>
-            </div>
-        {% endfor %}
-    </article>
+<div class="sixteen columns alpha home_subhead">
+  <h2>Don't take my word for it. See my work:</h2>
+</div>
+
+<section class="work_wrapper row" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+    {% for post in site.categories.work limit:8 %}
+      <a href="{{ post.url }}">
+        <article class="eight columns work_post-bg">
+            {% if post.image.work %}
+              <div class="work_post row">
+                  <img src="{{ site.baseurl }}/assets/img/{{ post.image.work }}" alt="{{ post.title }}" itemprop="image" class="work_image three columns alpha">
+                  <div class="four columns omega">
+                    <h1>{{ post.title }}</h1>
+                    <p class="highlight">{{ post.tags | join: ', ' }}</p>
+                  </div>
+              </div>
+            {% endif %}
+        </article>
+      </a>
+    {% endfor %}
+</section>

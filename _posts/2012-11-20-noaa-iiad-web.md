@@ -1,5 +1,5 @@
 ---
-title: NOAA IIAD Online
+title: National Oceanic and Atmospheric Administration Site
 layout: post-work
 image:
  feature: typhoonpabuk_dark.jpg
@@ -8,7 +8,7 @@ image:
  creditlink: http://www.nnvl.noaa.gov/MediaDetail2.php?MediaID=1434&MediaTypeID=1
  work: iiad.jpg
 author: Michelle Hertzfeld
-tags: [website, IA, design, code, gov]
+tags: [IA, design, code, government]
 categories: [work]
 ---
 The NOAA Satellite and Information Service's (NESDIS) International and Interagency Affairs Division (IIAD) needed a new website. Really, they needed a modern strategy for communicating with its customers online.<!--more-->

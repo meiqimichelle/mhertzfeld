@@ -34,7 +34,6 @@ h4, h5, h6 {
 h1 {
 	font-size: 2.5em;
 	line-height: 1em;
-	margin-bottom: 1em;
 }
 h2 {
 	font-size: 1.8em;
@@ -44,13 +43,13 @@ h2 {
 }
 h3 {
 	font-size: 1.5em;
-    font-family: $fontFamily;
-    margin-top: 1.3em;
+  font-family: $fontFamily;
+  margin-top: 1.3em;
 	margin-bottom: 1em;
 }
 .subheader { color: #777; }
 p {
-  margin: 0 0 20px 0;
+  margin: 0 0 $base-padding 0;
   img {
     margin: 0;
     max-width: 100%;

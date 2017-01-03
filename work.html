@@ -3,51 +3,31 @@ layout: home
 title: Michelle Hertzfeld &#8211; Web and UX Designer &#8211; Work
 description: "Michelle Hertzfeld is a web designer with specialties in science communications, open data and user experience. Making content and communications kinder and clearer since 2001. This is her work."
 permalink: /work/
-sitemap:
- priority: 0.5
- changefreq: monthly
- lastmod: 2013-10-15
 ---
 
-<div id="contact" itemscope itemtype="http://schema.org/ContactPoint">
-    <p class="contact"><span itemprop="email" class="padRight20">design@mhertzfeld.com</span> @meiqimichelle</p>
-</div>
-
 <div class="sixteen columns alpha site_head">
-    <div class="five columns alpha">
+    <div class="sixteen columns alpha">
         <h1>Work</h1>
     </div>
-    <div class="eight columns">
-        <p>I've done full design-and-code projects (CSS3, HTML5, jQuery) as well as user research and product management. I really love working on science and data communication and maps. <a href="{{ site.baseurl }}/about">It all makes sense.</a></p>
-    </div>
-    <div class="three columns omega contact">
-        <div class="toggle bot"><a href="#">Close</a></div>
-        <div class="toggle top"><a href="#home">Contact</a></div>
+    <div class="twelve columns alpha">
+        <p class="home_intro">My roles on projects vary, from complete design-and-code projects to user research specialist to team lead and product manager.</p>
     </div>
 </div>
 
-<!-- display work in three columns -->
-<section class="work_wrapper" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+<section class="work_wrapper row" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
     {% for post in site.categories.work limit:8 %}
-    <article class="five columns module">
-        {% if post.image.work %}
-        <div class="work_post">
-            <a href="{{ post.url }}">
-                <img src="{{ site.baseurl }}/assets/img/{{ post.image.work }}" alt="{{ post.title }}" itemprop="image" class="work_image">
-                <div class="work_hover">
-                    <h1 class="work_title">{{ post.title }}</h1>
-                    <div class="work_more"><p>+</p></div>
-                    <p><span class="work_topics">{{ post.tags | join: '</span> <span class="work_topics">' }}</span></p>
-                </div>
-                <div class="work_more mobile"><p>+</p></div>
-            </a>
-        </div>
-        {% endif %}
-    </article>
+      <a href="{{ post.url }}">
+        <article class="eight columns work_post-bg">
+            {% if post.image.work %}
+              <div class="work_post row">
+                  <img src="{{ site.baseurl }}/assets/img/{{ post.image.work }}" alt="{{ post.title }}" itemprop="image" class="work_image three columns alpha">
+                  <div class="four columns omega">
+                    <h1>{{ post.title }}</h1>
+                    <p class="highlight">{{ post.tags | join: ', ' }}</p>
+                  </div>
+              </div>
+            {% endif %}
+        </article>
+      </a>
     {% endfor %}
-    <article class="five columns module">
-        <div class="work_post">
-            <p>I'm pretty busy right now, but I always love to hear about interesting projects. <a href="mailto:design@mhertzfeld.com">Contact me</a> to talk shop.</p>
-        </div>
-    </article>
 </section>

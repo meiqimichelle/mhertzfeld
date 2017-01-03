@@ -8,7 +8,7 @@ image:
  creditlink: http://ronetjewelry.bigcartel.com
  work: ronet.jpg
 author: Michelle Hertzfeld
-tags: [e-commerce, design, code]
+tags: [e-commerce, design, code, small business]
 categories: [work]
 ---
 Ronét Jewelry is a growing small business based in Silver Spring, Maryland that wanted to expand to online sales. Online sales meant Ronét needed a website!<!--more-->

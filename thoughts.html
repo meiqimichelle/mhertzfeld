@@ -3,24 +3,14 @@ layout: home
 title: Thoughts
 description: "Michelle Hertzfeld is a web designer with specialties in science communications, open data and user experience. Making content and communications kinder and clearer since 2001."
 permalink: /thoughts/
-sitemap:
- priority: 0.5
- changefreq: weekly
- lastmod: 2013-10-20
 ---
 
-{% include contact.html %}
-
 <div class="sixteen columns alpha site_head" role="banner" itemscope itemtype="http://schema.org/WPHeader">
-    <div class="five columns alpha">
+    <div class="sixteen columns alpha">
         <h1>Thoughts</h1>
     </div>
-    <div class="eight columns">
-        <p>Here's a list of my latest posts. I think on lots of things, but here I write mostly on technology and design.</p>
-    </div>
-    <div class="three columns omega contact">
-        <div class="toggle bot"><a href="#">Close</a></div>
-        <div class="toggle top"><a href="#home">Contact</a></div>
+    <div class="twelve columns alpha">
+        <p class="home_intro">I sometimes write about technology, civic tech, and design here.</p>
     </div>
 </div>
 
@@ -31,15 +21,17 @@ sitemap:
             <div class="another_image">
                 <img src="{{ site.baseurl }}/assets/img/{{ post.image.feature }}" alt="{{ post.title }}" itemprop="image">
             </div>
-            <a href="{{ post.url }}"><h1 itemprop="headline">{{ post.title }}</h1></a>
-            <div class="another_meta">
-                <p><span class="highlight" itemprop="author">{{ post.author }}</span><time datetime="{{ post.date }}" itemprop="datePublished"> posted on <span class="highlight">{{ post.date | date_to_long_string }}</span></time> about <span class="highlight" itemprop="keywords">{{ post.tags | join: ', ' }}</span>.</p>
-            </div>
-            <div class="excerpt" itemprop="articleBody">
-                {{ post.content | split: '<!--more-->' | first }}
-            </div>
-            <div class="continue">
-                <a href="{{ post.url }}">&rarr; continue reading &rarr;</a>
+            <div class="another_post-container">
+              <a href="{{ post.url }}"><h1 itemprop="headline">{{ post.title }}</h1></a>
+              <div class="another_meta">
+                  <p><span class="highlight" itemprop="author">{{ post.author }}</span><time datetime="{{ post.date }}" itemprop="datePublished"> posted on <span class="highlight">{{ post.date | date_to_long_string }}</span></time> about <span class="highlight" itemprop="keywords">{{ post.tags | join: ', ' }}</span>.</p>
+              </div>
+              <div itemprop="articleBody">
+                  {{ post.content | split: '<!--more-->' | first }}
+              </div>
+              <div class="continue">
+                  <a href="{{ post.url }}">&rarr; continue reading &rarr;</a>
+              </div>
             </div>
         </div>
         {% endfor %}
