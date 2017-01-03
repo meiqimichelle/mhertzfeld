@@ -1,5 +1,5 @@
 ---
-title: GEO Portal
+title: Group on Earth Observations Portal
 layout: post-work
 image:
  feature: gibraltar.jpg
@@ -8,7 +8,7 @@ image:
  creditlink: http://landsat.usgs.gov/
  work: geo.jpg
 author: Michelle Hertzfeld
-tags: [UX, IA, consult, gov]
+tags: [UX, IA, consult, government]
 categories: [work]
 ---
 The Group on Earth Observations (GEO) is a voluntary partnership of governments and international organizations that is coordinating efforts to build a Global Earth Observation System of Systems, or GEOSS. Access to GEOSS resources is through the GEO Portal and I provided user experience and information architecture analysis of its future design.<!--more-->

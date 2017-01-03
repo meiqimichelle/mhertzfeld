@@ -1,5 +1,5 @@
 ---
-title: College Scorecard
+title: President Obama's College Scorecard
 layout: post-work
 image:
  feature: college_feature.jpg
@@ -8,7 +8,7 @@ image:
  creditlink: https://collegescorecard.ed.gov/
  work: college_work.jpg
 author: Michelle Hertzfeld
-tags: [code, gov]
+tags: [code, government]
 categories: [work]
 ---
 The Obama Administration had been trying to rank colleges for years, but coming to consensus on what 'good' means had proven too difficult. Instead, the [College Scorecard](https://collegescorecard.ed.gov/) provides data on student outcomes both as an easy-to-use online tool, and as an open-data API for others to make their own tools from.<!--more-->
@@ -35,7 +35,7 @@ One of my favorite parts of working on this project was the live styleguide we c
 
 ![College scorecard styleguide](/assets/img/college_styleguide.jpg)
 
-Although responsive design is always important on every project, user testing had shown that our front end tool (the interface at collegescorecard.ed.gov) in particular needed to be usabiliy on cellphone-sized screens. It turned out that our primary audience for that tool was much more likely to access the site on a mobile device than on a desktop computer. Conversely, when things got tight close to rollout, we spent less time on perfecting responsive work on the data downloads part of the site, as the users for that section primarily used full desktop computers.
+Although responsive design is always important on every project, user testing had shown that our front end tool (the interface at collegescorecard.ed.gov) in particular needed to be usability on cellphone-sized screens. It turned out that our primary audience for that tool was much more likely to access the site on a mobile device than on a desktop computer. Conversely, when things got tight close to rollout, we spent less time on perfecting responsive work on the data downloads part of the site, as the users for that section primarily used full desktop computers.
 
 One of the challenges of this project was the need to keep our work hidden behind passwords and logins until the President made the official announcement. This made testing things like meta tags challenging to say the least! Fortunately, since this project was meant to launch tons of newly-open data into the world, after the announcement our entire codebase (in addition to the College Scorecard API and data) was made open on GitHub for others to fork, learn from and improve.
 
