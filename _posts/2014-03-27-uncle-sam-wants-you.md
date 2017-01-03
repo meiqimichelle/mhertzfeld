@@ -52,7 +52,7 @@ Becoming a Fellow is a commitment to work as hard as you can on behalf of the Am
 
 But it is not a never-ending commitment. You are not signing up to become a permanent Federal employee. You will contribute your industry and entrepreneurial expertise to improve government and take what you have learned from other Fellows with you when you leave.
 
-##So What Are YOU Waiting for?
+## So What Are YOU Waiting for?
 
 [Apply](https://gsafas.secure.force.com/apply) by April 7, 2014. Throw your hat into the ring to make digital services in America an extension of the civic innovation that Franklin and  Jefferson pioneered while collaborating with some of the smartest, most dedicated people you will ever meet, solving some of the most important, challenging problems of this generation.
 
