@@ -2,7 +2,7 @@ title:            "Michelle Hertzfeld &#8211; Web and UX Designer"
 description:      Michelle Hertzfeld is a web designer and user experience specialist. Making content and communications kinder and clearer since 2001.
 
 lsi: false
-highlighter: pygments
+highlighter: rouge
 
 sass:
   sass_dir: assets/_sass
