@@ -54,6 +54,10 @@ body {
 		font-weight: 600;
     margin-right: 3%;
 	  position: relative;
+		
+		&:last-of-type {
+			margin-right: 1%;
+		}
 	}
 
 	a {
