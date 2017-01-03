@@ -6,36 +6,28 @@ permalink: /work/
 ---
 
 <div class="sixteen columns alpha site_head">
-    <div class="five columns alpha">
+    <div class="sixteen columns alpha">
         <h1>Work</h1>
     </div>
-    <div class="eight columns">
-        <p>I've done full design-and-code projects (CSS3, HTML5, jQuery) as well as user research and product management. I really love working on science and data communication and maps. <a href="{{ site.baseurl }}/about">It all makes sense.</a></p>
+    <div class="twelve columns alpha">
+        <p class="home_intro">My roles on projects vary, from complete design-and-code projects to user research specialist to team lead and product management.</p>
     </div>
 </div>
 
-<!-- display work in three columns -->
-<section class="work_wrapper" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+<section class="work_wrapper row" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
     {% for post in site.categories.work limit:8 %}
-    <article class="five columns module">
-        {% if post.image.work %}
-        <div class="work_post">
-            <a href="{{ post.url }}">
-                <img src="{{ site.baseurl }}/assets/img/{{ post.image.work }}" alt="{{ post.title }}" itemprop="image" class="work_image">
-                <div class="work_hover">
-                    <h1 class="work_title">{{ post.title }}</h1>
-                    <div class="work_more"><p>+</p></div>
-                    <p><span class="work_topics">{{ post.tags | join: '</span> <span class="work_topics">' }}</span></p>
-                </div>
-                <div class="work_more mobile"><p>+</p></div>
-            </a>
-        </div>
-        {% endif %}
-    </article>
+      <a href="{{ post.url }}">
+        <article class="eight columns work_post-bg">
+            {% if post.image.work %}
+              <div class="work_post work_test row">
+                  <img src="{{ site.baseurl }}/assets/img/{{ post.image.work }}" alt="{{ post.title }}" itemprop="image" class="work_image three columns alpha">
+                  <div class="four columns omega">
+                    <h1>{{ post.title }}</h1>
+                    <p class="highlight">{{ post.tags | join: ', ' }}</p>
+                  </div>
+              </div>
+            {% endif %}
+        </article>
+      </a>
     {% endfor %}
-    <article class="five columns module">
-        <div class="work_post">
-            <p>I'm pretty busy right now, but I always love to hear about interesting projects. <a href="mailto:design@mhertzfeld.com">Contact me</a> to talk shop.</p>
-        </div>
-    </article>
 </section>
