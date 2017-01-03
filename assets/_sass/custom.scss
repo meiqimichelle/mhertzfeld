@@ -40,6 +40,11 @@ body {
     margin: 0;
     padding-top: $base-padding-lite;
 		text-align: right;
+		
+		/* All Mobile Sizes (devices and browser) */
+		@media only screen and (max-width: $tabletWidth - 1) {
+			text-align: center;
+		}
   }
 
   li {
@@ -97,6 +102,11 @@ body {
 	p {
 		line-height: .6;
 		margin-bottom: $base-padding-mid;
+		
+		/* All Mobile Sizes (devices and browser) */
+		@media only screen and (max-width: $tabletWidth - 1) {
+			padding-top: $base-padding;
+		}
 	}
 	
 	ul li {
@@ -104,11 +114,21 @@ body {
 		list-style-position: outside;
 		margin-left: 1.8em;
 		padding-bottom: $base-padding-lite;
+		
+		/* All Mobile Sizes (devices and browser) */
+		@media only screen and (max-width: $tabletWidth - 1) {
+			line-height: 1.2;
+		}
 	}
 }
 
 .home_subhead {
 	margin-top: $base-padding;
+	
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: $tabletWidth - 1) {
+		margin-top: $base-padding-mid;
+	}
 }
 
 .home_me {
@@ -273,99 +293,6 @@ body {
  * ------------------------------------------------ */
 
 /* styling for work */
-// .work_wrapper {
-//   //margin-left: -10px;
-// 
-// 	article:nth-of-type(8) {
-// 		margin-bottom: 50px;
-// 	}
-// }
-// 
-// .work_post {
-//   background-color: $midTeal;
-//   position: relative;
-// 	padding: $base-padding $base-padding $base-padding 0;
-//   //padding: 40px 40px 40px 40px;
-//   margin-bottom: 20px;
-// 
-// 	background: url(#clipping) no-repeat;
-// 	-webkit-clip-path: polygon(50% 0, 100% 0, 100% 75%, 50% 100%, 0 100%, 0% 25%);
-// 	clip-path: polygon(50% 0, 100% 0, 100% 75%, 50% 100%, 0 100%, 0% 25%);
-// 	overflow: hidden;
-// 
-//   h1 {
-//     font-family: $headingFamily;
-//     color: $white;
-//     font-size: 3em;
-//     line-height: 1em;
-//     margin: 5px 0 20px 8px;
-//     width: 80%;
-//   }
-// 
-//   a {
-//   	border-bottom: none;
-// 
-//     &:hover, &:focus {
-//     text-decoration: none;
-//     }
-//   }
-// }
-// 
-// .work_image {
-// 	border: 1px solid $lightTeal;
-//   height: 100%;
-//   overflow: hidden;
-// 	position: relative;
-//   width: 100%;
-// }
-// 
-// .work_hover {
-//   background-color: $bgOrange;
-//   position: absolute;
-//   top: 0; left: 0;
-//   width: 100%;
-//   height: 100%;
-//   opacity: 0;
-// 
-//   p {
-//     font-family: $fontFamily;
-//     font-size: 1.5em;
-//     color: $white;
-//     text-align: right;
-//     width: 97%;
-//     position: absolute;
-//     bottom: 0;
-//     margin-bottom: 0;
-//   }
-// }
-// 
-// .work_more {
-//   position: absolute;
-//   top: 0; right: 0;
-//   margin: 5px 5px 0 0;
-//   height: 45px;
-//   width: 45px;
-// 
-//   p {
-//     position: relative;
-//     font-size: 5em;
-//     margin-top: -3px;
-//   }
-// }
-// 
-// .work_topics {
-//   font-style: italic;
-//   line-height: 1.6em;
-//   padding: 0 5px;
-//   border-top: 1px solid $white;
-//   border-right: 1px solid $white;
-// }
-// 
-// .mobile {
-//   display: none;
-// }
-
-/* test styling for work */
 .work_wrapper {
 	margin-left: -10px;
 	margin-bottom: $base-padding-big;
@@ -373,11 +300,6 @@ body {
 
 .work_post-bg {
 	margin-bottom: $base-padding-big;
-
-// 	background: url(#clipping) no-repeat;
-// 	-webkit-clip-path: polygon(0 0, 100% 0, 100% 70%, 75% 100%, 0 100%, 0 0);
-// clip-path: polygon(0 0, 100% 0, 100% 70%, 75% 100%, 0 100%, 0 0);
-	//overflow: hidden;
 }
 
 .work_post {
@@ -404,16 +326,25 @@ body {
     font-family: $headingFamily;
 		font-size: 1.2em;
 		margin: ($base-padding-lite * 2) $base-padding-lite ($base-padding-lite * 2) 0;
+		
+		/* All Mobile Sizes (devices and browser) */
+		@media only screen and (max-width: $tabletWidth - 1) {
+			font-size: 1.6em;
+			margin: $base-padding-mid $base-padding-mid $base-padding-lite $base-padding-mid;
+		}
   }
 
   p {
 		font-size: .9em;
 		line-height: 1.2;
+		
+		/* All Mobile Sizes (devices and browser) */
+		@media only screen and (max-width: $tabletWidth - 1) {
+			font-size: 1em;
+			line-height: 1.3;
+			margin-left: $base-padding;
+		}
 	}
-}
-
-.work_test {
-	height: 100%;
 }
 
 .work_image {
@@ -494,6 +425,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding: 100px 0;
+	
   &:after { /* center line */
     content:'';
     position: absolute;
@@ -507,10 +439,12 @@ body {
   .about_box:nth-child(odd) {
     float: left;
     clear: both;
+		
     &:before {
       left: 100%;
-      border-color:  transparent transparent transparent lighten(#D1F3EE, 10%);
+      border-color:  transparent transparent transparent lighten(#d1f3ee, 10%);
     }
+		
     &:after {
       right: -43px;
       top: 42px;
@@ -521,10 +455,12 @@ body {
     clear: right;
     float: right;
     margin-top: 50px;
+		
     &:before {
       right: 100%;
-      border-color:  transparent lighten(#D1F3EE, 10%) transparent transparent;
+      border-color:  transparent lighten(#d1f3ee, 10%) transparent transparent;
     }
+		
     &:after {
       left: -49px;
       top: 42px;
