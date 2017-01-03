@@ -22,9 +22,6 @@
     <div class="five columns alpha">
         <h1>Thoughts</h1>
     </div>
-    <div class="eight columns">
-        <p></p>
-    </div>
 </div>
 
 
@@ -40,8 +37,9 @@
             {% include prev_next.html %}
 
             <div class="content" itemprop="articleBody">
-                <div>{{ page.content | split: '<!--more-->' | first | markdownify }}</div>
-                {{ page.content | split: '<!--more-->' | last | markdownify }}
+                <div>
+                  {{ page.content | markdownify }}
+                </div>
                 {% if page.image.credit %}<div class="image-credit">
                     <span class="intro">Feature image</span> {{ page.image.title}}<br/>
                     <span class="intro">Source</span> <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a>
