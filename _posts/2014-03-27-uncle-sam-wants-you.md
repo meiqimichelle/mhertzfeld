@@ -15,7 +15,7 @@ Round Three of the [Presidential Innovation Fellows](http://www.whitehouse.gov/i
 
 Why should you (yes, YOU) take time out of your busy schedule to apply (deadline: April 7)? Three important reasons: <!--more-->
 
-##1. Uncle Sam Wants YOU...to Help Millions
+## 1. Uncle Sam Wants YOU...to Help Millions
 
 Working with Innovation Partners inside government agencies Rounds One and Two of the Innovation Fellows program touched millions of lives in important ways:
 
@@ -38,7 +38,7 @@ Here’s a taste of what these projects do:
 
 + Adverse Drug Effects gives doctors the [information](http://open.fda.gov) they need to treat patients safely.
 
-##2. Uncle Sam Wants YOU...to Work With Amazing People on Big Problems
+## 2. Uncle Sam Wants YOU...to Work With Amazing People on Big Problems
 
 Innovation Fellows come from many backgrounds and have a wide range of skills, but they share two characteristics: excellence and dedication. Do you long to work with a team that constantly challenges you? Do you long to work with peers who are all top-of-class problem solvers and creative minds?
 
@@ -46,7 +46,7 @@ And not only are the people you’ll work with extremely technically and creativ
 
 As an Innovation Fellow, you will have extraordinary leverage to solve big problems and implement game-changing solutions. Some of the projects in the diagram above were not planned, but discovered as opportunities in the course of other projects.
 
-##3. Uncle Sam Wants YOU...to Serve and Return
+## 3. Uncle Sam Wants YOU...to Serve and Return
 
 Becoming a Fellow is a commitment to work as hard as you can on behalf of the American people. It is a commitment to patiently run through walls that exist in the government bureaucracy. It is a commitment to spend a lot of time in DC.
 
