@@ -274,6 +274,12 @@ body {
 .footer-wrapper {
   background-color: $white;
   padding-bottom: $base-padding-big;
+	
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: $tabletWidth - 1) {
+		padding-left: $base-padding-lite;
+    padding-right: $base-padding-lite;
+	}
 
   h1 {
     font-size: 1.1em;
@@ -402,6 +408,11 @@ body {
   margin-bottom: 100px;
 	padding: $base-padding-big $base-padding-big $base-padding $base-padding-big;
 	
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: $tabletWidth - 1) {
+	  margin-top: 0;
+	}
+	
 	h1 {
 		font-size: 2.1em;
 		margin-bottom: $base-padding-lite;
@@ -412,6 +423,13 @@ body {
   img {
       width: 100%; height: 100%;
   }
+}
+
+.image-credit {
+	border-top: 1px solid $midTeal;
+	font-size: .9em;
+	margin-top: $base-padding-big;
+	padding-top: $base-padding-mid;
 }
 
 /* styling for about */
@@ -512,9 +530,43 @@ body {
   padding: 25px;
 }
 
-.image-credit {
-	border-top: 1px solid $midTeal;
-	font-size: .9em;
-	margin-top: $base-padding-big;
-	padding-top: $base-padding-mid;
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: $tabletWidth - 1) {
+	.about_wrapper {
+			.about_box:nth-child(odd) {
+					float: none;
+					&:before {
+							left: 48%;
+							border-color:  transparent transparent lighten(#D1F3EE, 10%) transparent;
+					}
+					&:after {
+							right: 0px;
+							left: 49%;
+							top: -47px;
+					}
+			}
+			.about_box:nth-child(even) {
+					float: none;
+					margin-top: 0;
+					&:before {
+							left: 48%;
+							border-color:  transparent transparent lighten(#D1F3EE, 10%) transparent;
+					}
+					&:after {
+							left: 49%;
+							top: -47px;
+					}
+			}
+	}
+	.about_box {
+			margin-bottom: 95px;
+			width: 98%;
+			z-index: 1;
+			&:before { /* triangle */
+					top: -32px;
+			}
+	}
+	.about_me {
+			padding-top: 10px;
+	}
 }
