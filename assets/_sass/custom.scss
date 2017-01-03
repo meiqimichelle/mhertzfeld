@@ -5,7 +5,7 @@ body {
 }
 
 ::selection {
-  background-color: $overOrange;
+  background-color: $orange;
 }
 .clearitup {
   content: '';
@@ -73,13 +73,13 @@ body {
   margin-top: 5.5em;
 
   h1 {
+	  font-size: 4em;
     font-weight: 900;
-    font-size: 4em;
   }
 
   h2 {
+	  font-size: 2em;
     font-weight: 300;
-    font-size: 2em;
   }
 
   a {
@@ -110,8 +110,8 @@ body {
 	}
 	
 	ul li {
-		list-style-type: disc;
 		list-style-position: outside;
+		list-style-type: disc;
 		margin-left: 1.8em;
 		padding-bottom: $base-padding-lite;
 		
@@ -140,14 +140,15 @@ body {
   }
 	
   h1 {
-    position: absolute;
+	  color: $red;
+    display: none;
     font-weight: 800;
     font-size: 4.8em;
-    line-height: .8em;
-    top: 27%; left: 0;
-    color: $bgOrange;
-    display: none;
+		left: 0;
+    line-height: .8;
+	  position: absolute;
     text-shadow: 5px 5px 0px rgba(23,148,142,0.7);
+    top: 27%;
   }
 	
 	img {
@@ -167,10 +168,10 @@ body {
 }
 
 .home_me-clip {
-    background: url(#clipping) no-repeat;
-		-webkit-clip-path: polygon(50% 0, 100% 0, 100% 75%, 50% 100%, 0 100%, 0% 25%);
-		clip-path: polygon(50% 0, 100% 0, 100% 75%, 50% 100%, 0 100%, 0% 25%);
-    overflow: hidden;
+  background: url(#clipping) no-repeat;
+	-webkit-clip-path: polygon(50% 0, 100% 0, 100% 75%, 50% 100%, 0 100%, 0% 25%);
+	clip-path: polygon(50% 0, 100% 0, 100% 75%, 50% 100%, 0 100%, 0% 25%);
+  overflow: hidden;
 }
 
 /* styling for blog posts on homepage */
@@ -180,18 +181,13 @@ body {
 }
 
 .feature_image {
-  position: relative;
-  width: 112%;
   height: 100%;
   overflow: hidden;
+  position: relative;
+  width: 112%;
 }
 
 .feature_post, .another_post, .post_inner {
-  //background-color: $white; /*fallback for older browsers*/
-  //background-color: rgba(255,255,255,0.95);
-  //padding: 0 70px 50px 70px;
-  //position: relative;
-	
   a:first-of-type {
     &:hover, &:focus, &:active {
       text-decoration: none;
@@ -200,49 +196,44 @@ body {
 	
   h1 {
 		font-size: 1.4em;
-    line-height: 1.1em;
+    line-height: 1.1;
     text-decoration: none;
 		
     &:hover, 
 		&:focus, 
 		&:active {
-      background-color: $overOrange;
+      background-color: $orange;
       text-decoration: underline;
     }
   }
 	
   p {
-    line-height: 1.4em;
+    line-height: 1.4;
   }
 	
   ul {
     list-style: disc outside;
-    padding-left: $base-padding-mid;
 		margin-left: 1em;
+    padding-left: $base-padding-mid;
   }
 	
   li {
-    line-height: 1.4em;
+    line-height: 1.4;
   }
 }
 
 .feature_meta {
   p {
-      font-size: .9em;
-			margin-bottom: $base-padding-lite;
+    font-size: .9em;
+		margin-bottom: $base-padding-lite;
   }
 }
 
-.moar {
-  margin-top: 35px;
-  opacity: 0.5;
-}
-
 .another_image {
-  position: relative;
-  width: 100%;
   height: 160px;
   overflow: hidden;
+  position: relative;
+  width: 100%;
 	
   img {
       margin: -350px 0 -400px 0;
@@ -283,14 +274,14 @@ body {
 
   h1 {
     font-size: 1.1em;
+    font-weight: 600;
     margin-bottom: $base-padding-mid;
     margin-top: $base-padding-big;
-    font-weight: 600;
   }
 
   p, ul {
     font-size: .9em;
-    line-height: 1.3em;
+    line-height: 1.3;
     margin-bottom: 10px;
   }
 }
@@ -300,8 +291,8 @@ body {
 
 /* styling for work */
 .work_wrapper {
+  margin-bottom: $base-padding-big;
 	margin-left: -10px;
-	margin-bottom: $base-padding-big;
 }
 
 .work_post-bg {
@@ -311,8 +302,8 @@ body {
 .work_post {
   background-color: $white;
 	border: 2px solid $white;
-	padding: 0;
   margin-bottom: 0;
+	padding: 0;
 	
 	&:hover,
 	&:focus,
@@ -364,15 +355,16 @@ body {
 }
 
 .post_feature_image_wrap {
-  position: absolute;
-  left: 0; right: 0;
   height: 75%;
-  overflow: hidden;
+	left: 0;
   margin-top: $top-line;
+  overflow: hidden;
+	position: absolute;
+	right: 0;
 	
   img {
+	  height: auto;
     width: 100%;
-    height: auto;
   }
 }
 
@@ -389,11 +381,11 @@ body {
 	width: 100%;
 	
 	span:nth-child(1) a {
-      float: left;
+    float: left;
   }
   
 	span:nth-child(2) a {
-      float: right;
+    float: right;
   }
 }
 
@@ -421,7 +413,8 @@ body {
 
 .post_work {
   img {
-      width: 100%; height: 100%;
+    height: 100%;
+		width: 100%;
   }
 }
 
@@ -438,29 +431,29 @@ body {
 }
 
 .about_wrapper {
-  max-width: 900px;
-  position: relative;
   margin-left: auto;
   margin-right: auto;
+	max-width: 900px;
   padding: 100px 0;
+  position: relative;
 	
   &:after { /* center line */
+	  border-left: 2px solid $midTeal;
     content:'';
-    position: absolute;
-    top: 0;
     height: 100%;
     left: 49.7%;
+    position: absolute;
+    top: 0;
     width: 20px;
-    border-left: 2px solid $midTeal;
   }
 	
   .about_box:nth-child(odd) {
+	  clear: both;
     float: left;
-    clear: both;
 		
     &:before {
+		  border-color: transparent transparent transparent $white;
       left: 100%;
-      border-color:  transparent transparent transparent lighten(#d1f3ee, 10%);
     }
 		
     &:after {
@@ -475,8 +468,8 @@ body {
     margin-top: 50px;
 		
     &:before {
+      border-color: transparent $white transparent transparent;
       right: 100%;
-      border-color:  transparent lighten(#d1f3ee, 10%) transparent transparent;
     }
 		
     &:after {
@@ -487,30 +480,30 @@ body {
 }
 
 .about_box {
-  position: relative;
+  background-color: $white;
   margin-bottom: 20px;
-  background-color: lighten(#D1F3EE, 10%);
+  position: relative;
   width: 46%;
 	
   &:before { /* triangle */
+		border-style: solid;
+		border-width: 16px;
     content: '';
+    height: 0;
     position: absolute;
     top: 36px;
-    border-style: solid;
-    border-width: 16px;
     width: 0;
-    height: 0;
   }
 	
   &:after { /* dot */
+		background: darken($linkColor, 10%);
+    border-radius: 10px;
+		box-shadow: 0 0 5px rgba(0, 0, 0, 0.1), 1px 1px 0 rgba(0, 0, 0, 0.2), inset 0 0 0 3px #fafafa;
     content: '';
     display: block;
-    width: 20px;
     height: 20px;
-    border-radius: 10px;
-    background: darken($linkColor, 10%);
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1), 1px 1px 0 rgba(0, 0, 0, 0.2), inset 0 0 0 3px #fafafa;
     position: absolute;
+    width: 20px;
     z-index: 1;
   }
 	
@@ -533,39 +526,46 @@ body {
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: $tabletWidth - 1) {
 	.about_wrapper {
-			.about_box:nth-child(odd) {
-					float: none;
-					&:before {
-							left: 48%;
-							border-color:  transparent transparent lighten(#D1F3EE, 10%) transparent;
-					}
-					&:after {
-							right: 0px;
-							left: 49%;
-							top: -47px;
-					}
+		.about_box:nth-child(odd) {
+			float: none;
+			
+			&:before {
+			  border-color:  transparent transparent $white transparent;
+				left: 48%;
 			}
-			.about_box:nth-child(even) {
-					float: none;
-					margin-top: 0;
-					&:before {
-							left: 48%;
-							border-color:  transparent transparent lighten(#D1F3EE, 10%) transparent;
-					}
-					&:after {
-							left: 49%;
-							top: -47px;
-					}
+			
+			&:after {
+				left: 49%;
+				right: 0px;
+				top: -47px;
 			}
+		}
+		.about_box:nth-child(even) {
+			float: none;
+			margin-top: 0;
+			
+			&:before {
+			  border-color:  transparent transparent $white transparent;
+				left: 48%;
+			}
+			
+			&:after {
+				left: 49%;
+				top: -47px;
+			}
+		}
 	}
+	
 	.about_box {
 			margin-bottom: 95px;
 			width: 98%;
 			z-index: 1;
+			
 			&:before { /* triangle */
-					top: -32px;
+				top: -32px;
 			}
 	}
+	
 	.about_me {
 			padding-top: 10px;
 	}

@@ -22,8 +22,7 @@ $midTeal: #17948e;
 $lightTeal: #d1f2ed;
 $warmGold: #f7c167;
 $red: #ff3b00;
-$bgOrange: $red; //#ff7839;
-$overOrange: #ff9867;
+$orange: #ff9867;
 
 //padding
 $base-padding-lite: .2em;
@@ -35,7 +34,7 @@ $top-line: 4px;
 
 // link vars
 $linkColor: $midTeal;																// default link INERT color
-$linkHoverColor: $bgOrange;															// default link HOVER color
+$linkHoverColor: $red;															// default link HOVER color
 $linkDecoration: none;														// default link decoration
 
 // heading vars
