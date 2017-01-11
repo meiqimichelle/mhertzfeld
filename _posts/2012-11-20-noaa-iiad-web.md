@@ -8,7 +8,7 @@ image:
  creditlink: http://www.nnvl.noaa.gov/MediaDetail2.php?MediaID=1434&MediaTypeID=1
  work: iiad.jpg
 author: Michelle Hertzfeld
-tags: [IA, design, code, government]
+tags: [information architecture, wireframes, content, HTML/CSS, JavaScript]
 categories: [work]
 ---
 The NOAA Satellite and Information Service's (NESDIS) International and Interagency Affairs Division (IIAD) needed a new website. Really, they needed a modern strategy for communicating with its customers online.<!--more-->

@@ -8,7 +8,7 @@ image:
  creditlink: https://collegescorecard.ed.gov/
  work: college_work.jpg
 author: Michelle Hertzfeld
-tags: [code, government]
+tags: [accessibility/inclusive design, progressive enhancement, HTML/CSS, education, data visualization]
 categories: [work]
 ---
 The Obama Administration had been trying to rank colleges for years, but coming to consensus on what 'good' means had proven too difficult. Instead, the [College Scorecard](https://collegescorecard.ed.gov/) provides data on student outcomes both as an easy-to-use online tool, and as an open-data API for others to make their own tools from.<!--more-->
