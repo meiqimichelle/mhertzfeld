@@ -19,7 +19,7 @@ logo:            apple-touch-icon-144x144-precomposed.png
 # Owner/author information
 owner:
   name:           Michelle Hertzfeld
-  avatar:         http://meiqimichelle.github.io/mhertzfeld/assets/img/michelle.jpg
+  avatar:         http://meiqimichelle.github.io/mhertzfeld/img/michelle.jpg
   bio:            "I am a UX designer, strategist, and team manager with extensive experience making government digital services usable, effective, and efficient."
   email:          design@mhertzfeld.com
   # Social networking links used in footer. Update and remove as you like.
@@ -46,9 +46,12 @@ excerpt_separator: <!--more-->
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title/
 
+gems:
+  - jekyll-paginate
+
 # Amount of post to show on home page
 paginate: 5
 paginate_path: "/thoughts/page:num"
 
 include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "_site", "assets/.sass-cache/", ".sass-cache/"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "_site", "assets/.sass-cache/", ".sass-cache/",  ".DS_Store", ".ruby-version"]

@@ -9,21 +9,9 @@
 
 <body id="home" itemscope itemtype="http://schema.org/WebPage" >
 
-{% include browser-upgrade.html %}
+{% include browser-upgrade.html %}  
 {% include nav.html %}
-
-
-<div class="g-wrapper">
-  <header class="g-header">My header</header>
-  <aside class="g-sidebar">Sidebar</aside>
-  <article class="g-content">
-    <h1>2 column, header and footer</h1>
-    <p>This example uses line-based positioning, to position the header and footer, stretching them across the grid. Change me!</p>
-  </article>
-  <footer class="g-footer">My footer</footer>
-</div>
-
-
+    
 <div id="main" class="container" role="main" itemscope itemprop="mainContentOfPage" >
   {{ content }}
 </div>
@@ -34,7 +22,7 @@
   </footer>
 </div>
 
-{% include scripts.html %}
+{% include scripts.html %}          
 
 </body>
 </html>

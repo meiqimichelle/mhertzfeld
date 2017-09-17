@@ -20,7 +20,7 @@ Why should you (yes, YOU) take time out of your busy schedule to apply (deadline
 Working with Innovation Partners inside government agencies Rounds One and Two of the Innovation Fellows program touched millions of lives in important ways:
 
 *Innovation Fellow Projects: Contributors and Beneficiaries*
-[![Infographic of Presidential Innovation Fellows projects and their beneficiaries](https://meiqimichelle.github.io/mhertzfeld/assets/img/innovation_fellow_projects.jpg)](https://meiqimichelle.github.io/mhertzfeld/assets/img/innovation_fellow_projects_big.jpg)
+[![Infographic of Presidential Innovation Fellows projects and their beneficiaries](https://meiqimichelle.github.io/mhertzfeld/img/innovation_fellow_projects.jpg)](https://meiqimichelle.github.io/mhertzfeld/img/innovation_fellow_projects_big.jpg)
 
 Here’s a taste of what these projects do:
 
