@@ -1,0 +1,22 @@
+// All element specific rules.
+//
+// This file should have basic site settings,
+// such as background color.
+//
+// Global reset is provided separately by _reset.scss
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: $base-font-color;
+  // font-family: $base-font-family;
+  // font-size: $base-font-size;
+  // font-weight: $base-font-weight;
+  // line-height: $base-line-height;
+}
+
+button {
+  cursor: pointer;
+}

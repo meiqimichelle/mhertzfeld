@@ -1,0 +1,66 @@
+// Weights
+$weight-light: 200;
+$weight-book: 400;
+$weight-bold: 700;
+
+// Colors
+$backgroundColor: #abdbd5;
+$white: white;
+$inkTeal: #052b27;
+$darkTeal: #095048;
+$midTeal: #17948e;
+$lightTeal: #d1f2ed;
+$warmGold: #f7c167;
+$red: #ff3b00;
+$orange: #ff9867;
+
+// Fonts
+$sans-serif: "freight-sans-pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$secondary-font: "bree", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+// Base settings
+$base-font-color: $inkTeal;
+$base-font-family: $sans-serif;
+$base-font-weight: $weight-book;
+$base-font-size: 1.2rem;
+$base-font-multiplier: 1;
+$base-line-height: 1.375rem;
+
+// From old site, remove when ready
+$fontSize: $base-font-size;
+$fontFamily: $sans-serif;
+$fontColor: $inkTeal;
+$formFont: $sans-serif;
+
+//Padding
+$base-padding-lite: .2em;
+$base-padding-mid: .8em;
+$base-padding: 1.2em;
+$base-padding-big: 2.4em;
+
+// Links
+$linkColor: $midTeal;
+$linkHoverColor: $red;
+$linkDecoration: none;
+
+// Headings
+$headingFamily: $secondary-font;
+$headingColor: $inkTeal;
+
+//REMOVE EVERYTHING BELOW HERE ONCE TRANSITION FROM SKELETON IS COMPLETE
+//**********************************************************************
+
+// grid variables
+$baseWidth: 		1000px; 										            // change this to alter the overall width of the grid
+$baseWidthMQ:		1000px;    													// base width for media query calculations in layout file
+$baseColWidth: 		40px;														// change this the alter the grid calculation, see _mixins file for more details
+$baseGutterWidth:	20px;														// calculation has changed, this is mainly here for consistency with 960.gs
+$isFluid: 			false;														// want a fluid grid by default?
+
+// ------ CHANGE MAY CAUSE UNDESIRED RESULTS
+$baseColCount: 		16;															// number of cols to generate
+
+// media query dimensions
+$tabletWidth: 			768px;
+$mobilePortraitWidth: 	420px;
+$mobileLandscapeWidth: 	560px;

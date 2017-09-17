@@ -5,18 +5,8 @@
 // Import all scss, ending with custom styles
 // *******************************************
 
-// imports, from skeleton
-@import 'vars';
-@import 'mixins';
+// include reset
+@import 'reset';
 
-// base, from skeleton
+// include site specific base styles
 @import 'base';
-
-// skeleton, main file
-@import 'skeleton';
-
-// custom
-@import 'custom';
-
-// maybe everything above this is toast
-@import 'grid';

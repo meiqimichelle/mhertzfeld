@@ -1,11 +1,10 @@
-/* RESET & BASICS (Inspired by E. Meyers)
+/* RESET & BASICS
  * ------------------------------------------------ */
-@include global-reset;
 
 /* BASIC STYLES
  * ------------------------------------------------ */
 body {
-	background: $backgroundColor;
+	background: white;
 	font: {
 		size: $fontSize;
 		family: $fontFamily;

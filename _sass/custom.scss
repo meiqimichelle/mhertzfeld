@@ -1,8 +1,8 @@
 /* SITE STYLES
  * ------------------------------------------------ */
-body {
-	background-image: url(../img/bg.svg);
-}
+// body {
+// 	background-image: url(../img/bg.svg);
+// }
 
 ::selection {
   background-color: $orange;
@@ -34,13 +34,13 @@ body {
 
 .nav {
 	background-color: hsla(200, 25%, 90%, 0.5);
-  border-top: $top-line solid $midTeal;
+  //border-top: $top-line solid $midTeal;
 
   ul {
     margin: 0;
     padding-top: $base-padding-lite;
 		text-align: right;
-		
+
 		/* All Mobile Sizes (devices and browser) */
 		@media only screen and (max-width: $tabletWidth - 1) {
 			text-align: center;
@@ -54,7 +54,7 @@ body {
 		font-weight: 600;
     margin-right: 3%;
 	  position: relative;
-		
+
 		&:last-of-type {
 			margin-right: 1%;
 		}
@@ -62,7 +62,7 @@ body {
 
 	a {
 		color: $darkTeal;
-		
+
 		&:hover,
 		&:focus {
 			@include link-ease(color);
@@ -102,23 +102,23 @@ body {
 	border-top: 2px solid $midTeal;
 	margin-top: $base-padding-lite;
 	padding-top: $base-padding;
-	
+
 	p {
 		line-height: .6;
 		margin-bottom: $base-padding-mid;
-		
+
 		/* All Mobile Sizes (devices and browser) */
 		@media only screen and (max-width: $tabletWidth - 1) {
 			padding-top: $base-padding;
 		}
 	}
-	
+
 	ul li {
 		list-style-position: outside;
 		list-style-type: disc;
 		margin-left: 1.8em;
 		padding-bottom: $base-padding-lite;
-		
+
 		/* All Mobile Sizes (devices and browser) */
 		@media only screen and (max-width: $tabletWidth - 1) {
 			line-height: 1.2;
@@ -128,7 +128,7 @@ body {
 
 .home_subhead {
 	margin-top: $base-padding;
-	
+
 	/* All Mobile Sizes (devices and browser) */
 	@media only screen and (max-width: $tabletWidth - 1) {
 		margin-top: $base-padding-mid;
@@ -138,11 +138,11 @@ body {
 .home_me {
   position: relative;
   z-index: 3;
-	
+
   a {
     border-bottom: none;
   }
-	
+
   h1 {
 	  color: $red;
     display: none;
@@ -154,14 +154,14 @@ body {
     text-shadow: 5px 5px 0px rgba(23,148,142,0.7);
     top: 27%;
   }
-	
+
 	img {
 		width: 100%;
 	}
-	
-/*   &:hover h1, 
-	&:focus h1, 
-	&:hover img, 
+
+/*   &:hover h1,
+	&:focus h1,
+	&:hover img,
 	&:focus img {
     display: inline;
     margin-bottom: inherit;
@@ -197,29 +197,29 @@ body {
       text-decoration: none;
     }
   }
-	
+
   h1 {
 		font-size: 1.4em;
     line-height: 1.1;
     text-decoration: none;
-		
-    &:hover, 
-		&:focus, 
+
+    &:hover,
+		&:focus,
 		&:active {
       text-decoration: underline;
     }
   }
-	
+
   p {
     line-height: 1.4;
   }
-	
+
   ul {
     list-style: disc outside;
 		margin-left: 1em;
     padding-left: $base-padding-mid;
   }
-	
+
   li {
     line-height: 1.4;
   }
@@ -237,7 +237,7 @@ body {
   overflow: hidden;
   position: relative;
   width: 100%;
-	
+
   img {
       margin: -350px 0 -400px 0;
   }
@@ -247,7 +247,7 @@ body {
 	background-color: $white;
   margin-bottom: 30px;
   padding: 0 0 $base-padding-lite 0;
-	
+
   h1 {
 		margin: 0;
     padding: $base-padding-mid $base-padding-mid $base-padding-mid 0;
@@ -268,7 +268,7 @@ body {
 .footer-wrapper {
   background-color: $white;
   padding-bottom: $base-padding-big;
-	
+
 	/* All Mobile Sizes (devices and browser) */
 	@media only screen and (max-width: $tabletWidth - 1) {
 		padding-left: $base-padding-lite;
@@ -307,16 +307,16 @@ body {
 	border: 2px solid $white;
   margin-bottom: 0;
 	padding: 0;
-	
+
 	&:hover,
 	&:focus,
 	&:active {
 	  border: 2px solid $red;
-		
+
 		h1 {
 			text-decoration: underline;
 		}
-		
+
 		p {
 			color: $red;
 		}
@@ -326,7 +326,7 @@ body {
     font-family: $headingFamily;
 		font-size: 1.2em;
 		margin: ($base-padding-lite * 2) $base-padding-lite ($base-padding-lite * 2) 0;
-		
+
 		/* All Mobile Sizes (devices and browser) */
 		@media only screen and (max-width: $tabletWidth - 1) {
 			font-size: 1.6em;
@@ -337,7 +337,7 @@ body {
   p {
 		font-size: .9em;
 		line-height: 1.2;
-		
+
 		/* All Mobile Sizes (devices and browser) */
 		@media only screen and (max-width: $tabletWidth - 1) {
 			font-size: 1em;
@@ -360,11 +360,11 @@ body {
 .post_feature_image_wrap {
   height: 75%;
 	left: 0;
-  margin-top: $top-line;
+  //margin-top: $top-line;
   overflow: hidden;
 	position: absolute;
 	right: 0;
-	
+
   img {
 	  height: auto;
     width: 100%;
@@ -382,11 +382,11 @@ body {
   font-size: .9em;
 	margin-bottom: $base-padding-big;
 	width: 100%;
-	
+
 	span:nth-child(1) a {
     float: left;
   }
-  
+
 	span:nth-child(2) a {
     float: right;
   }
@@ -402,12 +402,12 @@ body {
   margin-top: 200px;
   margin-bottom: 100px;
 	padding: $base-padding-big $base-padding-big $base-padding $base-padding-big;
-	
+
 	/* All Mobile Sizes (devices and browser) */
 	@media only screen and (max-width: $tabletWidth - 1) {
 	  margin-top: 0;
 	}
-	
+
 	h1 {
 		font-size: 2.1em;
 		margin-bottom: $base-padding-lite;
@@ -439,7 +439,7 @@ body {
 	max-width: 900px;
   padding: 100px 0;
   position: relative;
-	
+
   &:after { /* center line */
 	  border-left: 2px solid $midTeal;
     content:'';
@@ -449,32 +449,32 @@ body {
     top: 0;
     width: 20px;
   }
-	
+
   .about_box:nth-child(odd) {
 	  clear: both;
     float: left;
-		
+
     &:before {
 		  border-color: transparent transparent transparent $white;
       left: 100%;
     }
-		
+
     &:after {
       right: -43px;
       top: 42px;
     }
   }
-	
+
   .about_box:nth-child(even) {
     clear: right;
     float: right;
     margin-top: 50px;
-		
+
     &:before {
       border-color: transparent $white transparent transparent;
       right: 100%;
     }
-		
+
     &:after {
       left: -49px;
       top: 42px;
@@ -487,7 +487,7 @@ body {
   margin-bottom: 20px;
   position: relative;
   width: 46%;
-	
+
   &:before { /* triangle */
 		border-style: solid;
 		border-width: 16px;
@@ -497,7 +497,7 @@ body {
     top: 36px;
     width: 0;
   }
-	
+
   &:after { /* dot */
 		background: darken($linkColor, 10%);
     border-radius: 10px;
@@ -509,14 +509,14 @@ body {
     width: 20px;
     z-index: 1;
   }
-	
+
   h1 {
     font-family: $fontFamily;
     font-weight: 600;
     font-size: 1.2em;
     margin-bottom: .7em;
   }
-	
+
   p {
     margin-bottom: 0;
   }
@@ -531,12 +531,12 @@ body {
 	.about_wrapper {
 		.about_box:nth-child(odd) {
 			float: none;
-			
+
 			&:before {
 			  border-color:  transparent transparent $white transparent;
 				left: 48%;
 			}
-			
+
 			&:after {
 				left: 49%;
 				right: 0px;
@@ -546,29 +546,29 @@ body {
 		.about_box:nth-child(even) {
 			float: none;
 			margin-top: 0;
-			
+
 			&:before {
 			  border-color:  transparent transparent $white transparent;
 				left: 48%;
 			}
-			
+
 			&:after {
 				left: 49%;
 				top: -47px;
 			}
 		}
 	}
-	
+
 	.about_box {
 			margin-bottom: 95px;
 			width: 98%;
 			z-index: 1;
-			
+
 			&:before { /* triangle */
 				top: -32px;
 			}
 	}
-	
+
 	.about_me {
 			padding-top: 10px;
 	}
