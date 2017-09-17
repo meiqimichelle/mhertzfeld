@@ -5,7 +5,7 @@ lsi: false
 highlighter: rouge
 
 sass:
-  sass_dir: assets/_sass
+  sass_dir: _sass
 
 
 url:             https://michellehertzfeld.com
