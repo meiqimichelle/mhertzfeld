@@ -24,27 +24,13 @@
     {{ content }}
   </article>
 
-  <!-- <footer role="contentinfo" itemscope itemtype="http://schema.org/WPFooter"> -->
-    <div class="g-footer-left">
-        Left
-    </div>
-    <div class="g-footer-center">
-        Center
-    </div>
-    <div class="g-footer-right">
-        Right
-    </div>
-  <!-- </footer> -->
-</div>
+  {% include footer.html %}
 
-
-<div id="main" class="container" role="main" itemscope itemprop="mainContentOfPage" >
-  {{ content }}
 </div>
 
 <div class="footer-wrapper">
   <footer class="container" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
-    {% include footer.html %}
+
   </footer>
 </div>
 

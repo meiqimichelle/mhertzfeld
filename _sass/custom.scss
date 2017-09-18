@@ -199,31 +199,6 @@
 	margin: $base-padding $base-padding-big $base-padding $base-padding-big;
 }
 
-/* footer */
-.footer-wrapper {
-  background-color: $white;
-  padding-bottom: $base-padding-big;
-
-	/* All Mobile Sizes (devices and browser) */
-	@media only screen and (max-width: $tabletWidth - 1) {
-		padding-left: $base-padding-lite;
-    padding-right: $base-padding-lite;
-	}
-
-  h1 {
-    font-size: 1.1em;
-    font-weight: 600;
-    margin-bottom: $base-padding-mid;
-    margin-top: $base-padding-big;
-  }
-
-  p, ul {
-    font-size: .9em;
-    line-height: 1.3;
-    margin-bottom: 10px;
-  }
-}
-
 /* PAGE STYLES
  * ------------------------------------------------ */
 
