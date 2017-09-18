@@ -1,52 +1,42 @@
 ---
 layout: home
 title: Home
-description: "Michelle Hertzfeld is a web designer with specialties in science communications, open data and user experience. Making content and communications kinder and clearer since 2001."
+description: "Michelle Hertzfeld is a UX designer, strategist, and team director with extensive experience making government digital services usable, effective, and efficient."
 permalink: /
 ---
 
-<div class="sixteen columns alpha site_head" role="banner" itemscope itemtype="http://schema.org/WPHeader">
-  <div class="sixteen columns alpha">
-    <h1>Hi there!</h1>
-  </div>
+<h1>Hi there!</h1>
+<p class="type_lede">I'm Michelle. I'm an experience designer, strategist, and team director. I love making government digital services usable, effective, and efficient.</p>
+<p>Here's some of what I do:</p>
+<ul>
+  <li>Lead cross-discipline teams to build products that meet user needs</li>
+  <li>Facilitate workshops for team alignment and design solutions</li>
+  <li>Manage and build design teams</li>
+  <li>Create alignment around product vision</li>
+  <li>Code HTML, CSS, and some JavaScript</li>
+  <li>Solve tough data and science communications problems</li>
+</ul>
 
-  <div class="eight columns alpha">
-    <p class="home_intro">I'm Michelle. I design websites and user experiences.</p>
-  </div>
-</div>
 
-<div class="sixteen columns alpha home_main">
-  <div class="four columns alpha">
-    <div class="home_me"><a><img src="{{ site.url }}/img/michelle_hertzfeld.jpg" alt="{{ page.title }}" itemprop="image" id="clipping" class="home_me-clip"><!--<h1>That's me!</h1>--></a></div>
-  </div>
-  <div class="ten columns">
-    <p>Here's some of what I do:</p>
-    <ul>
-      <li>Lead cross-discipline teams to build products that meet user needs</li>
-      <li>Facilitate workshops for team alignment and design solutions</li>
-      <li>Manage and build design teams</li>
-      <li>Create alignment around product vision</li>
-      <li>Code HTML, CSS, and some JavaScript</li>
-      <li>Solve tough data and science communications problems</li>
-    </ul>
-  </div>
-</div>
+<!-- <h2>Don't take my word for it. See my work:</h2> -->
 
-<div class="sixteen columns alpha home_subhead">
-  <h2>Don't take my word for it. See my work:</h2>
-</div>
+<section class="g-home_work work_post-wrapper" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
 
-<section class="work_wrapper row" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
     {% for post in site.categories.work limit:8 %}
       <a href="{{ post.url }}">
-        <article class="eight columns work_post-bg">
+        <article>
+
             {% if post.image.work %}
-              <div class="work_post row">
-                  <img src="{{ site.baseurl }}/img/{{ post.image.work }}" alt="{{ post.title }}" itemprop="image" class="work_image three columns alpha">
-                  <div class="five columns alpha omega">
-                    <h1>{{ post.title }}</h1>
-                    <p class="highlight">{{ post.tags | join: ', ' }}</p>
-                  </div>
+              <div class="work_post">
+                <div class="work_image">
+                  <img src="{{ site.baseurl }}/img/{{ post.image.work }}" alt="{{ post.title }}" itemprop="image">
+                </div>
+
+                <div class="work_words">
+                  <h1>{{ post.title }}</h1>
+                  <p class="highlight">{{ post.tags | join: ', ' }}</p>
+                </div>
+
               </div>
             {% endif %}
         </article>

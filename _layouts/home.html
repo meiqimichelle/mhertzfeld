@@ -10,19 +10,20 @@
 <body id="home" itemscope itemtype="http://schema.org/WebPage" >
 
 {% include browser-upgrade.html %}
-<!-- {% include nav.html %} -->
-
 
 <div class="g-wrapper">
-  <header class="g-header">My header</header>
-  <nav class="g-nav">Nav</nav>
-  <article class="g-content">
-    <h1>2 column, header and footer</h1>
-    <p>This example uses line-based positioning, to position the header and footer, stretching them across the grid. Change me!</p>
-    <p>This example uses line-based positioning, to position the header and footer, stretching them across the grid. Change me!</p>
-    <p>This example uses line-based positioning, to position the header and footer, stretching them across the grid. Change me!</p>
-    <p>This example uses line-based positioning, to position the header and footer, stretching them across the grid. Change me!</p>
+  <header class="g-header type_header">
+    <!-- <img src="/img/poly.png" alt="Geometric design made of triangles"> -->
+    <!-- <h2>michelle<br>
+      hertzfeld</h2> -->
+  </header>
+
+  {% include nav.html %}
+
+  <article class="g-content type_home" role="main" itemscope itemprop="mainContentOfPage">
+    {{ content }}
   </article>
+
   <!-- <footer role="contentinfo" itemscope itemtype="http://schema.org/WPFooter"> -->
     <div class="g-footer-left">
         Left

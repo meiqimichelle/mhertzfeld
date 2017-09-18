@@ -9,6 +9,14 @@
   box-sizing: border-box;
 }
 
+::selection {
+  background-color: $orange;
+}
+
+.highlight {
+  font-style: italic;
+}
+
 body {
   // background: $white url(../../img/poly.png) no-repeat;
   // background-position-y: -12px;

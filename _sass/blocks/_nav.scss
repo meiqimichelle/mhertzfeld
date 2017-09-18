@@ -1,0 +1,45 @@
+.nav {
+	//background-color: hsla(200, 25%, 90%, 0.5);
+  //border-top: $top-line solid $midTeal;
+
+  ul {
+    margin: 0;
+    padding-top: $base-padding-lite;
+		text-align: right;
+
+		/* All Mobile Sizes (devices and browser) */
+		@media only screen and (max-width: $tabletWidth - 1) {
+			text-align: center;
+		}
+  }
+
+  li {
+    display: inline-block;
+    font-family: $base-font-family;
+    font-size: .8em;
+    margin-right: 3%;
+	  position: relative;
+    text-transform: uppercase;
+
+		&:last-of-type {
+			margin-right: 1%;
+		}
+	}
+
+	a {
+		color: $darkTeal;
+
+		&:hover,
+		&:focus {
+			@include link-ease(color);
+			color: $base-font-color;
+			text-decoration: underline;
+		}
+	}
+}
+
+// .sticker {
+//   position: fixed;
+//   width: 100%;
+//   z-index: 5;
+// }
