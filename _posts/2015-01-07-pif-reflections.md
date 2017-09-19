@@ -7,7 +7,8 @@ image:
  credit: Michelle Hertzfeld
 author: Michelle Hertzfeld
 tags: [civic hacking, open gov, service]
-categories: [thoughts]
+categories: [writing]
+redirect_from: "/thoughts/pif-reflections/"
 ---
 
 I finished my [Presidential Innovation Fellowship](http://www.whitehouse.gov/innovationfellows) six months ago, and I feel like it's taken that long to process the journey. For those of you who are considering government service, considering the Innovation Fellowship specifically, or merely curious, I offer these reflections on my year as a PIF. <!--more-->

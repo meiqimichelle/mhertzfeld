@@ -48,6 +48,7 @@ permalink:   /:categories/:title/
 
 gems:
   - jekyll-paginate
+  - jekyll-redirect-from
 
 # Amount of post to show on home page
 paginate: 5

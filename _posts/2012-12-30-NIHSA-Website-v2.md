@@ -8,7 +8,8 @@ image:
  creditlink: http://www.nihsail.org/
 author: Michelle Hertzfeld
 tags: [design, UX, process]
-categories: [thoughts]
+categories: [writing]
+redirect_from: "/thoughts/NIHSA-Website-v2/"
 ---
 Way back in the winter of 2011-2012, I did a fast redesign of the NIH Sailing Association (NIHSA) website. It went from [this](http://web.archive.org/web/20081014054328/http://www.recgov.org/sail/) to something much better, but still not there, in a weekend, more or less, to move it from "fairly difficult to use" to "somewhat functional" in time for spring online registration for the 2012 sailing season.<!--more-->
 

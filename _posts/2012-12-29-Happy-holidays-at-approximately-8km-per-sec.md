@@ -8,7 +8,7 @@ image:
  creditlink: http://unsplash.com/
 author: Michelle Hertzfeld
 tags: [illustration, science]
-categories: [thoughts]
+categories: [writing]
 ---
 Now that the holidays are over, I'd like to share the illustration I did for our office annual holiday email -- I'm very pleased with it! I should mention I work in international affairs for a satellite office. I was going for 'holidays' without a specific religion or world region focus. Also tried to come up with something not too overdone. And so we have: bird's-eye view of an abstract world with a stylized aurora!<!--more-->
 

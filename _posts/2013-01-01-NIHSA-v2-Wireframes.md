@@ -8,7 +8,8 @@ image:
  creditlink: http://www.nihsail.org/
 author: Michelle Hertzfeld
 tags: [UX, wireframes]
-categories: [thoughts]
+categories: [writing]
+redirect_from: "/thoughts/NIHSA-v2-Wireframes/"
 ---
 As explained in my [previous post](https://meiqimichelle.github.io/mhertzfeld/thoughts/NIHSA-Website-v2/), I'm working on the Next Generation of the NIH Sailing Association (NIHSA) website. Here are my initial 2.0 wireframes for the majority of the layouts.<!--more-->
 

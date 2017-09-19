@@ -8,7 +8,8 @@ image:
  creditlink: http://www.doi.gov/interiormuseum/Online-Murals-Tour.cfm
 author: Michelle Hertzfeld
 tags: [civic hacking, Smithsonian, open gov]
-categories: [thoughts]
+categories: [writing]
+redirect_from: "/thoughts/hacking-the-smithsonian/"
 ---
 I've gone to my first hackathon! _Super nerdy_! I thought they only wanted coders at these sorts of things, but friends said that designers and UX folks are welcome, too. So off I went…and our team won!<!--more-->
 

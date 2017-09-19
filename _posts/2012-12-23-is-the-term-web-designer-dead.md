@@ -8,7 +8,8 @@ image:
  creditlink: http://www.mhertzfeld.com
 author: Michelle Hertzfeld
 tags: [UX, design]
-categories: [thoughts]
+categories: [writing]
+redirect_from: "/thoughts/is-the-term-web-designer-dead/"
 ---
 Is the term "web designer" dead? According to [this article](http://uxmag.com/articles/improving-hiring-for-user-experience-the-applicant) in UX Magazine, maybe.<!--more-->
 

@@ -3,6 +3,7 @@ layout: home
 title: Writing
 description: "Michelle Hertzfeld is a UX designer, strategist, and team director with extensive experience making government digital services usable, effective, and efficient."
 permalink: /writing/
+redirect_from: "/thoughts/"
 ---
 
 
@@ -26,7 +27,7 @@ permalink: /writing/
 
 <!-- display posts with exerpts -->
     <article class="twelve columns alpha writing_posts" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
-        {% for post in site.categories.thoughts limit:10 %}
+        {% for post in site.categories.writing limit:10 %}
         <div class="another_post">
             <div class="another_image">
                 <img src="{{ site.baseurl }}/img/{{ post.image.feature }}" alt="{{ post.title }}" itemprop="image">
