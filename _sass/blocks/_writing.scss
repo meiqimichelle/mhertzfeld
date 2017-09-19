@@ -58,11 +58,12 @@
 .another_image {
   height: 160px;
   overflow: hidden;
-  position: relative;
-  width: 100%;
+  //position: relative;
+  //width: 100%;
 
   img {
-      margin: -350px 0 -400px 0;
+      //margin: -350px 0 -400px 0;
+      width: 100%
   }
 }
 

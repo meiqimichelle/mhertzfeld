@@ -26,7 +26,7 @@ redirect_from: "/thoughts/"
 </ul>
 
 <!-- display posts with exerpts -->
-    <article class="twelve columns alpha writing_posts" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+    <article class=" writing_posts" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
         {% for post in site.categories.writing limit:10 %}
         <div class="another_post">
             <div class="another_image">
@@ -47,18 +47,3 @@ redirect_from: "/thoughts/"
         </div>
         {% endfor %}
     </article>
-
-<!--
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="/page{{ paginator.previous_page }}" class="previous">Previous</a>
-  {% else %}
-    <span class="previous">Previous</span>
-  {% endif %}
-  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-  {% if paginator.next_page %}
-    <a href="/page{{ paginator.next_page }}" class="next">Next</a>
-  {% else %}
-    <span class="next ">Next</span>
-  {% endif %}
-</div> -->
