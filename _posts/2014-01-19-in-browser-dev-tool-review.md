@@ -8,7 +8,8 @@ image:
  creditlink: http://www.mhertzfeld.com/
 author: Michelle Hertzfeld
 tags: [design, front-end development, tools]
-categories: [thoughts]
+categories: [writing]
+redirect_from: "/thoughts/in-browser-dev-tool-review/"
 ---
 Wouldn't it be great if we designers/developers could just move bits of website around visually and get beautiful, well-structured code to work with out the other end? The stuff of dreams! If this is your dream, then this might be your year! In service of The Future, I tested (or attempted to test) four of the current front-runners: [Webflow](https://webflow.com/), [Divshot](http://www.divshot.com/), [Froont](http://froont.com/), and [Jetstrap](https://jetstrap.com/). Read on for a summary and full reviews.<!--more-->
 

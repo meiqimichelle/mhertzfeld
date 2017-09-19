@@ -8,7 +8,8 @@ image:
  creditlink: http://www.mhertzfeld.com
 author: Michelle Hertzfeld
 tags: [Jekyll, GitHub, Markdown, Liquid]
-categories: [thoughts]
+categories: [writing]
+redirect_from: "/thoughts/using-jekyll-and-github-tips-for-designers/"
 ---
 "But why," I ask myself, "why should I use systems built by very smart people to suit a wide variety of website needs when I can spend time and energy making my own from scratch?" Why indeed.<!--more-->
 

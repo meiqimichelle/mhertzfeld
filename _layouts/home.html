@@ -9,20 +9,28 @@
 
 <body id="home" itemscope itemtype="http://schema.org/WebPage" >
 
-{% include browser-upgrade.html %}  
-{% include nav.html %}
-    
-<div id="main" class="container" role="main" itemscope itemprop="mainContentOfPage" >
-  {{ content }}
+{% include browser-upgrade.html %}
+
+<div class="g-wrapper">
+  <header class="g-header type_header"></header>
+
+  {% include nav.html %}
+
+  {% if page.title == "Writing" %}
+    <article class="g-content type_writing" role="main" itemscope itemprop="mainContentOfPage">
+  {% else %}
+    <article class="g-content type_home" role="main" itemscope itemprop="mainContentOfPage">
+  {% endif %}
+
+    {{ content }}
+
+    </article>
+
+  {% include footer.html %}
+
 </div>
 
-<div class="footer-wrapper">
-  <footer class="container" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
-    {% include footer.html %}
-  </footer>
-</div>
-
-{% include scripts.html %}          
+{% include scripts.html %}
 
 </body>
 </html>

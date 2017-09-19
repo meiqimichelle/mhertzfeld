@@ -1,0 +1,36 @@
+// All element specific rules.
+//
+// This file should have basic site settings,
+// such as background color.
+//
+// Global reset is provided separately by _reset.scss
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background-color: $orange;
+}
+
+.highlight {
+  font-style: italic;
+}
+
+body {
+  // background: $white url(../../img/poly.png) no-repeat;
+  // background-position-y: -12px;
+	color: $base-font-color;
+  font: {
+		size: $base-font-size;
+		family: $base-font-family;
+		weight: $base-font-weight;
+	}
+	line-height: $base-line-height;
+	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+	-webkit-text-size-adjust: 100%;
+}
+
+button {
+  cursor: pointer;
+}

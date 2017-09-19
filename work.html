@@ -1,30 +1,27 @@
 ---
-layout: home
-title: Michelle Hertzfeld &#8211; Web and UX Designer &#8211; Work
-description: "Michelle Hertzfeld is a web designer with specialties in science communications, open data and user experience. Making content and communications kinder and clearer since 2001. This is her work."
+layout: work
+title: Work
+description: "Michelle Hertzfeld is a UX designer, strategist, and team director with extensive experience making government digital services usable, effective, and efficient. This is her work."
 permalink: /work/
 ---
 
-<div class="sixteen columns alpha site_head">
-    <div class="sixteen columns alpha">
-        <h1>Work</h1>
-    </div>
-    <div class="twelve columns alpha">
-        <p class="home_intro">My roles on projects vary. Sometimes I'm a one-person design-and-code operation. Sometimes I'm a specialist filling needs from user researcher to front end coder to product manager.</p>
-    </div>
-</div>
+<section class="g-home_work work_post-wrapper" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
 
-<section class="work_wrapper row" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
     {% for post in site.categories.work limit:8 %}
       <a href="{{ post.url }}">
-        <article class="eight columns work_post-bg">
+        <article>
+
             {% if post.image.work %}
-              <div class="work_post row">
-                  <img src="{{ site.baseurl }}/assets/img/{{ post.image.work }}" alt="{{ post.title }}" itemprop="image" class="work_image three columns alpha">
-                  <div class="five columns alpha omega">
-                    <h1>{{ post.title }}</h1>
-                    <p class="highlight">{{ post.tags | join: ', ' }}</p>
-                  </div>
+              <div class="work_post">
+                <div class="work_image">
+                  <img src="{{ site.baseurl }}/img/{{ post.image.work }}" alt="{{ post.title }}" itemprop="image">
+                </div>
+
+                <div class="work_words">
+                  <h1>{{ post.title }}</h1>
+                  <p class="highlight">{{ post.tags | join: ', ' }}</p>
+                </div>
+
               </div>
             {% endif %}
         </article>

@@ -8,7 +8,8 @@ image:
  creditlink: http://www.nihsail.org/
 author: Michelle Hertzfeld
 tags: [Wordpress, design]
-categories: [thoughts]
+categories: [writing]
+redirect_from: "/thoughts/NIHSA-v2-almost-there/"
 ---
 Take a [look a the latest](http://www.nihsail.org/) -- we're getting there! It was quite an adventure, working on making more robust Wordpress functionality than I've needed to in the past.<!--more-->
 

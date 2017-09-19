@@ -1,6 +1,6 @@
 mhertzfeld.com
 ==============
 
-Jekyll-based version of my personal site. It uses Skeleton as its base.
+Jekyll-based version of my personal site.
 
-Use `jekyll serve --watch` to run locally.
+Use `bundle exec jekyll serve` to run locally.

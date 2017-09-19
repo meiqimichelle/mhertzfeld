@@ -1,0 +1,151 @@
+/* SITE STYLES
+ * ------------------------------------------------ */
+
+
+.intro {
+  font-style:italic;
+  font-weight:800;
+}
+
+/*site heading*/
+.site_head {
+  margin-top: 5.5em;
+
+  h1 {
+	  font-size: 4em;
+    font-weight: 900;
+  }
+
+  h2 {
+	  font-size: 2em;
+    font-weight: 300;
+  }
+
+  a {
+    font-weight: 800;
+  }
+}
+
+/* home */
+
+.home_intro {
+	font-size: 1.2em;
+	margin-top: $base-padding-lite;
+}
+
+.home_main {
+	border-top: 2px solid $midTeal;
+	margin-top: $base-padding-lite;
+	padding-top: $base-padding;
+
+	p {
+		line-height: .6;
+		margin-bottom: $base-padding-mid;
+
+		/* All Mobile Sizes (devices and browser) */
+		@media only screen and (max-width: $tabletWidth - 1) {
+			padding-top: $base-padding;
+		}
+	}
+
+	ul li {
+		list-style-position: outside;
+		list-style-type: disc;
+		margin-left: 1.8em;
+		padding-bottom: $base-padding-lite;
+
+		/* All Mobile Sizes (devices and browser) */
+		@media only screen and (max-width: $tabletWidth - 1) {
+			line-height: 1.2;
+		}
+	}
+}
+
+.home_subhead {
+	margin-top: $base-padding;
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: $tabletWidth - 1) {
+		margin-top: $base-padding-mid;
+	}
+}
+
+/* PAGE STYLES
+ * ------------------------------------------------ */
+
+/* styling for posts */
+.post_feature {
+  position: absolute;
+  z-index: -10;
+}
+
+.post_feature_image_wrap {
+  height: 75%;
+	left: 0;
+  //margin-top: $top-line;
+  overflow: hidden;
+	position: absolute;
+	right: 0;
+
+  img {
+	  height: auto;
+    width: 100%;
+  }
+}
+
+.site_head.post {
+  h1 {
+    color: $white;
+    text-shadow: 5px 5px 0px rgba(23,148,142,0.7);
+  }
+}
+
+.next_prev {
+  font-size: .9em;
+	margin-bottom: $base-padding-big;
+	width: 100%;
+
+	span:nth-child(1) a {
+    float: left;
+  }
+
+	span:nth-child(2) a {
+    float: right;
+  }
+}
+
+.content + .next_prev {
+  margin-bottom: $base-padding;
+  margin-top: $base-padding;
+}
+
+.post_inner {
+	background-color: $white;
+  margin-top: 200px;
+  margin-bottom: 100px;
+	padding: $base-padding-big $base-padding-big $base-padding $base-padding-big;
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: $tabletWidth - 1) {
+	  margin-top: 0;
+	}
+
+	h1 {
+		font-size: 2.1em;
+		margin-bottom: $base-padding-lite;
+	}
+}
+
+.post_work {
+  img {
+    height: 100%;
+		width: 100%;
+  }
+}
+
+.image-credit {
+	border-top: 1px solid $midTeal;
+	font-size: .9em;
+	margin-top: $base-padding-big;
+	padding-top: $base-padding-mid;
+}

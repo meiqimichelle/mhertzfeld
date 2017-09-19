@@ -1,0 +1,49 @@
+---
+layout: home
+title: Writing
+description: "Michelle Hertzfeld is a UX designer, strategist, and team director with extensive experience making government digital services usable, effective, and efficient."
+permalink: /writing/
+redirect_from: "/thoughts/"
+---
+
+
+<h1>Writing</h1>
+<p class="type_lede">On occasion, I write about technology, civic tech, and design here. You can also read my work in other places, such as:</p>
+
+<h2>The 18F blog</h2>
+<ul>
+  <li><a href="https://18f.gsa.gov/2015/10/15/best-practices-for-distributed-teams/">18F’s best practices for making distributed teams work</a></li>
+  <li><a href="https://18f.gsa.gov/2014/09/25/design-studio-onrr/">User-centered design at 18F: a design studio for natural resource revenues</a></li>
+  <li><a href="https://18f.gsa.gov/author/mhz/">See all my 18F blog posts</a></li>
+</ul>
+
+<h2>Process documentation</h2>
+<ul>
+  <li><a href="https://github.com/18F/doi-extractives-data/wiki/Little-rules-for-designing-with-data">Little rules for designing with data, presented at <href="https://csvconf.com/">csvconf 2017</a></li>
+  <li><a href="https://lean-product-design.18f.gov/">18F Lean Product Design Guide (with Nick Brethauer and Colin MacArthur)</a></li>
+  <li><a href="https://github.com/18F/doi-extractives-data/wiki/Sample-retro-doc">The standard retro method and doc used across 18F</a></li>
+  <li><a href="https://github.com/18F/doi-extractives-data/wiki">Using a GitHub wiki to put user research and project documentation together with code</a></li>
+</ul>
+
+<!-- display posts with exerpts -->
+    <article class=" writing_posts" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+        {% for post in site.categories.writing limit:10 %}
+        <div class="another_post">
+            <div class="another_image">
+                <img src="{{ site.baseurl }}/img/{{ post.image.feature }}" alt="{{ post.title }}" itemprop="image">
+            </div>
+            <div class="another_post-container">
+              <a href="{{ post.url }}"><h1 itemprop="headline">{{ post.title }}</h1></a>
+              <div class="another_meta">
+                  <p><span class="highlight" itemprop="author">{{ post.author }}</span><time datetime="{{ post.date }}" itemprop="datePublished"> posted on <span class="highlight">{{ post.date | date_to_long_string }}</span></time> about <span class="highlight" itemprop="keywords">{{ post.tags | join: ', ' }}</span>.</p>
+              </div>
+              <div itemprop="articleBody">
+                  {{ post.content | split: '<!--more-->' | first }}
+              </div>
+              <div class="continue">
+                  <a href="{{ post.url }}">&rarr; continue reading &rarr;</a>
+              </div>
+            </div>
+        </div>
+        {% endfor %}
+    </article>

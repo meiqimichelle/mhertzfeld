@@ -1,22 +1,6 @@
-/* RESET & BASICS (Inspired by E. Meyers)
+/* RESET & BASICS
  * ------------------------------------------------ */
-@include global-reset;
 
-/* BASIC STYLES
- * ------------------------------------------------ */
-body {
-	background: $backgroundColor;
-	font: {
-		size: $fontSize;
-		family: $fontFamily;
-		weight: normal;
-		style: normal;
-	}
-	line-height: 1.6em;
-	color: $fontColor;
-	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
-	-webkit-text-size-adjust: 100%;
-}
 
 /* TYPOGRAPHY
  * ------------------------------------------------ */

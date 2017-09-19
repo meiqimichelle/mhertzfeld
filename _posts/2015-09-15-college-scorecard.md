@@ -27,13 +27,13 @@ She continues:
 
 For this project, I was one of two front end developers that worked over three months to bring the extensive user research and usability-tested designs to life. My role was primarily HTML/CSS. I made sure front end code was built to modern standards; was documented so that whoever took over the project could continue without problem; and was accessible and progressively-enhanced. Site accessibility was no small feat since the site design included custom versions of almost every form element available to a browser.
 
-![College scorecard responsive views, homepage](/assets/img/college_responsive.jpg)
+![College scorecard responsive views, homepage](/img/college_responsive.jpg)
 
-![College scorecard responsive views, results page](/assets/img/college_responsive-results.jpg)
+![College scorecard responsive views, results page](/img/college_responsive-results.jpg)
 
 One of my favorite parts of working on this project was the live styleguide we created to make sure our styles were modularizing the way we'd hoped, and not becoming too inter-mingled as to make long-term maintenance difficult. The images of the styleguide below also show some of our custom form elements.
 
-![College scorecard styleguide](/assets/img/college_styleguide.jpg)
+![College scorecard styleguide](/img/college_styleguide.jpg)
 
 Although responsive design is always important on every project, user testing had shown that our front end tool (the interface at collegescorecard.ed.gov) in particular needed to be usability on cellphone-sized screens. It turned out that our primary audience for that tool was much more likely to access the site on a mobile device than on a desktop computer. Conversely, when things got tight close to rollout, we spent less time on perfecting responsive work on the data downloads part of the site, as the users for that section primarily used full desktop computers.
 

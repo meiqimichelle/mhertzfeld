@@ -1,0 +1,89 @@
+.writing_posts {
+  margin-top: ($base-padding-big * 1.5);
+}
+
+.continue {
+  margin-top: -20px;
+  text-align: right;
+}
+
+.feature_image {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  width: 112%;
+}
+
+.feature_post, .another_post, .post_inner {
+  a:first-of-type {
+    &:hover, &:focus, &:active {
+      text-decoration: none;
+    }
+  }
+
+  h1 {
+		font-size: 1.4em;
+    line-height: 1.1;
+    text-decoration: none;
+
+    &:hover,
+		&:focus,
+		&:active {
+      text-decoration: underline;
+    }
+  }
+
+  p {
+    line-height: 1.4;
+  }
+
+  ul {
+    list-style: disc outside;
+		margin-left: 1em;
+    padding-left: $base-padding-mid;
+  }
+
+  li {
+    line-height: 1.4;
+  }
+}
+
+.feature_meta {
+  p {
+    font-size: .9em;
+		margin-bottom: $base-padding-lite;
+  }
+}
+
+.another_image {
+  height: 160px;
+  overflow: hidden;
+  //position: relative;
+  //width: 100%;
+
+  img {
+      //margin: -350px 0 -400px 0;
+      width: 100%
+  }
+}
+
+.another_post {
+	background-color: $white;
+  margin-bottom: ($base-padding-big * 1.3);
+  padding: 0 0 $base-padding-lite 0;
+
+  h1 {
+		margin: 0;
+    padding: $base-padding-mid $base-padding-mid $base-padding-mid 0;
+  }
+}
+
+.another_meta {
+  p {
+    font-size: .9em;
+  }
+}
+
+.another_post-container {
+	margin: $base-padding $base-padding-big $base-padding $base-padding-big;
+}

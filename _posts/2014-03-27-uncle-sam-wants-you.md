@@ -8,7 +8,8 @@ image:
  creditlink: http://www.whitehouse.gov/innovationfellows
 author: by Michelle Hertzfeld and Robert L. Read, illustrated by Rishi Sohoni
 tags: [civic hacking, open gov, service]
-categories: [thoughts]
+categories: [writing]
+redirect_from: "/thoughts/uncle-sam-wants-you/"
 ---
 
 Round Three of the [Presidential Innovation Fellows](http://www.whitehouse.gov/innovationfellows) program is now accepting [applications](https://gsafas.secure.force.com/apply) from creative, energetic policy hackers, entrepreneurs, user experience experts, designers, frontend developers, backend developers, system architecture wizards, data wranglers, and more to serve their tours of duty to radically improve the delivery of government digital services.
@@ -20,7 +21,7 @@ Why should you (yes, YOU) take time out of your busy schedule to apply (deadline
 Working with Innovation Partners inside government agencies Rounds One and Two of the Innovation Fellows program touched millions of lives in important ways:
 
 *Innovation Fellow Projects: Contributors and Beneficiaries*
-[![Infographic of Presidential Innovation Fellows projects and their beneficiaries](https://meiqimichelle.github.io/mhertzfeld/assets/img/innovation_fellow_projects.jpg)](https://meiqimichelle.github.io/mhertzfeld/assets/img/innovation_fellow_projects_big.jpg)
+[![Infographic of Presidential Innovation Fellows projects and their beneficiaries](https://meiqimichelle.github.io/mhertzfeld/img/innovation_fellow_projects.jpg)](https://meiqimichelle.github.io/mhertzfeld/img/innovation_fellow_projects_big.jpg)
 
 Here’s a taste of what these projects do:
 

@@ -8,7 +8,8 @@ image:
  creditlink: http://www.mhertzfeld.com
 author: Michelle Hertzfeld
 tags: [usability, data, gov]
-categories: [thoughts]
+categories: [writing]
+redirect_from: "/thoughts/more-data-more-problems/"
 ---
 The potential of 'Big Data' as a game-changer in practically every field is today's online golden goose. "If only," the articles cry, "we had enough data scientists to reap in the golden eggs!" <!--more-->
 
