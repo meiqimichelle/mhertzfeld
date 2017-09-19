@@ -7,7 +7,7 @@
 {% include head.html %}
 </head>
 
-<body id="home" itemscope itemtype="http://schema.org/WebPage">
+<body id="about" itemscope itemtype="http://schema.org/WebPage">
 
 {% include browser-upgrade.html %}
 
@@ -16,8 +16,17 @@
 
   {% include nav.html %}
 
-  <article class="g-content type_home" role="main" itemscope itemprop="mainContentOfPage">
+  <div class="g-content type_home">
+
+    <h1>About me</h1>
+    <p class="type_lede">I've done many things, but designing for clarity is a recurring theme. I especially care about science and data communication.</p>
+
+  </div>
+
+  <article class="g-about" role="main" itemscope itemprop="mainContentOfPage">
+
     {{ content }}
+
   </article>
 
   {% include footer.html %}

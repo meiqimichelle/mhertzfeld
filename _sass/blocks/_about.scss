@@ -1,4 +1,15 @@
 /* styling for about */
+
+#about {
+  .type_home p {
+		margin-bottom: 0;
+	}
+
+	.type_lede {
+		padding-bottom: 0;
+	}
+}
+
 .about_rule {
 	border-bottom: 2px solid $midTeal;
 }
@@ -25,7 +36,7 @@
     float: left;
 
     &:before {
-		  border-color: transparent transparent transparent $white;
+		  border-color: transparent transparent transparent $lightTeal;
       left: 100%;
     }
 
@@ -41,7 +52,7 @@
     margin-top: 50px;
 
     &:before {
-      border-color: transparent $white transparent transparent;
+      border-color: transparent $lightTeal transparent transparent;
       right: 100%;
     }
 
@@ -53,7 +64,7 @@
 }
 
 .about_box {
-  background-color: $midTeal;
+  background-color: $lightTeal;
   margin-bottom: 20px;
   position: relative;
   width: 46%;
@@ -103,7 +114,7 @@
 			float: none;
 
 			&:before {
-			  border-color:  transparent transparent $white transparent;
+			  border-color:  transparent transparent $lightTeal transparent;
 				left: 48%;
 			}
 
@@ -118,7 +129,7 @@
 			margin-top: 0;
 
 			&:before {
-			  border-color:  transparent transparent $white transparent;
+			  border-color:  transparent transparent $lightTeal transparent;
 				left: 48%;
 			}
 
