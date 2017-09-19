@@ -9,20 +9,22 @@
 
 <body id="home" itemscope itemtype="http://schema.org/WebPage">
 
-{% include browser-upgrade.html %}  
-{% include nav.html %}
-    
+{% include browser-upgrade.html %}
 
-  {{ content }}
+<div class="g-wrapper">
+  <header class="g-header type_header"></header>
 
+  {% include nav.html %}
 
-<div class="footer-wrapper">
-  <footer role="contentinfo" itemscope class="container">
-    {% include footer.html %}
-  </footer>
+  <article class="g-content type_home" role="main" itemscope itemprop="mainContentOfPage">
+    {{ content }}
+  </article>
+
+  {% include footer.html %}
+
 </div>
 
-{% include scripts.html %}          
+{% include scripts.html %}
 
 </body>
 </html>
