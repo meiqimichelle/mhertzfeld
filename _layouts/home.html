@@ -20,7 +20,13 @@
 
   {% include nav.html %}
 
-  <article class="g-content type_home" role="main" itemscope itemprop="mainContentOfPage">
+  {% if page.title == "Writing" %}
+    <article class="g-content type_writing" role="main" itemscope itemprop="mainContentOfPage">
+  {% else %}
+    <article class="g-content type_home" role="main" itemscope itemprop="mainContentOfPage">
+  {% endif %}
+
+
     {{ content }}
   </article>
 
