@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/mhz
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.michellehertzfeld.com
+  * I am mhz (https://keybase.io/mhz) on keybase.
+  * I have a public key ASDA5L5eT5ZT9OVH6G_qFilKrxKOObdj_z4bQH3cGFjI-Ao
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120c0e4be5e4f9653f4e547e86fea16294aaf128e39b763ff3e1b407ddc1858c8f80a",
+      "host": "keybase.io",
+      "kid": "0120c0e4be5e4f9653f4e547e86fea16294aaf128e39b763ff3e1b407ddc1858c8f80a",
+      "uid": "9acc5ce194dbf78dca2b1a34f2ec1719",
+      "username": "mhz"
+    },
+    "merkle_root": {
+      "ctime": 1516640624,
+      "hash": "8e85f4c5c68c202f59bd3b4005b3883ccd0fe20ae72f4e62c818f524562aa7fcff4becfc62ece56943fa9c73457a6fae5db8cc3f899721739e74d1a98074295c",
+      "hash_meta": "67394f64cf5bfdd55943ef5f7d561eb726db808cb9d143b339a8b958359f3ca7",
+      "seqno": 1956077
+    },
+    "service": {
+      "hostname": "www.michellehertzfeld.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.37"
+  },
+  "ctime": 1516640661,
+  "expire_in": 504576000,
+  "prev": "b13a8d240af86c9ebf3766c164626b030b641929a172c31d5167443a7599cb03",
+  "seqno": 5,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgwOS+Xk+WU/TlR+hv6hYpSq8Sjjm3Y/8+G0B93BhYyPgKp3BheWxvYWTFA0x7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwYzBlNGJlNWU0Zjk2NTNmNGU1NDdlODZmZWExNjI5NGFhZjEyOGUzOWI3NjNmZjNlMWI0MDdkZGMxODU4YzhmODBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYzBlNGJlNWU0Zjk2NTNmNGU1NDdlODZmZWExNjI5NGFhZjEyOGUzOWI3NjNmZjNlMWI0MDdkZGMxODU4YzhmODBhIiwidWlkIjoiOWFjYzVjZTE5NGRiZjc4ZGNhMmIxYTM0ZjJlYzE3MTkiLCJ1c2VybmFtZSI6Im1oeiJ9LCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTUxNjY0MDYyNCwiaGFzaCI6IjhlODVmNGM1YzY4YzIwMmY1OWJkM2I0MDA1YjM4ODNjY2QwZmUyMGFlNzJmNGU2MmM4MThmNTI0NTYyYWE3ZmNmZjRiZWNmYzYyZWNlNTY5NDNmYTljNzM0NTdhNmZhZTVkYjhjYzNmODk5NzIxNzM5ZTc0ZDFhOTgwNzQyOTVjIiwiaGFzaF9tZXRhIjoiNjczOTRmNjRjZjViZmRkNTU5NDNlZjVmN2Q1NjFlYjcyNmRiODA4Y2I5ZDE0M2IzMzlhOGI5NTgzNTlmM2NhNyIsInNlcW5vIjoxOTU2MDc3fSwic2VydmljZSI6eyJob3N0bmFtZSI6Ind3dy5taWNoZWxsZWhlcnR6ZmVsZC5jb20iLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4zNyJ9LCJjdGltZSI6MTUxNjY0MDY2MSwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsInByZXYiOiJiMTNhOGQyNDBhZjg2YzllYmYzNzY2YzE2NDYyNmIwMzBiNjQxOTI5YTE3MmMzMWQ1MTY3NDQzYTc1OTljYjAzIiwic2Vxbm8iOjUsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAi/bmGCMrrEEhbs2q8spEX8j5EYq3CXKkI+Li+kOSgW0acyxuMO9Rpll+raZGV3ASCn5c4E/IXYvE35J0PhnUAKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIPmlFrkc99SImhGZmSHTeYEM2nXw2KmlvzLmNIsV9MTro3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mhz
+
+==================================================================
