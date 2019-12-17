@@ -20,11 +20,10 @@ logo:            apple-touch-icon-144x144-precomposed.png
 owner:
   name:           Michelle Hertzfeld
   avatar:         http://meiqimichelle.github.io/mhertzfeld/img/michelle.jpg
-  bio:            "I am a UX designer, strategist, and team manager with extensive experience making government digital services usable, effective, and efficient."
-  email:          design@mhertzfeld.com
-  # Social networking links used in footer. Update and remove as you like.
+  bio:            "I am a product manager, service designer, and team director with extensive experience making government digital services usable, effective, and efficient."
+  email:          hello@mhertzfeld.com
+  # Social networking links used in footer
   twitter:        https://twitter.com/meiqimichelle
-  facebook:       https://www.facebook.com/meiqimichelle
   github:         https://github.com/meiqimichelle
   linkedin:       https://www.linkedin.com/in/michellehertzfeld
   # For Google Authorship https://plus.google.com/authorship
