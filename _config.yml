@@ -7,12 +7,7 @@ highlighter: rouge
 sass:
   sass_dir: _sass
 
-
 url:             https://michellehertzfeld.com
-
-# Comment out baseurl before pushing live to resolve urls correctly
-# Full path, for reference: https://meiqimichelle.github.io/mhertzfeld
-#baseurl:         /mhertzfeld
 
 logo:            android-chrome-256x256.png
 
@@ -48,6 +43,7 @@ permalink:   /:categories/:title/
 plugins:
   - jekyll-paginate
   - jekyll-redirect-from
+  - jekyll-sitemap
 
 # Amount of post to show on home page
 paginate: 5

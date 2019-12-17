@@ -244,6 +244,7 @@ DEPENDENCIES
   github-pages
   jekyll (>= 3.6.3)
   jekyll-redirect-from
+  jekyll-sitemap
 
 BUNDLED WITH
    1.17.2
