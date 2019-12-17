@@ -17,4 +17,4 @@ The [American Mandarin Society](http://www.mandarinsociety.us/) (AMS) came to me
 
 This logo uses the imagery of the red-crowned crane drawn in a style that invokes traditional Chinese brush painting with a modern twist. The type treatment is a juxtoposition of the traditional top-down, right-left Chinese character placement alongside a sans-serif English title.
 
-![New American Mandarin Society logo](https://meiqimichelle.github.io/mhertzfeld/img/ams_logo.jpg)
+![New American Mandarin Society logo](/img/ams_logo.jpg)

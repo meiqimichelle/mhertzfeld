@@ -19,8 +19,8 @@ This site was built on [BigCartel's](http://bigcartel.com/) solid e-commerce sol
 
 [Visit the site](http://www.ronetjewelry.com)
 
-![Ronet Jewelry responsive website](https://meiqimichelle.github.io/mhertzfeld/img/ronet_responsive.jpg)
+![Ronet Jewelry responsive website](/img/ronet_responsive.jpg)
 
-![Ronet Jewelry product page](https://meiqimichelle.github.io/mhertzfeld/img/ronet_product.jpg)
+![Ronet Jewelry product page](/img/ronet_product.jpg)
 
 [Visit the site](http://www.ronetjewelry.com)

@@ -17,8 +17,8 @@ Howard needed a site that would play nice with search engines, and be accessible
 
 [Visit the site](http://www.howardneedham.com/)
 
-![Howard Needham Violins responsive website](https://meiqimichelle.github.io/mhertzfeld/img/needham_responsive.jpg)
+![Howard Needham Violins responsive website](/img/needham_responsive.jpg)
 
-![Howard Needham Violins website](https://meiqimichelle.github.io/mhertzfeld/img/needham_site.jpg)
+![Howard Needham Violins website](/img/needham_site.jpg)
 
  [Visit the site](http://www.howardneedham.com/)

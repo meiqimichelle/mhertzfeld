@@ -17,8 +17,8 @@ The online home for The Boorse Collection of Contemporary Violins needed to be m
 
 [Visit the site](http://www.boorsecollection.com/)
 
-![The Boorse Collection of Contemporary Violins responsive website](https://meiqimichelle.github.io/mhertzfeld/img/boorse_responsive.jpg)
+![The Boorse Collection of Contemporary Violins responsive website](/img/boorse_responsive.jpg)
 
-![The Boorse Collection of Contemporary Violins website](https://meiqimichelle.github.io/mhertzfeld/img/boorse_site.jpg)
+![The Boorse Collection of Contemporary Violins website](/img/boorse_site.jpg)
 
  [Visit the site](http://www.boorsecollection.com/)
