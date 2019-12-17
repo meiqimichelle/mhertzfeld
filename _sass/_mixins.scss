@@ -107,7 +107,7 @@
 // box shadow
 // box-shadow ( list $shadow )
 @mixin box-shadow($shadow) {
-	$shadow: unquote($shadow);
+	//$shadow: unquote($shadow); //this is commented out because I was warned that 'Passing a non-string value to unquote() will be an error in future versions of Sass', and it didn't seem vital to this mixin.
 	@if(type-of($shadow) != "list" and type-of($shadow) != "string") {
 		@warn "Invalid parameters passed. Expected a list or a string got #{type-of($shadow)}. Defaulting to none.";
 		$shadow: none;
