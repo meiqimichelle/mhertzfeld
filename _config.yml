@@ -1,15 +1,14 @@
 title:            "Michelle Hertzfeld: Product Leadership + UX Design"
 description:      I am a product manager, service designer, and team director with extensive experience making government digital services usable, effective, and efficient.
 
+url:             https://michellehertzfeld.com
+logo:            android-chrome-256x256.png
+
 lsi: false
 highlighter: rouge
 
 sass:
   sass_dir: _sass
-
-url:             https://michellehertzfeld.com
-
-logo:            android-chrome-256x256.png
 
 # Owner/author information
 owner:
@@ -41,13 +40,8 @@ excerpt_separator: <!--more-->
 permalink:   /:categories/:title/
 
 plugins:
-  - jekyll-paginate
   - jekyll-redirect-from
   - jekyll-sitemap
-
-# Amount of post to show on home page
-paginate: 5
-paginate_path: "/writing/page:num"
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "_site", "assets/.sass-cache/", ".sass-cache/",  ".DS_Store", ".ruby-version"]
