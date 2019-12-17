@@ -55,6 +55,6 @@ You get spit out of the Fellowship at the other end. It was a busy year, you're 
 
 I, personally, decided to stay in government, and joined [18F](https://18f.gsa.gov/), a government in-house digital shop, to continue working to make U.S. services cutting-edge, and something to be proud of. It's also great to be working almost exclusively on open source projects that can be used and extended by other governments and groups. I've been busy:
 
-![Github commits over the last year showing huge jump in June](https://meiqimichelle.github.io/mhertzfeld/img/git-commits.png)
+![Github commits over the last year showing huge jump in June](/img/git-commits.png)
 
 Presidential Innovation Fellow and 18F projects are in the public domain by default and can be found at Github under [Presidential Innovation Fellows](https://github.com/presidential-innovation-fellows) and [18F](https://github.com/18f) organizations. **Remember: pull requests are public service! ^.^**
