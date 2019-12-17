@@ -46,7 +46,7 @@ excerpt_separator: <!--more-->
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title/
 
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-redirect-from
 
