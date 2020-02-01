@@ -34,24 +34,42 @@ redirect_from: "/thoughts/"
 </ul>
 
 <!-- display posts with exerpts -->
-    <article class=" writing_posts" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
-        {% for post in paginator.posts %}
-        <div class="another_post">
-            <div class="another_image">
-                <img src="{{ site.baseurl }}/img/{{ post.image.feature }}" alt="{{ post.title }}" itemprop="image">
-            </div>
-            <div class="another_post-container">
-              <a href="{{ post.url }}"><h1 itemprop="headline">{{ post.title }}</h1></a>
-              <div class="another_meta">
-                  <p><span class="highlight" itemprop="author">{{ post.author }}</span><time datetime="{{ post.date }}" itemprop="datePublished"> posted on <span class="highlight">{{ post.date | date_to_long_string }}</span></time> about <span class="highlight" itemprop="keywords">{{ post.tags | join: ', ' }}</span>.</p>
-              </div>
-              <div itemprop="articleBody">
-                  {{ post.content | split: '<!--more-->' | first }}
-              </div>
-              <div class="continue">
-                  <a href="{{ post.url }}">&rarr; continue reading &rarr;</a>
-              </div>
-            </div>
+<article class=" writing_posts" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+    {% for post in paginator.posts %}
+    <div class="another_post">
+        <div class="another_image">
+            <img src="{{ site.baseurl }}/img/{{ post.image.feature }}" alt="{{ post.title }}" itemprop="image">
         </div>
-        {% endfor %}
-    </article>
+        <div class="another_post-container">
+          <a href="{{ post.url }}"><h1 itemprop="headline">{{ post.title }}</h1></a>
+          <div class="another_meta">
+              <p><span class="highlight" itemprop="author">{{ post.author }}</span><time datetime="{{ post.date }}" itemprop="datePublished"> posted on <span class="highlight">{{ post.date | date_to_long_string }}</span></time> about <span class="highlight" itemprop="keywords">{{ post.tags | join: ', ' }}</span>.</p>
+          </div>
+          <div itemprop="articleBody">
+              {{ post.content | split: '<!--more-->' | first }}
+          </div>
+          <div class="continue">
+              <a href="{{ post.url }}">&rarr; continue reading &rarr;</a>
+          </div>
+        </div>
+    </div>
+    {% endfor %}
+</article>
+
+<!-- pagination previous/next -->
+{% if paginator.total_pages > 1 %}
+<div class="next_prev">
+  <ul>
+    {% if paginator.previous_page %}
+    <li>
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">&larr; previous</a>
+    </li>
+    {% endif %}
+    {% if paginator.next_page %}
+    <li>
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">next &rarr;</a>
+    </li>
+    {% endif %}
+  </ul>
+</div>
+{% endif %}
