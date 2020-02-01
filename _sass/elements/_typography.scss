@@ -37,8 +37,18 @@
   }
 
   p {
-		margin-bottom: 0;
+    line-height: 1.4;
+		margin-bottom: 8px;
 	}
+
+  a[itemprop="headline"] {
+    font-weight: $weight-bold;
+  }
+
+  time {
+    font-size: 1rem;
+    text-transform: lowercase;
+  }
 
   .type_lede {
     padding-bottom: 0;
