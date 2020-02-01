@@ -8,7 +8,33 @@ redirect_from: "/thoughts/"
 
 
 <h1>Writing</h1>
-<p class="type_lede">On occasion, I write about technology, civic tech, and design here. You can also read my work in other places, such as:</p>
+<p class="type_lede">On occasion, I write about technology, civic tech, and design here.</p>
+<p>Vintage posts are in the <a href="./archive/">archive</a>.</p>
+
+<!-- display most recent post -->
+<article class=" writing_posts" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+    {% for post in site.categories.writing limit:3 %}
+    <div class="another_post">
+        <div class="another_image">
+            <img src="{{ site.baseurl }}/img/{{ post.image.feature }}" alt="{{ post.title }}" itemprop="image">
+        </div>
+        <div class="another_post-container">
+          <a href="{{ post.url }}"><h1 itemprop="headline">{{ post.title }}</h1></a>
+          <div class="another_meta">
+              <p><span class="highlight" itemprop="author">{{ post.author }}</span><time datetime="{{ post.date }}" itemprop="datePublished"> posted on <span class="highlight">{{ post.date | date_to_long_string }}</span></time> about <span class="highlight" itemprop="keywords">{{ post.tags | join: ', ' }}</span>.</p>
+          </div>
+          <div itemprop="articleBody">
+              {{ post.content | split: '<!--more-->' | first }}
+          </div>
+          <div class="continue">
+              <a href="{{ post.url }}">&rarr; continue reading &rarr;</a>
+          </div>
+        </div>
+    </div>
+    {% endfor %}
+</article>
+
+<p class="type_lede">You can also read my writing in other places, such as:</p>
 
 <h2>The 18F blog</h2>
 <ul>
@@ -29,26 +55,3 @@ redirect_from: "/thoughts/"
 <ul>
   <li><a href="https://docs.ipfs.io/introduction/how-ipfs-works/">How IPFS Works</a></li>
 </ul>
-
-<!-- display posts with exerpts -->
-    <article class=" writing_posts" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
-        {% for post in site.categories.writing limit:10 %}
-        <div class="another_post">
-            <div class="another_image">
-                <img src="{{ site.baseurl }}/img/{{ post.image.feature }}" alt="{{ post.title }}" itemprop="image">
-            </div>
-            <div class="another_post-container">
-              <a href="{{ post.url }}"><h1 itemprop="headline">{{ post.title }}</h1></a>
-              <div class="another_meta">
-                  <p><span class="highlight" itemprop="author">{{ post.author }}</span><time datetime="{{ post.date }}" itemprop="datePublished"> posted on <span class="highlight">{{ post.date | date_to_long_string }}</span></time> about <span class="highlight" itemprop="keywords">{{ post.tags | join: ', ' }}</span>.</p>
-              </div>
-              <div itemprop="articleBody">
-                  {{ post.content | split: '<!--more-->' | first }}
-              </div>
-              <div class="continue">
-                  <a href="{{ post.url }}">&rarr; continue reading &rarr;</a>
-              </div>
-            </div>
-        </div>
-        {% endfor %}
-    </article>
