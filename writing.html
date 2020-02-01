@@ -2,6 +2,9 @@
 layout: home
 title: Writing
 description: "Michelle Hertzfeld is a UX designer, strategist, and team director with extensive experience making government digital services usable, effective, and efficient."
+pagination:
+  enabled: true
+  category: writing
 permalink: /writing/
 redirect_from: "/thoughts/"
 ---
@@ -32,7 +35,7 @@ redirect_from: "/thoughts/"
 
 <!-- display posts with exerpts -->
     <article class=" writing_posts" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
-        {% for post in site.categories.writing limit:10 %}
+        {% for post in paginator.posts %}
         <div class="another_post">
             <div class="another_image">
                 <img src="{{ site.baseurl }}/img/{{ post.image.feature }}" alt="{{ post.title }}" itemprop="image">
