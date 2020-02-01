@@ -102,21 +102,15 @@
 
 .next_prev {
   font-size: .9em;
-  font-variant: small-caps;
-  font-weight: $weight-bold;
 	margin-bottom: $base-padding-big;
+	width: 100%;
 
-  ul {
-    display: flex;
+	span:nth-child(1) a {
+    float: left;
+  }
 
-    li {
-      list-style-type: none;
-      flex-grow: 1;
-
-      &:nth-child(2) {
-        text-align: right;
-      }
-    }
+	span:nth-child(2) a {
+    float: right;
   }
 }
 
