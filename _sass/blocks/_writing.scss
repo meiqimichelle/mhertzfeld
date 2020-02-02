@@ -3,8 +3,13 @@
 }
 
 .continue {
-  margin-top: -20px;
+  font-size: 1rem;
+  //font-weight: $weight-bold;
   text-align: right;
+
+  a {
+    border-bottom: none;
+  }
 }
 
 .feature_image {
@@ -58,11 +63,8 @@
 .another_image {
   height: 160px;
   overflow: hidden;
-  //position: relative;
-  //width: 100%;
 
   img {
-      //margin: -350px 0 -400px 0;
       width: 100%
   }
 }
@@ -74,7 +76,7 @@
 
   h1 {
 		margin: 0;
-    padding: $base-padding-mid $base-padding-mid $base-padding-mid 0;
+    padding: $base-padding-lite $base-padding-mid $base-padding-lite 0;
   }
 }
 
@@ -85,5 +87,5 @@
 }
 
 .another_post-container {
-	margin: $base-padding $base-padding-big $base-padding $base-padding-big;
+	//margin: $base-padding $base-padding-big $base-padding $base-padding-big;
 }

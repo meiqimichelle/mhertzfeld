@@ -15,19 +15,16 @@ redirect_from: "/thoughts/"
 <article class=" writing_posts" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
     {% for post in site.categories.writing limit:3 %}
     <div class="another_post">
-        <div class="another_image">
-            <img src="{{ site.baseurl }}/img/{{ post.image.feature }}" alt="{{ post.title }}" itemprop="image">
-        </div>
         <div class="another_post-container">
           <a href="{{ post.url }}"><h1 itemprop="headline">{{ post.title }}</h1></a>
           <div class="another_meta">
-              <p><span class="highlight" itemprop="author">{{ post.author }}</span><time datetime="{{ post.date }}" itemprop="datePublished"> posted on <span class="highlight">{{ post.date | date_to_long_string }}</span></time> about <span class="highlight" itemprop="keywords">{{ post.tags | join: ', ' }}</span>.</p>
+              <p>Posted on <time datetime="{{ post.date }}" itemprop="datePublished"><span class="highlight">{{ post.date | date_to_long_string }}</span></time> about <span class="highlight" itemprop="keywords">{{ post.tags | join: ', ' }}</span>.</p>
           </div>
           <div itemprop="articleBody">
               {{ post.content | split: '<!--more-->' | first }}
           </div>
           <div class="continue">
-              <a href="{{ post.url }}">&rarr; continue reading &rarr;</a>
+              <a href="{{ post.url }}">☆ﾟ*･｡*･ continue reading &rarr;</a>
           </div>
         </div>
     </div>
