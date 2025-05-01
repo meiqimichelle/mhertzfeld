@@ -35,7 +35,7 @@ One of my favorite parts of working on this project was the live styleguide we c
 
 ![College scorecard styleguide](/img/college_styleguide.jpg)
 
-Although responsive design is always important on every project, user testing had shown that our front end tool (the interface at collegescorecard.ed.gov) in particular needed to be usability on cellphone-sized screens. It turned out that our primary audience for that tool was much more likely to access the site on a mobile device than on a desktop computer. Conversely, when things got tight close to rollout, we spent less time on perfecting responsive work on the data downloads part of the site, as the users for that section primarily used full desktop computers.
+Although responsive design is always important on every project, user testing had shown that our front end tool (the interface at collegescorecard.ed.gov) in particular needed to be usable on cellphone-sized screens. It turned out that our primary audience for that tool was much more likely to access the site on a mobile device than on a desktop computer. Conversely, when things got tight close to rollout, we spent less time on perfecting responsive work on the data downloads part of the site, as the users for that section primarily used full desktop computers.
 
 One of the challenges of this project was the need to keep our work hidden behind passwords and logins until the President made the official announcement. This made testing things like meta tags challenging to say the least! Fortunately, since this project was meant to launch tons of newly-open data into the world, after the announcement our entire codebase (in addition to the College Scorecard API and data) was made open on GitHub for others to fork, learn from and improve.
 
