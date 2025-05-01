@@ -46,7 +46,7 @@ One of the challenges of this project was the need to keep our work hidden behin
 
 _"This is government working for us. My first thought was, 'Go Department of Education,' " says Sara Goldrick-Rab, who teaches education policy at the University of Wisconsin, Madison. "We had some information college by college before, but we didn't have most of these outcomes here."_
 
-**The White House: [Weekly Address: A New College Scorecard](https://www.whitehouse.gov/blog/2015/09/12/weekly-address-new-college-scorecard)**
+**The White House: [Weekly Address: A New College Scorecard](https://obamawhitehouse.archives.gov/blog/2015/09/12/weekly-address-new-college-scorecard)**
 
 _"The President speaks about the launch of a new College Scorecard, meant to help students and parents identify which schools provide the biggest bang for your buck."_
 
