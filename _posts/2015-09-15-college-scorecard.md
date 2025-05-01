@@ -13,7 +13,7 @@ categories: [work]
 ---
 The Obama Administration had been trying to rank colleges for years, but coming to consensus on what 'good' means had proven too difficult. Instead, the [College Scorecard](https://collegescorecard.ed.gov/) provides data on student outcomes both as an easy-to-use online tool, and as an open-data API for others to make their own tools from.<!--more-->
 
-As Lisa Gelobter put it in [her post on whitehouse.gov](https://www.whitehouse.gov/blog/2015/09/12/under-hood-building-new-college-scorecard-students), "this work was truly collaborative team effort, with teams from the Departments of Education and of the Treasury, White House Domestic Policy Council, Council of Economic Advisors, and Office of Management and Budget, the [General Services Administration’s 18F](https://18f.gsa.gov) and the [U.S. Digital Service](https://www.whitehouse.gov/digital/united-states-digital-service)."
+As Lisa Gelobter put it in [her post on whitehouse.gov](https://obamawhitehouse.archives.gov/blog/2015/09/12/under-hood-building-new-college-scorecard-students), "this work was truly collaborative team effort, with teams from the Departments of Education and of the Treasury, White House Domestic Policy Council, Council of Economic Advisors, and Office of Management and Budget, the [General Services Administration’s 18F](https://18f.gsa.gov) and the [U.S. Digital Service](https://www.whitehouse.gov/digital/united-states-digital-service)."
 
 She continues:
 
