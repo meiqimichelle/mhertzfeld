@@ -12,7 +12,7 @@ categories: [writing]
 redirect_from: "/thoughts/uncle-sam-wants-you/"
 ---
 
-Round Three of the [Presidential Innovation Fellows](http://www.whitehouse.gov/innovationfellows) program is now accepting [applications](https://gsafas.secure.force.com/apply) from creative, energetic policy hackers, entrepreneurs, user experience experts, designers, frontend developers, backend developers, system architecture wizards, data wranglers, and more to serve their tours of duty to radically improve the delivery of government digital services.
+Round Three of the [Presidential Innovation Fellows](https://obamawhitehouse.archives.gov/innovationfellows) program is now accepting [applications](https://web.archive.org/web/20150218153353/https://gsafas.secure.force.com/apply) from creative, energetic policy hackers, entrepreneurs, user experience experts, designers, frontend developers, backend developers, system architecture wizards, data wranglers, and more to serve their tours of duty to radically improve the delivery of government digital services.
 
 Why should you (yes, YOU) take time out of your busy schedule to apply (deadline: April 7)? Three important reasons: <!--more-->
 
@@ -55,7 +55,7 @@ But it is not a never-ending commitment. You are not signing up to become a perm
 
 ## So What Are YOU Waiting for?
 
-[Apply](https://gsafas.secure.force.com/apply) by April 7, 2014. Throw your hat into the ring to make digital services in America an extension of the civic innovation that Franklin and  Jefferson pioneered while collaborating with some of the smartest, most dedicated people you will ever meet, solving some of the most important, challenging problems of this generation.
+[Apply](https://web.archive.org/web/20150218153353/https://gsafas.secure.force.com/apply) by April 7, 2014. Throw your hat into the ring to make digital services in America an extension of the civic innovation that Franklin and  Jefferson pioneered while collaborating with some of the smartest, most dedicated people you will ever meet, solving some of the most important, challenging problems of this generation.
 
 **Even if you choose not to apply, please help spread the message.**
 
