@@ -11,7 +11,7 @@ categories: [writing]
 redirect_from: "/thoughts/pif-reflections/"
 ---
 
-I finished my [Presidential Innovation Fellowship](http://www.whitehouse.gov/innovationfellows) six months ago, and I feel like it's taken that long to process the journey. For those of you who are considering government service, considering the Innovation Fellowship specifically, or merely curious, I offer these reflections on my year as a PIF. <!--more-->
+I finished my [Presidential Innovation Fellowship](https://obamawhitehouse.archives.gov/innovationfellows) six months ago, and I feel like it's taken that long to process the journey. For those of you who are considering government service, considering the Innovation Fellowship specifically, or merely curious, I offer these reflections on my year as a PIF. <!--more-->
 
 What a year! What a year. What **A** year!
 
@@ -53,7 +53,7 @@ As a shiny Presidential Innovation Fellow, you have broad access to many parts o
 
 You get spit out of the Fellowship at the other end. It was a busy year, you're tired, you've learned a lot, you're excited about the potential to make our country a better place...and you're lucky, because now is a great time to be active in civic tech! Initiatives like [Code for America](http://www.codeforamerica.org/), [18F](https://18f.gsa.gov/), [U.S. Digital Service](http://www.washingtonpost.com/blogs/the-switch/wp/2014/08/11/white-house-launches-u-s-digital-service-with-healthcare-gov-fixer-at-the-helm/) and other digital service groups in government are gaining more and more steam.
 
-I, personally, decided to stay in government, and joined [18F](https://18f.gsa.gov/), a government in-house digital shop, to continue working to make U.S. services cutting-edge, and something to be proud of. It's also great to be working almost exclusively on open source projects that can be used and extended by other governments and groups. I've been busy:
+I, personally, decided to stay in government, and joined [18F](https://18f.org/about/), a government in-house digital shop, to continue working to make U.S. services cutting-edge, and something to be proud of. It's also great to be working almost exclusively on open source projects that can be used and extended by other governments and groups. I've been busy:
 
 ![Github commits over the last year showing huge jump in June](/img/git-commits.png)
 
