@@ -21,7 +21,7 @@ As part of the reorg, customer research moved into marketing, and I transitioned
 
 As a product manager at Buildkite, I’d already spent years talking to our customers and synthesizing insights for product development, but this was the first time I was asked to direct that experience toward a go-to-market strategy. Some things were new to me — like knowing what firmographic information was available via which sales enrichment tools — but the core approach of gathering information, identifying patterns, and presenting information in a way that makes sense was familiar from my years as a UX researcher and product manager.
 
-Our ICP was built from both qualitative and quantitative sources, including:
+To build the ICP, I pulled together both qualitative and quantitative sources, including:
 
 - Enriched firmographic data (via 6sense and LinkedIn Sales Navigator)
 - Internal win/loss insights (via Hubspot and other internal notes)
@@ -54,7 +54,7 @@ Once we had alignment, the ICP became the lens through which we developed produc
 
 The first major campaign we launched based on our new foundation focused on “Architecting for Scale” — a concept we felt directly targeted our buyer persona’s key pain points. We built a full campaign around this theme, with outputs that included a dedicated [solution landing page](https://buildkite.com/solutions/replace-jenkins/), a [case study](https://buildkite.com/resources/case-studies/elastic/), a [webinar](https://buildkite.com/resources/webinars/uber-fast-reliable-and-scalable-ci/), and several [supporting](https://buildkite.com/resources/blog/alternatives-to-jenkins/) [content](https://buildkite.com/resources/blog/buildkite-or-jenkins-choosing-the-right-tool-for-you/) items.
 
-Other initiatives based on this initial research included more effort spent to develop Buildkite solution information, such as [Testing at scale](https://buildkite.com/solutions/testing-at-scale/) and [Monorepo mojo](https://buildkite.com/solutions/monorepos/), and [Bazel orchestration](https://buildkite.com/solutions/bazel/), as well as related campaigns and their independent content items, LinkedIn ads, sales enablement materials, and landing pages.
+This initial research also informed the development of Buildkite’s solution content, including pages for [Testing at scale](https://buildkite.com/solutions/testing-at-scale/), [Monorepo mojo](https://buildkite.com/solutions/monorepos/), and [Bazel orchestration](https://buildkite.com/solutions/bazel/), as well as related campaigns and their independent content items, LinkedIn ads, sales enablement materials, and landing pages.
 
 ### Results
 
